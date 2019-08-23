@@ -1,13 +1,14 @@
 # Site
-title:              Future Philosophy
-bio:                'Philosophy collective concerned with logics and technology.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              Filosofía del Futuro
+long_bio:           'We are a group of people working on philosophical topics that arise from current developments in science and technology. Based in Buenos Aires and with presence in other cities in the world, our goal is to bring philosophical analysis back to the vanguard of scientific and technological developments in Latin America, thus reducing the distance between the academic and non-academic realms. In this context, we are generating interdisciplinary spaces of debate and production of ideas while facilitating transversal links between different academic disciplines, and between the academy and the world.'
+description:        "Información, Ética y Conciencia. Filosofía para la academia y la industria."
+long_bio:           "We are"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
+locale:             es_US
 url:                https://futurephilosophy.github.io
 collections:
   authors:
@@ -31,7 +32,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   futurephilosophy
+# disqus_shortname:   futurephilosophy
 
 # Social
 # if you don't have any of social below, comment the line.

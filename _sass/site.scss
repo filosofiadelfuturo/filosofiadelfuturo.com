@@ -16,7 +16,9 @@ body {
 	font-family: $font1;
 	@include font-rem($doc-font-size);
 	color: $color_tuatara;
-	background-color: $bodycolor;
+	background-image: linear-gradient(to top, rgba(255, 255, 255, 0.75), rgba(188, 208, 255, 0.5)), url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
 	@media #{$small} {
