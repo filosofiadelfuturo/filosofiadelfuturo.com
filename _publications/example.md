@@ -4,7 +4,7 @@ excerpt: "A ton of text to test readability with image feature."
 tags: [sample post, readability, test, image, feature]
 
 authors: "Joaquin Bardauil"
-title: "Example publication"
+title: "Publicación ejemplo"
 date: 2012-05-23
 publication_url: https://this.com/example.pdf
 ---

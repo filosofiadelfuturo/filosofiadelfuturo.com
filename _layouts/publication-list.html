@@ -31,8 +31,8 @@ layout: compress
                             <p><i>{{ publication.date | date_to_string }}</i>
                                 <br />{{ publication.excerpt }}</p>
 
-                            <a href="{{ publication.publication_url }}" class="btn zoombtn">Oficial Publication</a>
-                            <a style="cursor: pointer;" onclick="$(this).next().slideToggle();" class="btn">Abstract</a>
+                            <a href="{{ publication.publication_url }}" class="btn zoombtn">Publicación completa</a>
+                            <a style="cursor: pointer;" onclick="$(this).next().slideToggle();" class="btn">Abstract <i class="fa fa-angle-down"></i> </a>
                             <p>[expand]</p>
                             <p>{{ publication.content }}</p>
                             <p>[/expand]</p>

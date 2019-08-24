@@ -1,6 +1,6 @@
 ---
 layout: publication-list
-title: All Publications
-excerpt: "A list of our Publications"
+title: Publicaciones
+excerpt: "La lista de nuestras publicaciones"
 comments: false
 ---

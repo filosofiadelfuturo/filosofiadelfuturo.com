@@ -1,7 +1,7 @@
 ---
 name: Joaquin Bardauil
-position: Undergraduate Philosopher
-interests: Logics, Epistemology
+position: Estudiante filosofía
+interests: Lógica, epistemología
 facebook: joaco
 twitter: joaco
 webpage: https://google.com

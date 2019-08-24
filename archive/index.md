@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: Archive of all Newsletters
-excerpt: "A list of our Newsletters"
+title: Newsletters
+excerpt: "Historial de las Newsletters pasadas"
 comments: false
 ---

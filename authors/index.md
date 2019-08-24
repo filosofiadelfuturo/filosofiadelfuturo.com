@@ -1,6 +1,6 @@
 ---
 layout: authors
-title: Authors
-excerpt: "A List of Authors"
+title: Autores
+excerpt: "La lista de los autores colaboradores"
 comments: false
 ---
