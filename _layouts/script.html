@@ -17,7 +17,6 @@ layout: compress
             <div class="content">
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h4>{{ page.title }}</h4>
-                    <h1>{{ page.date | date_to_string }}</h1>
                     {% if site.reading_time %}
                     <p class="reading-time">
                       <i class="fa fa-clock-o"></i>
@@ -27,6 +26,10 @@ layout: compress
                     <!--a class="btn zoombtn" href="{{site.url}}/home/">
                         <i class="fa fa-chevron-left"></i>
                     </a-->
+                </div>
+
+                <div class="entry-meta">
+                    <iframe src="../../assets/scripts/{{ page.iframe }}" height="850px" width="100%"></iframe>
                 </div>
                 {{ content }}
                 <div class="entry-meta">
