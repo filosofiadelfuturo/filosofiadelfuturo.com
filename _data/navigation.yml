@@ -6,5 +6,9 @@
  #   url: /publications/
  - title: Juego de la Vida
    url: /scripts/life/
- # - title: Newsletters
- #   url: /archive/
+ - title: Newsletters
+   url: /archive/
+ - title: Scripts
+   url: /scripts/
+ - title: intere
+   url: /sample-post-images/
