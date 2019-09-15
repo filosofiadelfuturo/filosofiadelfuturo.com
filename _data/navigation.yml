@@ -4,7 +4,7 @@
  #   url: /authors/
  # - title: Publicaciones
  #   url: /publications/
- - title: Scripts
-   url: /scripts/
+ - title: Juego de la Vida
+   url: /scripts/life/
  # - title: Newsletters
  #   url: /archive/
