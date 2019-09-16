@@ -4,11 +4,11 @@
  #   url: /authors/
  # - title: Publicaciones
  #   url: /publications/
- - title: Juego de la Vida
-   url: /scripts/life/
+ # - title: Juego de la Vida
+ #   url: /scripts/life/
  - title: Newsletters
    url: /archive/
  - title: Scripts
    url: /scripts/
- - title: intere
-   url: /sample-post-images/
+ # - title: intere
+ #   url: /sample-post-images/
