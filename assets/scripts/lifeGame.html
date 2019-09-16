@@ -10,40 +10,22 @@ Game Of Life
 <body style="background-color:#000000;">
 <!--
 <h1 style="color:white;">lifeGame</h1>-->
-<button onclick="iniciar()">Reiniciar</button>
-<button onclick="nextTurn()">Próximo paso</button>
-<button onclick="active()">Empezar animación</button></br>
-<!-- <button onclick="printNivel()">akenivel</button></br> -->
-<button onclick="setNivel()">Ejemplo</button></br>
-<!-- <button onclick="toggleJugadores()">jugadores</button></br> -->
+<button onclick="iniciar()">Limpiar</button>
+<button onclick="nextTurn()">Paso</button>
+<button onclick="active()">Comenzar/Detener</button></br>
+<<button onclick="printNivel()">Guardar posición</button></br>>
+<button onclick="setNivel()">Ultimo Guardado</button></br>
+
 
 <canvas id="Mundo" width="700" height="700"
 style="background-color:black; border:1px solid; border-color:white; text-align: center;">
 </canvas>
 <script>
 
-//insiciar();
+
 var size = 70;
 var actual = [];
 var proximo = [];
-
-var joacox = 3;
-var joacoy = 3;
-var joacodir = 1;
-
-var juanx = size - 4;
-var juany = size - 4;
-var juandir = 3;
-
-var jugadores = 0;
-
-var perdiste = 0;
-
-var ganaste = 0;
-
-var santiago = 0;
-var luis = 0;
-
 var go = false;
 
 function toggleJugadores(){
@@ -52,11 +34,8 @@ function toggleJugadores(){
 }
 
 function active(){
-	if (perdiste == 0) {
-		go = !go;
-	}
+	go = !go;
 	drawloop();
-
 }
 
 function drawloop(){
@@ -69,60 +48,43 @@ function drawloop(){
 iniciar();
 
 function iniciar(){
+	size = 70; //todavía falta ver cómo alterar eso.
+	go = false;
+	llenarCeros();
+	paint();
+}
 
-size = 70; //todavía falta ver cómo alterar eso.
-llenarCeros();
-//document.getElementById("debugger").innerHTML = proximo.length;
-//printMatrix();
-paint();
-}
-/*
-function game(){
-	while(go == true){
-		nextTurn();
-		sleep(300);
-	}
-}
-*/
 
 var mundillo = document.getElementById("Mundo");
 mundillo.addEventListener("click", set);
 
 
 function llenarCeros(){
-		actual = [];
-		var i = 0;
-		while(i < size){
-	//for(var i = 0; i < size; i++){
+	actual = [];
+	var i = 0;
+	while(i < size){
 		var ceros = [];
 		var j = 0;
 		while(j < size){
-		//for( var j = 0; j < size; j++){
 			ceros.push(0);
 			j++;
-	//	}
 		}
-		//document.getElementById("debugger").innerHTML = ceros.length;
 		actual.push(ceros);
 		i++;
-		}
-	//}
-		proximo = [];
-		var h = 0;
-		while(h < size){
-	//for(var i = 0; i < size; i++){
+	}
+
+	proximo = [];
+	var h = 0;
+	while(h < size){
 		var ceross = [];
 		var o = 0;
 		while(o < size){
-		//for( var j = 0; j < size; j++){
 			ceross.push(0);
 			o++;
-	//	}
 		}
-		//document.getElementById("debugger").innerHTML = ceros.length;
 		proximo.push(ceross);
 		h++;
-		}
+	}	
 }
 
 function vecinos(i, j){
@@ -179,7 +141,6 @@ function paint(){
 
 
 function nextTurn(){
-	//document.getElementById("debugger2").innerHTML = "nextTurn";
 	var i = 0;
 	while(i < size){
 		var j = 0; 
@@ -195,7 +156,6 @@ function nextTurn(){
 	i++;
 	}
 	copiar();
-	//printMatrix();
 	paint();
 
 }
@@ -213,81 +173,6 @@ function copiar(){
 	}
 }
 
-/*
-function printMatrix(){
-	document.getElementById("matriz").innerHTML = "";
-	var i = 0;
-	while(i < 100){
-		var j = 0;
-		while(j < 100){
-			document.getElementById("matriz").innerHTML += actual[i][j];
-		
-		j++;
-		}
-		document.getElementById("matriz").innerHTML += "</br>";
-	i++;
-	}
-	document.getElementById("matriz").innerHTML += "</br></br></br>";
-	var o = 0;
-	while(o < 100){
-		var h = 0;
-		while(h < 100){
-			document.getElementById("matriz").innerHTML += proximo[o][h];
-		
-		h++;
-		}
-		document.getElementById("matriz").innerHTML += "</br>";
-	o++;
-	}	
-}
-*/
-
-
-
-
-// document.onkeydown = checkKey;
-
-// function checkKey(e) {
-
-//     e = e || window.event;
-
-//     if (e.keyCode == '38') {
-//         // up arrow
-//         joacodir = 0;
-//     }
-//     else if (e.keyCode == '40') {
-//         // down arrow
-//         joacodir = 2;
-//     }
-//     else if (e.keyCode == '37') {
-//        // left arrow
-//        joacodir = 3;
-//     }
-//     else if (e.keyCode == '39') {
-//        // right arrow
-//        joacodir = 1;
-//     }
-//     else if (e.keyCode == '87') {
-//         // up arrow
-//        juandir = 0;
-//     }
-//     else if (e.keyCode == '83') {
-//        // down arrow
-//        juandir = 2;
-//     }
-//     else if (e.keyCode == '65') {
-//        // left arrow
-//        juandir = 3;
-//     }
-//         else if (e.keyCode == '68') {
-//        // right arrow
-//        juandir = 1;
-//     }
-
-
-
-// }
-
 function set(event){
 	var i = event.offsetX;
 	var j = event.offsetY;
@@ -301,30 +186,26 @@ function set(event){
 	} else {
 		actual[i][j] = 1;
 	}
-	//document.getElementById("vec").innerHTML = vecinos(i,j) +", "+ i + ", "+ j;
-	//printMatrix();
 	paint();
-	//document.getElementById("debugger2").innerHTML = i + " " + j + "</br>";
 }
 
 function printNivel(){
-	document.getElementById("nivel").innerHTML = "[";
+	nivel = [];
 	var i = 0;
 	while(i < size){
 		var j = 0;
 		while(j < size){
 			if(actual[i][j] != 0){
-				document.getElementById("nivel").innerHTML += i + ", " + j + ", ";
+				nivel.push(i);
+				nivel.push(j);
 			}
-
 			j++;
 		}
 		i++;
 	}
-	document.getElementById("nivel").innerHTML += "]  //borrar última coma."
 }
 
-var nivel = [7, 17, 8, 17, 8, 18, 8, 19, 9, 18, 14, 45, 14, 46, 14, 47, 15, 47, 16, 45, 16, 46, 16, 47, 18, 5, 18, 25, 18, 26, 18, 27, 19, 4, 19, 5, 19, 6, 19, 25, 19, 27, 20, 6, 20, 25, 20, 27, 42, 28, 42, 30, 43, 28, 43, 30, 44, 28, 44, 29, 44, 30, 45, 62, 46, 60, 46, 61, 46, 62, 47, 61, 49, 14, 49, 15, 49, 16, 50, 14, 51, 14, 51, 15, 51, 16, 56, 47, 57, 46, 57, 47, 57, 48, 58, 46]; 
+var nivel = []; 
 
 function setNivel(){ // usa variable global nivel.
 	iniciar();
@@ -336,22 +217,6 @@ function setNivel(){ // usa variable global nivel.
 	paint();
 }
 
-function nextLevel(){
-
-}
-
-
-
-//Niveles
-
-var nivel1 = [7, 17, 8, 17, 8, 18, 8, 19, 9, 18, 14, 45, 14, 46, 14, 47, 15, 47, 16, 45, 16, 46, 16, 47, 18, 5, 18, 25, 18, 26, 18, 27, 19, 4, 19, 5, 19, 6, 19, 25, 19, 27, 20, 6, 20, 25, 20, 27, 42, 28, 42, 30, 43, 28, 43, 30, 44, 28, 44, 29, 44, 30, 45, 62, 46, 60, 46, 61, 46, 62, 47, 61, 49, 14, 49, 15, 49, 16, 50, 14, 51, 14, 51, 15, 51, 16, 56, 47, 57, 46, 57, 47, 57, 48, 58, 46];
-var nivel2;
-// etc
-
-
-
-
-
 
 </script>
 
@@ -359,11 +224,5 @@ var nivel2;
 
 <p id="nivel" style="color:white"></p>
 
-<!--
-<p id="debugger" style="color:white"></p>
-<p id="vec" style="color:white"></p>
-<p id="matriz" style="color:white"></p>
-
--->
 </body>
 </html>
