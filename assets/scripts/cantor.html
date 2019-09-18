@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Polvo de Peano</title>
+</head>
+<body bgcolor="#000000">
+
+<p style="color:#FFFFFF;">
+Polvo de peano
+</p>
+
+<canvas id="Curvas" width="1000" height="500" style="border:1px solid #FFFFFF;"></canvas></br>
+
+<button type="button" onclick="paso();">Paso</button>
+
+<script>
+
+
+var iteraciones = 0;
+
+var intervalos = [];
+intervalos.push([0, 100]);
+var intervalosProx = [];
+
+
+function paso(){
+	if(iteraciones == 0){
+		dibujarRect(0, 100);
+		iteraciones++;
+	} else {
+	intervalosProx.length = 0; 
+	var i = 0;
+	while(i<intervalos.length){
+		peano(intervalos[i][0], intervalos[i][1]);
+		i++;
+	};
+	iteraciones++;
+	copiar(intervalos, intervalosProx);
+}
+}
+
+function copiar(a, b){
+	a.length = 0;
+	var i = 0;
+	while(i<b.length){
+		var j = 0;
+		var l = [];
+		while(j<b[i].length){
+			l.push(b[i][j]);
+			j++;
+		}
+		a.push(l);
+		i++;
+	}
+}
+
+function peano(i, f){
+	var primerTercio = (f - i)/3 + i;
+	var segundoTercio = f - ((f-i)/3);
+
+	dibujarRect(i, primerTercio);
+	dibujarRect(segundoTercio, f);
+
+	intervalosProx.push([i, primerTercio]);
+	intervalosProx.push([segundoTercio, f]);
+}
+
+function dibujarRect(i, f){
+	var canvas = document.getElementById("Curvas");
+	var ctx = canvas.getContext("2d");
+
+	ctx.fillStyle = "#FF0000";
+
+	var a = i*9.8 + 10;
+	var b = iteraciones*20 + 10;
+	var c = (f-i)*9.8;
+	var d = 15;
+
+	ctx.fillRect(a, b, c, d);
+}
+
+
+</script>
+
+
+
+</body>
+</html>

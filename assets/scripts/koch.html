@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Curvas De Koch</title>
+</head>
+<body bgcolor="#000000">
+
+
+
+<canvas id="Curvas" width="500" height="500" style="border:1px solid #FFFFFF;"></canvas></br>
+
+<button type="button" onclick="paso();">Paso</button>
+
+<script>
+
+
+var segmentos = [];
+segmentos.push([100, 350, 400, 350]);
+segmentos.push([400, 350, 250, 100]);
+segmentos.push([250, 100, 100, 350]);
+var segmentosProx = [];
+var iteraciones = 0;
+
+function paso(){
+	if(iteraciones > 7){
+		segmentos.length = 0;
+		segmentos.push([100, 350, 400, 350]);
+		segmentos.push([400, 350, 250, 100]);
+		segmentos.push([250, 100, 100, 350]);
+		iteraciones = 0;
+	}
+
+	dibujar();
+	segmentosProx.length = 0; 
+	var i = 0;
+	while(i<segmentos.length){
+		koch(segmentos[i][0], segmentos[i][1], segmentos[i][2], segmentos[i][3]);
+		i++;
+	}
+	copiar(segmentos, segmentosProx);
+	iteraciones += 1;
+}
+
+function copiar(a, b){
+	a.length = 0;
+	var i = 0;
+	while(i<b.length){
+		var j = 0;
+		var l = [];
+		while(j<b[i].length){
+			l.push(b[i][j]);
+			j++;
+		}
+		a.push(l);
+		i++;
+	}
+}
+
+function koch(ix, iy, fx, fy){
+	var primerTerciox = (fx - ix)/3 + ix;
+	var primerTercioy = (fy - iy)/3 + iy;
+
+	var ultimoTerciox = fx - ((fx - ix)/3);
+	var ultimoTercioy = fy - ((fy - iy)/3);
+
+
+	var distancia = Math.sqrt(Math.pow(ix - primerTerciox, 2) + Math.pow(iy - primerTercioy, 2));
+	var magnitud = distancia*Math.cos(Math.PI/6);
+
+	var angulo = Math.atan2(fy - iy, fx - ix);
+
+	var puntox = (fx + ix)/2;
+	var puntoy = (fy + iy)/2;
+
+	if(fx - ix >= 0){
+		if(fy - iy >= 0){
+			puntox -= magnitud*Math.sin(angulo); 
+			puntoy += magnitud*Math.cos(angulo);
+		} else {
+			puntox -= magnitud*Math.sin(angulo);
+			puntoy += magnitud*Math.cos(angulo);
+		}
+	} else {
+		if(fy - iy >= 0){
+			puntox -= magnitud*Math.sin(angulo); 
+			puntoy += magnitud*Math.cos(angulo);
+		} else {
+			puntox -= magnitud*Math.sin(angulo);
+			puntoy += magnitud*Math.cos(angulo);	
+		}
+	}
+
+	segmentosProx.push([ix, iy, primerTerciox, primerTercioy]);
+	segmentosProx.push([ultimoTerciox, ultimoTercioy, fx, fy]);
+
+	segmentosProx.push([primerTerciox, primerTercioy, puntox, puntoy]);
+	segmentosProx.push([puntox, puntoy, ultimoTerciox, ultimoTercioy]);
+}
+
+function dibujar(){
+	var canvas = document.getElementById("Curvas");
+	var ctx = canvas.getContext("2d");
+	ctx.fillStyle = "#000000";
+	ctx.fillRect(0, 0, 500, 500);
+
+	var indice = 0;
+	while(indice < segmentos.length){
+		ctx.beginPath();
+		ctx.strokeStyle = "#FF0000";
+		ctx.moveTo(segmentos[indice][0], (segmentos[indice][1]));
+		ctx.lineTo(segmentos[indice][2], (segmentos[indice][3]));
+		ctx.stroke();
+		indice++;
+	}
+}
+
+
+
+</script>
+
+
+
+</body>
+</html>

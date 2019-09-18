@@ -1,0 +1,200 @@
+<body style="background-color:#000000;">
+
+	<button id="clear-it" onclick="borrarCanvas()">Clear canvas</button>
+	<br>
+
+	<canvas id="Iter" width="1000" height="1000"
+	style="border:1px solid #FFF; position: relative; left: 16%;">
+	</canvas>
+	
+	<script>
+
+		var maxIter = 200;
+		var iter = 0;
+
+		var canvas = document.getElementById("Iter");
+		canvas.addEventListener("click", nuevoPunto);
+
+		var x;
+		var y;
+
+		var cx;
+		var cy;
+
+
+
+		function nuevoPunto(event){
+			iter = 0;
+
+			x = event.offsetX;
+			y = event.offsetY;
+			
+			cx = pixelanum(x , desde, hasta);
+			cy = pixelanum(y, desde, hasta);
+			
+			var canvas = document.getElementById("Iter");
+			var ctx = canvas.getContext("2d");
+			
+			ctx.fillStyle = "#00FF00";
+			
+			ctx.beginPath();
+			ctx.arc(x, y, 5, 0, 2 * Math.PI);
+			ctx.fill();
+			
+			proxima();
+		}
+
+		function borrarCanvas(){
+
+			var canvas = document.getElementById("Iter");
+			var ctx = canvas.getContext("2d");
+			ctx.fillStyle = "#000000";
+			ctx.fillRect(0, 0,1000,1000);
+
+			if(circulo != true){
+			ctx.beginPath();
+			ctx.strokeStyle = '#FF0000';
+
+			ctx.arc(500, 500, 500, 0, 2 * Math.PI);
+			ctx.stroke();
+			}
+			if(verconjunto != true){
+			conjunto(desde, hasta);
+			}
+		}
+
+		var circulo = false;
+		var verconjunto = false;
+
+		function nuevoCanvas(){
+			if(circulo == false & verconjunto == false){
+				circulo = true;
+			} else if (circulo == true && verconjunto == false){
+				verconjunto = true;
+			} else if (circulo == true && verconjunto == true){
+				circulo = false;
+			} else {
+				verconjunto = false;
+			}
+			borrarCanvas();
+		}
+
+
+		function proxima(){
+			iter++;
+			if(iter > maxIter){
+				return;
+			}
+			
+			var canvas = document.getElementById("Iter");
+			var ctx = canvas.getContext("2d");
+			ctx.beginPath();
+			ctx.moveTo(x, y);
+			
+			
+			x= pixelanum(x, desde, hasta);
+			y = pixelanum(y, desde, hasta);
+			
+			var tempx = x*x - y*y + cx;
+			var tempy = 2*x*y + cy;
+
+			if(tempx*tempx + tempy*tempy < 4){
+			
+				tempy = numapixel(tempy, desde, hasta);
+				tempx = numapixel(tempx, desde, hasta);
+				
+				ctx.strokeStyle = '#FFFFFF';
+				
+				//ctx.lineWidth = 3;
+				ctx.lineTo(tempx, tempy);
+				ctx.stroke();
+				
+				ctx.beginPath();
+				//ctx.lineWidth = 3;
+				ctx.arc(tempx, tempy, 5, 0, 2 * Math.PI);
+				ctx.stroke();
+
+					
+				x = tempx;
+				y = tempy;
+				
+
+				proxima();
+			
+			} else {
+			
+				tempy = numapixel(tempy, desde, hasta);
+				tempx = numapixel(tempx, desde, hasta);	
+					
+				//ctx.lineWidth = 3;
+				ctx.strokeStyle = '#FF0000';
+				ctx.lineTo(tempx, tempy);
+				ctx.stroke();
+				
+				ctx.beginPath();
+				ctx.fillStyle = "#FF0000";
+				ctx.arc(tempx, tempy, 5, 0, 2 * Math.PI);
+				ctx.fill();
+			
+			}
+
+		}
+
+		var desde = -2;
+		var hasta = 2;
+
+		function pixelanum(pixel, desde, hasta){
+			return (desde + (pixel/1000)*(hasta - desde));
+		}
+
+		function numapixel(num, desde, hasta){
+			return ((num - desde)/(hasta - desde))*1000;
+		}
+
+		function conjunto(desde, hasta){
+			var i = 0;
+			while(i<1000){ //recorre las x (esto va por los pixeles)
+				var j = 0;
+				while(j<1000){ //recorre las y
+			
+					var x = pixelanum(i, desde, hasta); //calcula el número correspondiente a ese pixel
+					var y = pixelanum(j, desde, hasta);
+								
+					pinta(x, y, i, j);
+			
+					j++;
+				}
+				i++;
+			}
+		}
+
+		function pinta(r, i, pixelx, pixely){ //Valor de entrada es el número complejo, devuelve si se va del conjunto r^2 + i^2 <= 2
+			var cr = r;
+			var ci = i;
+
+			var it = 0;
+			var tempr = 0;
+			var tempi = 0;
+			while(it<60){
+				tempr = r*r - i*i;
+				tempi = 2*r*i;	
+				r = tempr + cr;
+				i = tempi + ci;
+				
+				if(r**2 + i**2 > 4){
+					return;
+				}
+				it++;
+			}
+					var canvas = document.getElementById("Iter");
+					var ctx = canvas.getContext("2d");
+					ctx.fillStyle = "#404040";
+					ctx.fillRect(pixelx, pixely,1,1);
+					
+		}
+
+		borrarCanvas();
+
+	</script>	
+
+</body>
