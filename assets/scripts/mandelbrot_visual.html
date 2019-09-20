@@ -13,39 +13,28 @@ Mandelbrot
 
 <button type="button" onclick="window.history.back();">Vovler al Menu</button>
 <br />
-<p style="color:#FFFFFF;">¿Se ofendería platón, argumentando que es el círculo la forma más perfecta? ¿Lo acusaría de monstruoso?
+<!--
+<p style="color:#FFFFFF;">¿Se ofendería platón, que argumentaba que es el círculo la forma más perfecta? ¿Acusaría a este conjunto de monstruoso?
 ¿O acaso se perdería en el encanto exploratorio del mundo matemático? </p>
 <p style="color:#FFFFFF;">¡Quién pudiera verlo en un continuo, con sus valores reales! Finitud de la memoria, valores que se almacenan de modo discreto, error de redondeo...
 ¡Cuánto obstáculo que no permite ver de cerca!</p>
-
-<p style="color:#FFFFFF;">Por más que quieras, que lo sueñes, que te acerques, nunca lo vas a ver realmente. Imposible no perderse sus detalles.</p>
+-->
 
 <button onclick="inicializar()">Iniciar</button>
 <button onclick="toggleColor()">Gris / Colores</button>
 <button onclick="toogleColor()">Gama fría / Cálida</button>
 
+<br />
+<input type="range" id = "ranger" style="width: 700px;" onchange="changeItnum()" max = "1200" min = "6" value = "6">
+<br />
 
-
-
-<!-- estaría piola que el botón cambiara lo que dice (en blanco y negro diga color, y en color diga blanco y negro -->
-
-
-
-
-
-<br>
-<br>
-<canvas id="Conjunto" width="700" height="700"
+<canvas id="Conjunto" width="800" height="800"
 style="border:1px solid #000000; text-align: center;">
 </canvas>
 
-<!-- Quizás 1000 es mucho, 800 puede ser un valor mejor, o incluso menos. Habría que ver y probar velocidad en distintas compus.-->
-
-
 <script>
 
-var medidaCanvas = 700;
-//Falta cambiar tamaño en el tamaño del canvas y en el tamaño de la barra.
+var medidaCanvas = 800;
 
 var canvas = document.getElementById("Conjunto");
 canvas.addEventListener("click", zoom);
@@ -220,18 +209,6 @@ document.getElementById("ranger").value = "6";
 
 <br>
 <br>
-
-
-<input type="range" id = "ranger" style="width: 700px;" onchange="changeItnum()" max = "1200" min = "6" value = "6">
-
-
-
-
 <!-- El botón de gama fría cálida y el range estaría bueno que no fueran visibles cuando se está en blanco y negro-->
-
-
-
-
-
 </body>
 </html>
