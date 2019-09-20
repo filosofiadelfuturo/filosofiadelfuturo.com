@@ -5,18 +5,28 @@
 </head>
 <body bgcolor="#000000">
 
-<canvas id="Curvas" width="1000" height="500" style="border:1px solid #FFFFFF;"></canvas></br>
+<h1 style="color:white; text-align: center;">Conjunto de Cantor</h1>
 
+<button type="button" onclick="window.history.back();">Vovler al Menu</button>
+</br>
+<canvas id="Curvas" width="auto" height="500" style="margin-top:10px; padding: 10px; border: 1px solid #ffffff"></canvas>
+</br>
 <button type="button" onclick="paso();">Paso</button>
 
 <script>
-
 
 var iteraciones = 0;
 
 var intervalos = [];
 intervalos.push([0, 100]);
+
 var intervalosProx = [];
+
+innerWidth = innerWidth < 1000 ? innerWidth*0.9 : 1000
+document.getElementById("Curvas").width = innerWidth;
+var sizeCanvas = innerWidth;
+var modx = (sizeCanvas/100) * 0.98;
+var mody = (sizeCanvas/100) * 0.01;
 
 
 function paso(){
@@ -67,13 +77,14 @@ function dibujarRect(i, f){
 
 	ctx.fillStyle = "#FF0000";
 
-	var a = i*9.8 + 10;
+	var a = i * modx + mody;
 	var b = iteraciones*20 + 10;
-	var c = (f-i)*9.8;
+	var c = (f-i)*modx;
 	var d = 15;
 
 	ctx.fillRect(a, b, c, d);
 }
+
 
 
 </script>

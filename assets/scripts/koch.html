@@ -5,9 +5,11 @@
 </head>
 <body bgcolor="#000000">
 
+<h1 style="color:white; text-align: center;">Curva de Koch</h1>
 
-
-<canvas id="Curvas" width="500" height="500" style="border:1px solid #FFFFFF;"></canvas></br>
+<button type="button" onclick="window.history.back();">Vovler al Menu</button>
+</br>
+<canvas id="Curvas" width="500" height="500" style="border:1px solid #FFFFFF; margin-top:10px"></canvas></br>
 
 <button type="button" onclick="paso();">Paso</button>
 
@@ -31,7 +33,7 @@ function paso(){
 	}
 
 	dibujar();
-	segmentosProx.length = 0; 
+	segmentosProx.length = 0;
 	var i = 0;
 	while(i<segmentos.length){
 		koch(segmentos[i][0], segmentos[i][1], segmentos[i][2], segmentos[i][3]);
@@ -74,7 +76,7 @@ function koch(ix, iy, fx, fy){
 
 	if(fx - ix >= 0){
 		if(fy - iy >= 0){
-			puntox -= magnitud*Math.sin(angulo); 
+			puntox -= magnitud*Math.sin(angulo);
 			puntoy += magnitud*Math.cos(angulo);
 		} else {
 			puntox -= magnitud*Math.sin(angulo);
@@ -82,11 +84,11 @@ function koch(ix, iy, fx, fy){
 		}
 	} else {
 		if(fy - iy >= 0){
-			puntox -= magnitud*Math.sin(angulo); 
+			puntox -= magnitud*Math.sin(angulo);
 			puntoy += magnitud*Math.cos(angulo);
 		} else {
 			puntox -= magnitud*Math.sin(angulo);
-			puntoy += magnitud*Math.cos(angulo);	
+			puntoy += magnitud*Math.cos(angulo);
 		}
 	}
 

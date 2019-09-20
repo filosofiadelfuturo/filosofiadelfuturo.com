@@ -220,6 +220,12 @@ kbd {
 	text-align: center;
 	max-width: 50%;
 	margin: auto;
+	@media #{$medium} {
+		max-width: 100%;
+	}
+	@media #{$small} {
+		max-width: 100%;
+	}
 }
 
 .long-bio {
@@ -227,4 +233,8 @@ kbd {
 	@media #{$small} {
 		padding: 0 0px;
 	}
+}
+
+.author-photo {
+	background: none;
 }
