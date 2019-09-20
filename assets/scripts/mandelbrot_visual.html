@@ -1,197 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Mandelbrot
+</title>
+
+</head>
+
 <body style="background-color:#000000;">
 
-	<button onclick="inicializar()">Iniciar</button>
-	<button onclick="toggleColor()">Gris / Colores</button>
-	<button onclick="toogleColor()">Gama fr�a / C�lida</button>
+<h1 style="color:white; text-align: center;">Conjunto de Cantor</h1>
 
-	<br>
-	<canvas id="Conjunto" width="700" height="700"
-	style="border:1px solid #000000; text-align: center;">
-	</canvas>
+<button type="button" onclick="window.history.back();">Vovler al Menu</button>
+<br />
+<p style="color:#FFFFFF;">¿Se ofendería platón, argumentando que es el círculo la forma más perfecta? ¿Lo acusaría de monstruoso?
+¿O acaso se perdería en el encanto exploratorio del mundo matemático? </p>
+<p style="color:#FFFFFF;">¡Quién pudiera verlo en un continuo, con sus valores reales! Finitud de la memoria, valores que se almacenan de modo discreto, error de redondeo...
+¡Cuánto obstáculo que no permite ver de cerca!</p>
 
-	<script>
+<p style="color:#FFFFFF;">Por más que quieras, que lo sueñes, que te acerques, nunca lo vas a ver realmente. Imposible no perderse sus detalles.</p>
 
-		var canvas = document.getElementById("Conjunto");
-		canvas.addEventListener("click", zoom);
-
-		function calcularValor(pixel, desde, hasta){
-			return (desde + (pixel/700)*(hasta - desde));
-		}
-
-		function pinta(r, i, iteraciones, pixelx, pixely){ //Valor de entrada es el n�mero complejo, devuelve si se va del conjunto r^2 + i^2 <= 2
-			var cr = r;
-			var ci = i;
-
-			var it = 0;
-			var tempr = 0;
-			var tempi = 0;
-			while(it<iteraciones){
-				tempr = r*r - i*i;
-				tempi = 2*r*i;	
-				r = tempr + cr;
-				i = tempi + ci;
-				
-				if(r**2 + i**2 > 4){
-					
-					if(conColores == true){	
-
-					getColor(it, pixelx, pixely);
-
-					} else {	
-					var canvas = document.getElementById("Conjunto");
-					var ctx = canvas.getContext("2d");
-					//	it = it*6;
-					ctx.fillStyle = "#000000";	
-					//ctx.fillStyle = ("rgb(" + it + "," + it + "," + it + ")");
-					ctx.fillRect(pixelx, pixely,1,1);
-					}
-				
-					return;
-				}
-				it++;
-			}
-					
-					var canvas = document.getElementById("Conjunto");
-					var ctx = canvas.getContext("2d");
-					if (conColores == true) {
-						ctx.fillStyle = "#000000";
-					} else {
-						ctx.fillStyle = "#AAAAAA";
-					}
-					ctx.fillRect(pixelx, pixely,1,1);
-					
-		}
-
-		function borrarCanvas(){
-
-			var canvas = document.getElementById("Conjunto");
-			var ctx = canvas.getContext("2d");
-			ctx.fillStyle = "#FFFFFF";
-			ctx.fillRect(0, 0,700,700);
-
-		}
+<button onclick="inicializar()">Iniciar</button>
+<button onclick="toggleColor()">Gris / Colores</button>
+<button onclick="toogleColor()">Gama fría / Cálida</button>
 
 
 
-		function conjunto(desdex, hastax, desdey, hastay, iteraciones){
-			var i = 0;
-			while(i<700){ //recorre las x (esto va por los pixeles)
-				var j = 0;
-				while(j<700){ //recorre las y
-			
-					var x = calcularValor(i, desdex, hastax); //calcula el n�mero correspondiente a ese pixel
-					var y = calcularValor(j, desdey, hastay);
-					
-								
-					pinta(x, y, iteraciones, i, j);
-			
-					j++;
-				}
-				i++;
-			}
-		}
 
-		function zoom(event){
-			var desdx = event.offsetX - 75;
-			var desdy = event.offsetY - 75;
-			
-			var hastx = desdx + 150;
-			var hasty = desdy + 150;
+<!-- estaría piola que el botón cambiara lo que dice (en blanco y negro diga color, y en color diga blanco y negro -->
 
-			desdx = calcularValor(desdx, desdeGlobalx, hastaGlobalx);
-			hastx = calcularValor(hastx, desdeGlobalx, hastaGlobalx);
-			desdy = calcularValor(desdy, desdeGlobaly, hastaGlobaly);
-			hasty = calcularValor(hasty, desdeGlobaly, hastaGlobaly);
 
-			desdeGlobalx = desdx;
-			desdeGlobaly = desdy;
-			hastaGlobalx = hastx;
-			hastaGlobaly = hasty;
 
-			iteraciones = iteraciones + 20;
-			
-			borrarCanvas();
-			conjunto(desdeGlobalx, hastaGlobalx, desdeGlobaly, hastaGlobaly, iteraciones);
-		}
 
-		var iteraciones = 60;
 
-		function inicializar(){
-			desdeGlobalx = -2;
-			desdeGlobaly = -2;
-			hastaGlobalx = 2;
-			hastaGlobaly = 2;
+<br>
+<br>
+<canvas id="Conjunto" width="700" height="700"
+style="border:1px solid #000000; text-align: center;">
+</canvas>
 
-			iteraciones = 60;
+<!-- Quizás 1000 es mucho, 800 puede ser un valor mejor, o incluso menos. Habría que ver y probar velocidad en distintas compus.-->
 
-			borrarCanvas();
-			conjunto(desdeGlobalx, hastaGlobalx, desdeGlobaly, hastaGlobaly, iteraciones);
-		}
 
-		var frios = true;
-		var conColores = false;
+<script>
 
-		function toggleColor(){
-			conColores = !conColores;
-			borrarCanvas();
-			conjunto(desdeGlobalx, hastaGlobalx, desdeGlobaly, hastaGlobaly, iteraciones);
-		}
+var medidaCanvas = 700;
+//Falta cambiar tamaño en el tamaño del canvas y en el tamaño de la barra.
 
-		function toogleColor(){ 
-			conColores = true; 
-			frios = !frios;
-			borrarCanvas();
-			conjunto(desdeGlobalx, hastaGlobalx, desdeGlobaly, hastaGlobaly, iteraciones);
-		}
+var canvas = document.getElementById("Conjunto");
+canvas.addEventListener("click", zoom);
 
-		function getColor(it, pixelx, pixely){
-			var canvas = document.getElementById("Conjunto");
-			var ctx = canvas.getContext("2d");
-			
-			if(frios == true){
-				hexString =(it*itNum).toString(16);
-			
-				while (hexString.length < 6) {
-					hexString = '0'+ hexString;
-				}
-				hexString = '#' + hexString;
-				ctx.fillStyle =  hexString;
+function calcularValor(pixel, desde, hasta){
+	return (desde + (pixel/medidaCanvas)*(hasta - desde));
+}
+
+function pinta(r, i, iteraciones, pixelx, pixely){ //Valor de entrada es el número complejo, devuelve si se va del conjunto r^2 + i^2 <= 2
+	var cr = r;
+	var ci = i;
+
+	var it = 0;
+	var tempr = 0;
+	var tempi = 0;
+	while(it<iteraciones){
+		tempr = r*r - i*i;
+		tempi = 2*r*i;
+		r = tempr + cr;
+		i = tempi + ci;
+
+		if(r**2 + i**2 > 4){
+
+			if(conColores == true){
+
+			getColor(it, pixelx, pixely);
+
 			} else {
-				str = "rgb("
-				var num = it*itNum;
-				var re = num % 256;
-				num = num - re;
-				num = num/256;
-				var gr = num % 256;
-				str = str + re + "," + gr + ", 0)";
-				ctx.fillStyle = str;
+			var canvas = document.getElementById("Conjunto");
+			var ctx = canvas.getContext("2d");
+			//	it = it*6;
+			ctx.fillStyle = "#000000";
+			//ctx.fillStyle = ("rgb(" + it + "," + it + "," + it + ")");
+			ctx.fillRect(pixelx, pixely,1,1);
+			}
+
+			return;
+		}
+		it++;
+	}
+
+			var canvas = document.getElementById("Conjunto");
+			var ctx = canvas.getContext("2d");
+			if (conColores == true) {
+				ctx.fillStyle = "#000000";
+			} else {
+				ctx.fillStyle = "#AAAAAA";
 			}
 			ctx.fillRect(pixelx, pixely,1,1);
+
+}
+
+function borrarCanvas(){
+
+	var canvas = document.getElementById("Conjunto");
+	var ctx = canvas.getContext("2d");
+	ctx.fillStyle = "#FFFFFF";
+	ctx.fillRect(0, 0,medidaCanvas,medidaCanvas);
+
+}
+
+
+
+function conjunto(desdex, hastax, desdey, hastay, iteraciones){
+	var i = 0;
+	while(i<medidaCanvas){ //recorre las x (esto va por los pixeles)
+		var j = 0;
+		while(j<medidaCanvas){ //recorre las y
+
+			var x = calcularValor(i, desdex, hastax); //calcula el número correspondiente a ese pixel
+			var y = calcularValor(j, desdey, hastay);
+
+
+			pinta(x, y, iteraciones, i, j);
+
+			j++;
 		}
+		i++;
+	}
+}
 
-		var itNum = 6;
+function zoom(event){
+	var desdx = event.offsetX - 75;
+	var desdy = event.offsetY - 75;
 
-		function changeItnum () {
-			itNum = document.getElementById("ranger").value;
-			conjunto(desdeGlobalx, hastaGlobalx, desdeGlobaly, hastaGlobaly, iteraciones);
+	var hastx = desdx + 150;
+	var hasty = desdy + 150;
+
+	desdx = calcularValor(desdx, desdeGlobalx, hastaGlobalx);
+	hastx = calcularValor(hastx, desdeGlobalx, hastaGlobalx);
+	desdy = calcularValor(desdy, desdeGlobaly, hastaGlobaly);
+	hasty = calcularValor(hasty, desdeGlobaly, hastaGlobaly);
+
+	desdeGlobalx = desdx;
+	desdeGlobaly = desdy;
+	hastaGlobalx = hastx;
+	hastaGlobaly = hasty;
+
+	iteraciones = iteraciones + 20;
+
+	borrarCanvas();
+	conjunto(desdeGlobalx, hastaGlobalx, desdeGlobaly, hastaGlobaly, iteraciones);
+}
+
+var iteraciones = 60;
+
+function inicializar(){
+	desdeGlobalx = -2;
+	desdeGlobaly = -2;
+	hastaGlobalx = 2;
+	hastaGlobaly = 2;
+
+	iteraciones = 60;
+
+	borrarCanvas();
+	conjunto(desdeGlobalx, hastaGlobalx, desdeGlobaly, hastaGlobaly, iteraciones);
+}
+
+var frios = true;
+var conColores = false;
+
+function toggleColor(){
+	conColores = !conColores;
+	borrarCanvas();
+	conjunto(desdeGlobalx, hastaGlobalx, desdeGlobaly, hastaGlobaly, iteraciones);
+}
+
+function toogleColor(){
+	conColores = true; // ESTO PODRÍA DEJARSE SIN MODIFICAR (LO IDEAL SERÍA QUE CUANDO SE ESTÁ EN BLANCO Y NEGRO NO SE VEA NI EL BOTÓN DE GAMA FRÍA CÁLIDA NI LA BARRITA
+	frios = !frios;
+	borrarCanvas();
+	conjunto(desdeGlobalx, hastaGlobalx, desdeGlobaly, hastaGlobaly, iteraciones);
+}
+
+function getColor(it, pixelx, pixely){
+	var canvas = document.getElementById("Conjunto");
+	var ctx = canvas.getContext("2d");
+
+	if(frios == true){
+		hexString =(it*itNum).toString(16);
+
+		while (hexString.length < 6) {
+			hexString = '0'+ hexString;
 		}
+		hexString = '#' + hexString;
+		ctx.fillStyle =  hexString;
+	} else {
+		str = "rgb("
+		var num = it*itNum;
+		var re = num % 256;
+		num = num - re;
+		num = num/256;
+		var gr = num % 256;
+		str = str + re + "," + gr + ", 0)";
+		ctx.fillStyle = str;
+	}
+	ctx.fillRect(pixelx, pixely,1,1);
+}
 
-	</script>
+var itNum = 6;
 
-	<br>
-	<br>
+function changeItnum () {
+	itNum = document.getElementById("ranger").value;
+	conjunto(desdeGlobalx, hastaGlobalx, desdeGlobaly, hastaGlobaly, iteraciones);
+}
+/*
+document.getElementById("ranger").max = "1200";
+document.getElementById("ranger").min = "6";
+document.getElementById("ranger").value = "6";
+*/
+</script>
+
+<br>
+<br>
 
 
-	<input type="range" id = "ranger" style="width: 700px;" onchange="changeItnum()" max = "1200" min = "6" value = "6">
+<input type="range" id = "ranger" style="width: 700px;" onchange="changeItnum()" max = "1200" min = "6" value = "6">
 
 
 
 
-	<!-- El bot�n de gama fr�a c�lida y el range estar�a bueno que no fueran visibles cuando se est� en blanco y negro-->
+<!-- El botón de gama fría cálida y el range estaría bueno que no fueran visibles cuando se está en blanco y negro-->
 
 
 
 
 
 </body>
-
+</html>
