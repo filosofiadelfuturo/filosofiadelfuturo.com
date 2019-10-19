@@ -35,6 +35,7 @@ $doc-line-height     : 15;
 
 //media
 $small               : "only screen and (max-width: 30em)";
-$medium              : "only screen and (min-width: 30.1em) and (max-width: 48em)";
-$large               : "only screen and (min-width: 48.1em) and (max-width: 62.5em)";
-$notsmall            : "only screen and (min-width: 48em)";
+$medium              : "only screen and (min-width: 30.1em) and (max-width: 60em)";
+$large               : "only screen and (min-width: 60.1em) and (max-width: 90em)";
+$extralarge          : "only screen and (min-width: 90.1em)";
+$notsmall            : "only screen and (min-width: 90em)";

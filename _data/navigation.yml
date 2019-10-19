@@ -1,12 +1,10 @@
 # Site navigation links
 
- # - title: Autores
- #   url: /authors/
- # - title: Publicaciones
- #   url: /publications/
- # - title: Juego de la Vida
- #   url: /scripts/life/
- # - title: Newsletters
- #   url: /archive/
+ - title: Autores
+   url: /authors/
+ - title: Publicaciones
+   url: /publications/
+ - title: Newsletter
+   url: /archive/
  - title: Scripts
    url: /scripts/
