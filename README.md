@@ -1,4 +1,1 @@
-Personal Webpage/CV
-
-Credits to Moon Theme
-**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
+Colectivo interdisciplinario para el desarrollo y la divulgación de la Filosofía del Futuro

@@ -1,12 +1,27 @@
 // content area
-.content {
-	@include font-size(14);
+.content-list {
+	@include font-rem(18);
 	padding: 0 2rem;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased !important;
 	-moz-font-smoothing: antialiased !important;
 	text-rendering: optimizelegibility !important;
 	text-align: justify;
+	@media #{$small} {
+		padding: 0 .5em;
+	}
+}
+.content {
+	@include font-rem(18);
+	padding: 0 8rem;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-font-smoothing: antialiased !important;
+	text-rendering: optimizelegibility !important;
+	text-align: justify;
+	@media #{$medium} {
+		padding: 0 2em;
+	}
 	@media #{$small} {
 		padding: 0 .5em;
 	}

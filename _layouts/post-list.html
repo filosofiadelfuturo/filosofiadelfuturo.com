@@ -14,7 +14,7 @@ layout: compress
     <!-- Header -->
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
-            <div class="content">
+            <div class="content-list">
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
                     <a class="btn zoombtn" href="{{site.url}}">
@@ -23,12 +23,18 @@ layout: compress
                 </div>
                 <div class="post-list">
                     {% for post in site.posts %}
+
+
+
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
 
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.date | date_to_string }}</a>
-                            <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                            <h1>{{ post.title }}</h1>
+                            <p><i>{{ post.date | date_to_string }}</i>
+                                <br />{{ post.excerpt }}
+                            </p>
+
+                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Publicación completa</a>
                         </li>
                     </ul>
                     {% endfor %}
