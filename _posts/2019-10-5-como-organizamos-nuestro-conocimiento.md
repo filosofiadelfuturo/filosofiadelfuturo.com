@@ -5,8 +5,7 @@ date: 2019-10-5
 authors: "Joaquín Bardauil"
 editors: "Juan Fernández Zaragoza"
 excerpt: "A ton of text to test readability."
-tags: [mente]
-comments: true
+tags: [mente, futuro]
 ---
 ¿Cómo organizamos nuestro conocimiento? ¿Cuáles son los procesos a través de los cuales nos movemos entre distintas ideas? ¿Cómo podemos aplicar efectivamente estos procesos a la cantidad de contenidos producidos a través de la historia? Estas y otras preguntas similares fueron problemas relevantes desde los primeros manuscritos de Sumeria hasta la actual era de Internet.
 
