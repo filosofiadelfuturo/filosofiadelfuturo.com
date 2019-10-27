@@ -172,8 +172,12 @@ body {
 		}
 	}
 }
+.copyright {
+	margin: auto 2em;
+	text-align-last: center;
+}
+
 header .entry-meta {
-	display: none; // hide header meta on small screens
 	@media #{$notsmall} {
 		display: block;
 	}

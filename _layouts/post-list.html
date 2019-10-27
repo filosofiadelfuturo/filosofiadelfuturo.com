@@ -24,12 +24,14 @@ layout: compress
                 <div class="post-list">
                     {% for post in site.posts %}
                     <ul>
-                        <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                        <li class="wow fadeInLeft post-list" data-wow-duration="1.5s">
 
-                            <h1>{{ post.title }}</h1>
-                            <p><i>{{ post.date | date_to_string }}</i>
-                                <br />{{ post.excerpt }}
-                            </p>
+                            <a href="{{ site.url }}{{ post.url }}">
+                                <h1>{{ post.title }}</h1>
+                                <p><i>{{ post.date | date_to_string }}</i>
+                                    <br />{{ post.excerpt }}
+                                </p>
+                            </a>
 
                             <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Publicación completa</a>
                         </li>
