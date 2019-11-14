@@ -32,7 +32,9 @@ layout: compress
 
                 <hr />
                 <h5 style="font-weight: normal;"><i>Escrito por: {{ page.authors }}
+                {% if page.editors %}
                 <br />Editado por: {{ page.editors }}</i></h5>
+                {% endif %}
 
                 <div class="entry-meta">
                 {% include meta.html %}

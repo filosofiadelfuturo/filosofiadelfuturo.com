@@ -4,7 +4,7 @@
  #   url: /authors/
  # - title: Publicaciones
  #   url: /publications/
- # - title: Newsletter
- #   url: /archive/
+ - title: Newsletter
+   url: /archive/
  - title: Scripts
    url: /scripts/
