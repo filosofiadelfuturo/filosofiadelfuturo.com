@@ -4,7 +4,7 @@ title: "¿Por qué filosofía del futuro?"
 date: 2019-9-21
 authors: "Juan Fernández Zaragoza"
 editors: "Valentín Muro y Joaquín Bardauil"
-excerpt: "A ton of text to test readability."
+excerpt: "Una exhortación a la Filosofía del Futuro"
 tags: [mente, futuro]
 ---
 Así como en su momento lo hizo la máquina de vapor, hoy la computadora es primer motor y expresión característica de la revolución productiva que define su época. Como en todas las (poquísimas) revoluciones tecnológicas que produjimos, ni la efervescencia del desarrollo, ni el surgimiento de conocimientos y técnicas de vanguardia, ni la explosión de nuevas ideas y diseños de artefactos son tendencias localizadas. Al contrario: son transversales a todas las disciplinas y áreas de desenvolvimiento humano. Esta transversalidad se pone de manifiesto también en la filosofía: desde la filosofía de la mente, que se nutre de los desarrollos últimos en materia de ciencias cognitivas, o desde la filosofía de las ciencias, que comienza a incluir problemas propios de disciplinas como las neurociencias, la computación, la biología sintética, entre otras, hasta disciplinas tan antiguas como la ética o la metafísica, que se vuelven fundamentales para conceptualizar y discutir usos y descubrimientos en materia de inteligencia artificial, bioingeniería o información, cada disciplina filosófica cuenta con problemas y preguntas que surgen del seno de la revolución productiva actual. Desde ninguna sola de estas áreas filosóficas puede agotarse el campo de problemas que significa el pensar esta revolución tecnológica, científica y productiva desde una perspectiva filosófica.
@@ -38,34 +38,34 @@ Por último, vale aclarar que la filosofía del futuro no puede ser habitada sol
 
 ##### La lista aquí presentada no es, de ninguna manera, exhaustiva respecto de las áreas temáticas que pueden legítimamente considerarse parte de la filosofía del futuro. La taxonomía planteada es una que consideramos útil como guía pero no es única ni conclusiva. Por último, vale aclarar que las preguntas asociadas a cada una de las áreas temáticas pueden solaparse entre distintas de ellas. El/la Lector/a notará que, en la lista a continuación, hay preguntas bajo el título de ciertos temas que perfectamente podrían pertenecer a otros. Esto es porque decidimos, únicamente para mantener la brevedad de la exposición, no repetir aquellas preguntas que podrían asociarse a más de un tema.
 
-##### * Filosofía general de la técnica y la tecnología
+* ##### Filosofía general de la técnica y la tecnología
 
 ##### ¿Que es un artefacto tecnológico?, ¿cómo ha influenciado el desarrollo tecnológico el curso de la historia humana? ¿Cual es su impacto en el mundo actual? ¿Qué relación guardan el desarrollo de la tecnología y el desarrollo de la ciencia?
 
-2. Filosofía de la computación y la informática 
+* ##### Filosofía de la computación y la informática 
 
 ##### ¿Pueden pensar las máquinas? ¿Qué es la información? ¿Qué quiere decir que un objeto material implemente un cómputo? ¿Qué es la virtualidad?
 
-3. Filosofía de la mente, de las neurociencias y de las ciencias cognitivas
+* ##### Filosofía de la mente, de las neurociencias y de las ciencias cognitivas
 
 ##### ¿Pueden las neurociencias ayudarnos a redefinir nuestras intuiciones acerca de la mente? ¿Qué rol tienen las tecnologías en el desarrollo y evolución de las capacidades cognitivas? ¿Cuáles son los límites demarcatorios entre la mente y el resto del mundo? ¿Es la cognición un fenómeno individual o colectivo?
 
-4. Ética y diseño
+* ##### Ética y diseño
 
 ##### ¿Es éticamente aceptable rediseñar, desde la bioingeniería, al cuerpo humano, con el fin de mejorarlo? ¿Qué problemas éticos puede acarrear esto? ¿Qué temáticas provenientes de la ética debemos considerar a la hora de diseñar nuevos organismos en biología sintética? ¿Qué problemas éticos surgen del diseño de sistemas de inteligencia artificial y de sistemas robóticos? ¿Quién/Qué es responsable por el mal funcionamiento de una máquina?
 
-5. Tecnología y política
+* ##### Tecnología y política
 
 ##### ¿Bajo qué mecanismos opera el poder en la red digital? ¿Qué efectos tiene la actividad en línea en los conceptos de verdad y la construcción del sentido común? ¿Cómo afecta la automatización de tareas, tanto cognitivas como mecánicas en el modo en que se genera y distribuye la riqueza? 
 
-6. Epistemología y conocimiento
+* ##### Epistemología y conocimiento
 
 ##### ¿Puede comprenderse la razón por la que una red neuronal compleja toma una decisión? ¿Cómo afirmar el conocimiento en el mundo del deep fake? ¿Qué relación tienen las redes sociales con la opinión de cada persona? ¿Es Internet una herramienta ventajosa para la ampliación del conocimiento o es una desventaja?
 
-7. Lógica aplicada
+* ##### Lógica aplicada
 
 ##### ¿Podemos modelar el razonamiento con lógicas formales? ¿Cómo adquieren su significado los símbolos? ¿Puede la lógica servir como puente entre la inteligencia artificial y la humanidad? En el mundo de la computación, ¿Qué problemas pueden resolverse usando las computadoras, y qué problemas son irresolubles por ellas?
 
-8. Métodos filosóficos
+* ##### Métodos filosóficos
 
 ##### ¿Qué métodos surgidos del área de las ciencias y de la tecnología pueden ser útiles herramientas para la práctica filosófica? Aplicaciones filosóficas de teoría de grafos, teoría de juegos, sistemas complejos, modelos computacionales, ingeniería inversa etc.

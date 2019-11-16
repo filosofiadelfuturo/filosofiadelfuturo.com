@@ -4,7 +4,7 @@ title: "Cómo organizamos nuestro conocimiento"
 date: 2019-10-5
 authors: "Joaquín Bardauil"
 editors: "Juan Fernández Zaragoza"
-excerpt: "A ton of text to test readability."
+excerpt: "La historia de Internet y su devenir actual"
 tags: [mente, futuro]
 ---
 ¿Cómo organizamos nuestro conocimiento? ¿Cuáles son los procesos a través de los cuales nos movemos entre distintas ideas? ¿Cómo podemos aplicar efectivamente estos procesos a la cantidad de contenidos producidos a través de la historia? Estas y otras preguntas similares fueron problemas relevantes desde los primeros manuscritos de Sumeria hasta la actual era de Internet.
@@ -22,8 +22,12 @@ No hay duda de que en el aspecto técnico las propuestas no sólo fueron realiza
 ---
 #### Los textos que se utilizaron en esta nota son:
 
-##### Bush, V. (1945) “As we may think”,  The Atlantic Monthly, July 1945. (traducción)
+##### Bush, V. (1945) “As we may think”,  The Atlantic Monthly, July 1945. ([traducción](http://iibi.unam.mx/voutssasmt/documentos/Vannevar_Bush_Como%20podriamos%20_Pensar_JV.pdf))
 
-##### Engelbart, D. (1962) “Augmenting human intellect: A conceptual framework”, Summary Report Contract AF 49 638 1024 SRI, Project 3578, Stanford Research Institute, Menlo Park, California, October 1962. Douglas Engelbart fue otro personaje destacado en esta historia. Además de haber sido el creador del mouse y un investigador de la interacción entre humanos y computadoras, fue un gran motivador de la filosofía aquí presentada
+##### Engelbart, D. (1962) “Augmenting human intellect: A conceptual framework”, Summary Report Contract AF 49 638 1024 SRI, Project 3578, Stanford Research Institute, Menlo Park, California, October 1962. 
 
-##### Nelson, T. (1972) “As we will think”, Proceedings of Online 72 Conference, Brunel University, Uxbridge, England. Ted Nelson tiene una muy activa cuenta de YouTube. Si querés ampliar sobre su idea de cómo debería funcionar Internet, y en particular sobre su proyecto Xanadú, te sugerimos mirarte este video  (es el primero de una serie).
+##### Douglas Engelbart fue otro personaje destacado en esta historia. Además de haber sido el creador del mouse y un investigador de la interacción entre humanos y computadoras, fue un gran motivador de la filosofía aquí presentada
+
+##### Nelson, T. (1972) “As we will think”, Proceedings of Online 72 Conference, Brunel University, Uxbridge, England. 
+
+##### Ted Nelson tiene una muy activa cuenta de YouTube. Si querés ampliar sobre su idea de cómo debería funcionar Internet, y en particular sobre su proyecto Xanadú, te sugerimos mirarte este video  (es el primero de una serie).

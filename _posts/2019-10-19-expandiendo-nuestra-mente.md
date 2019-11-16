@@ -4,7 +4,7 @@ title: "Extendiendo nuestra mente"
 date: 2019-10-19
 authors: "Santiago López Gagliano y Javier Krick"
 editors: "Valentín Muro y Joaquín Bardauil"
-excerpt: "A ton of text to test readability."
+excerpt: "Procesamiento más allá del cerebro"
 tags: [mente]
 ---
 Para las posturas más actuales en filosofía de la mente existe una relación indispensable entre los procesos mentales y los procesos físicos. Ya sea que los procesos mentales no son más que procesos físicos, o que ciertos procesos físicos causan los estados mentales. Entonces, ¿dónde queda la mente? ¿cuál es el límite entre la mente y el resto de cosas que hay en el mundo?
