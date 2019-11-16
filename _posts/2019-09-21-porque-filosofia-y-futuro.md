@@ -24,3 +24,48 @@ La filosofía del futuro es, a fin de cuentas, como la más antigua de las filos
 Hablar de “filosofía del futuro” beneficia al conjunto de las personas que se dedican a las distintas temáticas y problemas que se enmarcan en ese concepto. A partir de la labor conjunta y la inclusión de una variedad de miradas al discutir y analizar un mismo objeto de estudio, la comprensión del mismo se vuelve más completa. Además, mostrar que se trata de una corriente de trabajo sistemático, sumamente interesante, e igualmente útil para la práctica política, económica, ingenieril y de diseño, hace que el área, como todo, gane visibilidad . La producción y la divulgación conjuntas benefician a la filosofía del futuro porque ayudan a fortalecer el nexo entre práctica filosófica y vanguardias actuales en el campo de la técnica.
 
 Por último, vale aclarar que la filosofía del futuro no puede ser habitada solamente por personas del ámbito de la filosofía. Sin una diversidad de voces con distintas experiencias en aquellas áreas que son objeto de nuestra discusión filosófica corremos el riesgo de hablar desde la ignorancia o la superficialidad. Esto hace fundamental al trabajo interdisciplinario y la incorporación a la discusión filosófica de personas que se especialicen en todo campo en el que afloren las nuevas ideas, nuevos diseños, nuevas relaciones de poder; campos que, en su explosivo desarrollo, resumen lo que significa el Siglo XXI para la historia del pensamiento.
+
+---	
+##### El Newsletter de Filosofía del Futuro profundizará y justificará las afirmaciones y propuestas expuestas en la nota anterior. Esperamos que sirva tanto para divulgar temas y problemas filosóficos que consideramos parte de la filosofía del futuro como también para exhortar a lxs lectorxs a introducirse en estas discusiones. 
+
+##### Para esto, las notas serán de tres tipos distintos:
+
+* ##### Temas de actualidad que llamen a la reflexión filosófica.
+* ##### Temas filosóficos que sean útiles para pensar la actualidad.
+* ##### Temas metafilosóficos que sirvan para guiar y motivar el desarrollo de la filosofía del futuro. 
+
+##### A continuación, de manera ilustrativa, presentamos una lista de temáticas filosóficas que consideramos parte del marco general de la Filosofía del Futuro. Cada temática tiene un conjunto de preguntas filosóficas asociadas. Exponemos aquí, a modo de ejemplo, un subconjunto breve para cada una.
+
+##### La lista aquí presentada no es, de ninguna manera, exhaustiva respecto de las áreas temáticas que pueden legítimamente considerarse parte de la filosofía del futuro. La taxonomía planteada es una que consideramos útil como guía pero no es única ni conclusiva. Por último, vale aclarar que las preguntas asociadas a cada una de las áreas temáticas pueden solaparse entre distintas de ellas. El/la Lector/a notará que, en la lista a continuación, hay preguntas bajo el título de ciertos temas que perfectamente podrían pertenecer a otros. Esto es porque decidimos, únicamente para mantener la brevedad de la exposición, no repetir aquellas preguntas que podrían asociarse a más de un tema.
+
+1. ##### Filosofía general de la técnica y la tecnología
+
+##### ¿Que es un artefacto tecnológico?, ¿cómo ha influenciado el desarrollo tecnológico el curso de la historia humana? ¿Cual es su impacto en el mundo actual? ¿Qué relación guardan el desarrollo de la tecnología y el desarrollo de la ciencia?
+
+2. Filosofía de la computación y la informática 
+
+##### ¿Pueden pensar las máquinas? ¿Qué es la información? ¿Qué quiere decir que un objeto material implemente un cómputo? ¿Qué es la virtualidad?
+
+3. Filosofía de la mente, de las neurociencias y de las ciencias cognitivas
+
+##### ¿Pueden las neurociencias ayudarnos a redefinir nuestras intuiciones acerca de la mente? ¿Qué rol tienen las tecnologías en el desarrollo y evolución de las capacidades cognitivas? ¿Cuáles son los límites demarcatorios entre la mente y el resto del mundo? ¿Es la cognición un fenómeno individual o colectivo?
+
+4. Ética y diseño
+
+##### ¿Es éticamente aceptable rediseñar, desde la bioingeniería, al cuerpo humano, con el fin de mejorarlo? ¿Qué problemas éticos puede acarrear esto? ¿Qué temáticas provenientes de la ética debemos considerar a la hora de diseñar nuevos organismos en biología sintética? ¿Qué problemas éticos surgen del diseño de sistemas de inteligencia artificial y de sistemas robóticos? ¿Quién/Qué es responsable por el mal funcionamiento de una máquina?
+
+5. Tecnología y política
+
+##### ¿Bajo qué mecanismos opera el poder en la red digital? ¿Qué efectos tiene la actividad en línea en los conceptos de verdad y la construcción del sentido común? ¿Cómo afecta la automatización de tareas, tanto cognitivas como mecánicas en el modo en que se genera y distribuye la riqueza? 
+
+6. Epistemología y conocimiento
+
+##### ¿Puede comprenderse la razón por la que una red neuronal compleja toma una decisión? ¿Cómo afirmar el conocimiento en el mundo del deep fake? ¿Qué relación tienen las redes sociales con la opinión de cada persona? ¿Es Internet una herramienta ventajosa para la ampliación del conocimiento o es una desventaja?
+
+7. Lógica aplicada
+
+##### ¿Podemos modelar el razonamiento con lógicas formales? ¿Cómo adquieren su significado los símbolos? ¿Puede la lógica servir como puente entre la inteligencia artificial y la humanidad? En el mundo de la computación, ¿Qué problemas pueden resolverse usando las computadoras, y qué problemas son irresolubles por ellas?
+
+8. Métodos filosóficos
+
+##### ¿Qué métodos surgidos del área de las ciencias y de la tecnología pueden ser útiles herramientas para la práctica filosófica? Aplicaciones filosóficas de teoría de grafos, teoría de juegos, sistemas complejos, modelos computacionales, ingeniería inversa etc.
