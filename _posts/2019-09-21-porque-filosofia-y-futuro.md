@@ -38,7 +38,7 @@ Por último, vale aclarar que la filosofía del futuro no puede ser habitada sol
 
 ##### La lista aquí presentada no es, de ninguna manera, exhaustiva respecto de las áreas temáticas que pueden legítimamente considerarse parte de la filosofía del futuro. La taxonomía planteada es una que consideramos útil como guía pero no es única ni conclusiva. Por último, vale aclarar que las preguntas asociadas a cada una de las áreas temáticas pueden solaparse entre distintas de ellas. El/la Lector/a notará que, en la lista a continuación, hay preguntas bajo el título de ciertos temas que perfectamente podrían pertenecer a otros. Esto es porque decidimos, únicamente para mantener la brevedad de la exposición, no repetir aquellas preguntas que podrían asociarse a más de un tema.
 
-1. ##### Filosofía general de la técnica y la tecnología
+##### * Filosofía general de la técnica y la tecnología
 
 ##### ¿Que es un artefacto tecnológico?, ¿cómo ha influenciado el desarrollo tecnológico el curso de la historia humana? ¿Cual es su impacto en el mundo actual? ¿Qué relación guardan el desarrollo de la tecnología y el desarrollo de la ciencia?
 
