@@ -27,7 +27,7 @@ Cuando se trata de la memoria solemos preocuparnos por su almacenamiento y la ef
 
 Este constante presente, carente de sedimentación, nos hace perder la maravillosa capacidad de poner las cosas en perspectiva. “Perdimos esta habilidad en apenas una generación”, se lamenta Floridi.
 
-###¿Cómo harán los historiadores del futuro?
+### ¿Cómo harán los historiadores del futuro?
 
 La aspiración a la ahistoricidad de la tecnología digital supone procesos de constante reescritura del pasado —por ejemplo cuando se actualiza un sitio web— que hacen improbable que las versiones anteriores queden guardadas. Tenemos mucha más información que antes pero esta es mucho más frágil y está en constante peligro de ser borrada o alterada. La vida útil de un CD o DVD grabado rara vez supera los diez años, y ni hablar de los diskettes o cintas magnéticas.
 
