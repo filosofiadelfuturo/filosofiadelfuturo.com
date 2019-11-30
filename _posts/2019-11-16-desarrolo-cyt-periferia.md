@@ -3,6 +3,7 @@ layout: post
 title: "Pensar el desarrollo científico-tecnológico desde la periferia"
 date: 2019-11-16
 authors: "Agustín Martínez Suñé"
+editors: "Valentín Muro"
 excerpt: "Las condiciones de la investigación en América Latina"
 tags: [ciencia, tecnología]
 ---
