@@ -27,7 +27,9 @@ Por otro lado, si bien es cierto que con la música digital se evitan costos de 
 Todas estas nuevas reglas del  juego demandan la necesidad de un involucramiento activo de parte lxs trabajadores de la música, con vistas a que las nuevas e interesantes herramientas tecnológicas puedan servir para su empoderamiento y una mejora en las condiciones laborales, y para impedir que la capacidad de decidir cómo se reparte la torta quede reducida a un monopolio empresarial.
 
 Aunque pueda llegar a dar la impresión de que el streaming llegó para quedarse, también podemos pensar que es un eslabón más de la fluctuante mutación tecnológica que caracteriza a la época en la que vivimos. Si actualmente, el único archivo que tenemos para la nueva música es el digital, y las encargadas de guardar y distribuirlo son empresas privadas ¿qué valor estamos delegando en ellas?, si llegara a existir un problema ¿cuántos nuevos discos podrían quedar perdidos en la infoesfera? ¿Qué podríamos hacer para impedirlo? Preguntas que ciertamente nos sitúan ante el desafío de generar nuevas herramientas críticas para cuestionarnos cómo hacer para cuidar nuestra cultura y a nuestrxs artistas en la era de la información digital.
+
 ---
+
 ##### Textos consultados en esta nota
 
 **Byrne, D. (2012). [*Cómo funciona la música*](https://catrinandante.files.wordpress.com/2016/01/david-byrne-cc3b3mo-funciona-la-mc3basica.pdf). Edición virtual.**
