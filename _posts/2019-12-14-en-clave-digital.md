@@ -32,8 +32,8 @@ Aunque pueda llegar a dar la impresión de que el streaming llegó para quedarse
 #### Textos consultados en esta nota
 ##### Byrne, D. (2012). [*Cómo funciona la música*](https://catrinandante.files.wordpress.com/2016/01/david-byrne-cc3b3mo-funciona-la-mc3basica.pdf). Edición virtual
 
-En este libro, el ex líder de los Talking Heads diserta, desde su experiencia como músico, acerca de cómo los espacios y los formatos en los que se crea la música, influencian en la forma en que ésta se configura, dedicándole algunos apartados a cómo esto aplica a la música digital en general, y al streaming en particular.
+##### En este libro, el ex líder de los Talking Heads diserta, desde su experiencia como músico, acerca de cómo los espacios y los formatos en los que se crea la música, influencian en la forma en que ésta se configura, dedicándole algunos apartados a cómo esto aplica a la música digital en general, y al streaming en particular.
 
 ##### Eriksson, M. Fleischer, R. Johansson, A. Snickars, P & Vonderau, P. (2019). [*Inside the Black Box of Streaming Music*](https://mitpress.mit.edu/books/spotify-teardown). Cambridge, MA, MIT Press.
 
-Esta obra es un compendio dedicado a explorar y analizar, mediante métodos de ingeniería inversa, algunos de los procedimientos llevados a cabo por Spotify. Tiene testimonios de músicxs, productorxs, curadorxs e integrantes de la industria discográfica en general y es, sin dudas, uno de los libros más completos y actualizados sobre el tema. Las estadísticas incluidas en el artículo se encuentran en este libro.
+##### Esta obra es un compendio dedicado a explorar y analizar, mediante métodos de ingeniería inversa, algunos de los procedimientos llevados a cabo por Spotify. Tiene testimonios de músicxs, productorxs, curadorxs e integrantes de la industria discográfica en general y es, sin dudas, uno de los libros más completos y actualizados sobre el tema. Las estadísticas incluidas en el artículo se encuentran en este libro.
