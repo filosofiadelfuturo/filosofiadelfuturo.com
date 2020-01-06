@@ -2,12 +2,12 @@
 layout: post
 title: "La década del siglo"
 date: 2019-12-31
-authors: "Juan Fernández Zaragoza”
+authors: "Juan Fernández Zaragoza"
 excerpt: "Balance de la década y de nuestro año"
-tags: [ciencia, tecnología]
+tags: [tecnología]
 ---
 Termina la década y empieza una nueva. Es cierto que hay algo de ficticio en celebrar las vueltas al sol. Más aún, parafraseando a Borges, también hay algo de ficticio en poner tanta expectativa cuando son múltiplos de diez (él decía que era más que nada una celebración del sistema decimal). Sin embargo, por más ficticio que pueda considerarse, es también signo de algo muy real. Hoy por hoy, siendo que la velocidad de las transformaciones que habitamos es creciente, diez años son más tiempo que en cualquier otro momento.
- 
+
 Entramos en esta década con las semillas plantadas de tres tendencias que prometen un impacto en todas las esferas y niveles de la forma en que vivimos: en primer lugar, la incorporación de la información como valor, junto a la capacidad de analizar y manipular grandes bases de datos con efectividad creciente, en segundo lugar la creciente automatización de un abanico de tareas anteriormente consideradas intelectuales, y en tercer lugar un nuevo y enérgico incremento en la posibilidad de complejizar, afinar y flexibilizar las funciones motrices de las máquinas. Evidentemente no son tendencias aisladas del resto de las cosas que están sucediendo, ni están, por supuesto, aisladas entre sí. Muchos algoritmos de análisis de grandes bases de datos usan algoritmos de inteligencia artificial como herramientas, muchos sistemas robóticos se nutren de formas de aprendizaje automático para mejorar sus movimientos, muchos algoritmos de inteligencia artificial se valen de grandes bases de datos como base de entrenamiento. Esta interdependencia habilita la posibilidad de retroalimentación, sobre todo en estos tiempos de crecimiento acelerado.
 
 Cada una de estas tendencias, como hemos dicho, promete un desarrollo significativo en el curso de la década próxima. Pero el desarrollo técnico no está disociado de los usos sociales que se haga de la tecnología, y la forma en que evolucionen estas tres tecnologías en los años que vienen no será solamente en abstracto un aumento del poderío técnico, sino que evolucionarán de algún modo práctico, concreto, con beneficiarios, con relegados y con usos específicos asociados. Ahora bien, por lo poderoso de estos nuevos cambios, algunas de las tendencias concretas de desarrollo, una vez consolidado su curso, podrían ser muy difíciles de desandar. Más allá de que una tecnología en abstracto tenga siempre efectos duraderos (se aprende a hacer algo de un modo en que antes no se sabía hacer, y salvo catástrofes es difícil de desaprenderlo), las condiciones materiales que ésta puede instalar también puede sostenerse con la misma durabilidad.
