@@ -33,7 +33,7 @@ sass:
   style:            compressed
 
 # Comments
-# disqus_shortname:   futurephilosophy
+disqus_shortname:   futurephilosophy
 
 # Social
 # if you don't have any of social below, comment the line.

@@ -5,6 +5,7 @@ date: 2020-02-22
 authors: "Juan Fernández Zaragoza"
 excerpt: "Cómo el Big Data puede torcer la ley"
 tags: [big data]
+comments: true
 ---
 Se usa el término “proxy” para referirse a fenómenos que sustituyen a otros en el cumplimiento de alguna función. Por ejemplo, suele hablarse de “guerras proxy” para referirse a las guerras subsidiarias entre los Estados Unidos y la Unión Soviética durante la guerra fría. No se enfrentaban, en ellas, yanquis y rusos directamente, sino que lo hacían apoyando bandos opuestos en conflictos bélicos en que estuvieran en juego sus esferas de influencia. Las guerras en Corea, Vietnam y Afganistán fueron fenómenos sustitutos, que cumplían la función de enfrentar el capitalismo norteamericano al socialismo soviético, en algo así como una tercerización de la guerra. En informática, se habla de servidores proxy para referirse a los dispositivos que representan clientes en la petición de recursos. En lugar de que el cliente le pida el recurso directamente al servidor, se lo pide al proxy, que hace de intermediario, y se vuelve el sustituto que cumple con la función del cliente.
 

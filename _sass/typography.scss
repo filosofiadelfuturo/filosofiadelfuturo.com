@@ -12,6 +12,9 @@
 	}
 }
 .content {
+	::selection {
+		background: yellow;
+	}
 	@include font-rem(18);
 	padding: 0 8rem;
 	-moz-osx-font-smoothing: grayscale;

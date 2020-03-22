@@ -6,6 +6,7 @@ authors: "Juan Fernández Zaragoza"
 editors: "Valentín Muro y Joaquín Bardauil"
 excerpt: "Una exhortación a la Filosofía del Futuro"
 tags: [mente, futuro]
+comments: true
 ---
 Así como en su momento lo hizo la máquina de vapor, hoy la computadora es primer motor y expresión característica de la revolución productiva que define su época. Como en todas las (poquísimas) revoluciones tecnológicas que produjimos, ni la efervescencia del desarrollo, ni el surgimiento de conocimientos y técnicas de vanguardia, ni la explosión de nuevas ideas y diseños de artefactos son tendencias localizadas. Al contrario: son transversales a todas las disciplinas y áreas de desenvolvimiento humano. Esta transversalidad se pone de manifiesto también en la filosofía: desde la filosofía de la mente, que se nutre de los desarrollos últimos en materia de ciencias cognitivas, o desde la filosofía de las ciencias, que comienza a incluir problemas propios de disciplinas como las neurociencias, la computación, la biología sintética, entre otras, hasta disciplinas tan antiguas como la ética o la metafísica, que se vuelven fundamentales para conceptualizar y discutir usos y descubrimientos en materia de inteligencia artificial, bioingeniería o información, cada disciplina filosófica cuenta con problemas y preguntas que surgen del seno de la revolución productiva actual. Desde ninguna sola de estas áreas filosóficas puede agotarse el campo de problemas que significa el pensar esta revolución tecnológica, científica y productiva desde una perspectiva filosófica.
 
@@ -25,14 +26,14 @@ Hablar de “filosofía del futuro” beneficia al conjunto de las personas que 
 
 Por último, vale aclarar que la filosofía del futuro no puede ser habitada solamente por personas del ámbito de la filosofía. Sin una diversidad de voces con distintas experiencias en aquellas áreas que son objeto de nuestra discusión filosófica corremos el riesgo de hablar desde la ignorancia o la superficialidad. Esto hace fundamental al trabajo interdisciplinario y la incorporación a la discusión filosófica de personas que se especialicen en todo campo en el que afloren las nuevas ideas, nuevos diseños, nuevas relaciones de poder; campos que, en su explosivo desarrollo, resumen lo que significa el Siglo XXI para la historia del pensamiento.
 
----	
-##### El Newsletter de Filosofía del Futuro profundizará y justificará las afirmaciones y propuestas expuestas en la nota anterior. Esperamos que sirva tanto para divulgar temas y problemas filosóficos que consideramos parte de la filosofía del futuro como también para exhortar a lxs lectorxs a introducirse en estas discusiones. 
+---
+##### El Newsletter de Filosofía del Futuro profundizará y justificará las afirmaciones y propuestas expuestas en la nota anterior. Esperamos que sirva tanto para divulgar temas y problemas filosóficos que consideramos parte de la filosofía del futuro como también para exhortar a lxs lectorxs a introducirse en estas discusiones.
 
 ##### Para esto, las notas serán de tres tipos distintos:
 
 * ##### Temas de actualidad que llamen a la reflexión filosófica.
 * ##### Temas filosóficos que sean útiles para pensar la actualidad.
-* ##### Temas metafilosóficos que sirvan para guiar y motivar el desarrollo de la filosofía del futuro. 
+* ##### Temas metafilosóficos que sirvan para guiar y motivar el desarrollo de la filosofía del futuro.
 
 ##### A continuación, de manera ilustrativa, presentamos una lista de temáticas filosóficas que consideramos parte del marco general de la Filosofía del Futuro. Cada temática tiene un conjunto de preguntas filosóficas asociadas. Exponemos aquí, a modo de ejemplo, un subconjunto breve para cada una.
 
@@ -42,7 +43,7 @@ Por último, vale aclarar que la filosofía del futuro no puede ser habitada sol
 
 ##### ¿Que es un artefacto tecnológico?, ¿cómo ha influenciado el desarrollo tecnológico el curso de la historia humana? ¿Cual es su impacto en el mundo actual? ¿Qué relación guardan el desarrollo de la tecnología y el desarrollo de la ciencia?
 
-* #### Filosofía de la computación y la informática 
+* #### Filosofía de la computación y la informática
 
 ##### ¿Pueden pensar las máquinas? ¿Qué es la información? ¿Qué quiere decir que un objeto material implemente un cómputo? ¿Qué es la virtualidad?
 
@@ -56,7 +57,7 @@ Por último, vale aclarar que la filosofía del futuro no puede ser habitada sol
 
 * #### Tecnología y política
 
-##### ¿Bajo qué mecanismos opera el poder en la red digital? ¿Qué efectos tiene la actividad en línea en los conceptos de verdad y la construcción del sentido común? ¿Cómo afecta la automatización de tareas, tanto cognitivas como mecánicas en el modo en que se genera y distribuye la riqueza? 
+##### ¿Bajo qué mecanismos opera el poder en la red digital? ¿Qué efectos tiene la actividad en línea en los conceptos de verdad y la construcción del sentido común? ¿Cómo afecta la automatización de tareas, tanto cognitivas como mecánicas en el modo en que se genera y distribuye la riqueza?
 
 * #### Epistemología y conocimiento
 

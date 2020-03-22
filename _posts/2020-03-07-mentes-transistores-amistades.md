@@ -5,6 +5,7 @@ date: 2020-03-07
 authors: "Rocco Di Tella"
 excerpt: "El pensamiento también vive fuera de la cabeza"
 tags: [mente extendida]
+comments: true
 ---
  Hace unos días me robaron mi mochila con la computadora adentro. Qué cagada.
 
@@ -17,9 +18,9 @@ tags: [mente extendida]
 Qué buena la sensación de entrar, aunque sea de una computadora ajena, a mi cuenta de Google y que siga todo como  de costumbre. Mis documentos, mis artículos guardados para leer. Cuando empiezo a tipear en el buscador, se me completa con las mismas páginas de siempre. No es de particular ayuda, pero se siente familiar.
 
 El timing, invariablemente, es pésimo. Días antes de rendir un parcial en la facultad para el que tengo que *programar*. Pero es más que eso, me gusta llevarla de un lado a otro. Siento que me puedo poner a trabajar en cualquier lado, en cualquier cosa. Escribir, estudiar, leer.
- 
+
 ******
- 
+
 
 *The Extended Mind* (mente extendida) es el segundo paper de filosofía más citado de la historia. Es medio trampa, porque Hegel y Kant y todos esos escribían Libros, no papers para journals filosóficos, pero bueno. Para mí vale igual.
 
@@ -27,7 +28,7 @@ A los estándares de hoy, Andy Clark no patea la pelota demasiado lejos del áre
 
 Una crítica que me encantó sobre ese paper decía “Cuando lo publicaron, en el 98’, no era verdad. Hoy sí.”
 
--!Bien, encontré las comillas! voy a dejar de poner diéresis-. 
+-!Bien, encontré las comillas! voy a dejar de poner diéresis-.
 
 Si la filosofía fuese un deporte, nuestras intuiciones serían la pelota. Argumentos como el de antes son típicos. Pero más típico aún es escuchar historias, narradas específicamente para estirar nuestras intuiciones en alguna dirección en específico.
 

@@ -5,6 +5,7 @@ date: 2019-11-30
 authors: "Valentín Muro"
 excerpt: "Las personas no somos solo átomos, sino también información. Es por esto que al discutir acerca de  tecnología debemos tener en cuenta también cómo esta altera lo que somos."
 tags: [mente, futuro, información]
+comments: true
 ---
 Las personas no somos solo átomos, sino también información.
 Escuché esto por primera vez sentado en una diminuta sala de estudio en la Sociedad Argentina de Análisis Filosófico. Frente a nosotros [Luciano Floridi, filósofo de la información](https://www.lanacion.com.ar/2066304-luciano-floridi-como-la-filosofia-puede-salvar-a-la-tecnologia-y-al-mundo), nos comentaba sus preocupaciones respecto del futuro. Una de ellas era, precisamente, que en la academia suele haber mayor preocupación por los “problemas de filósofos” y no tanto por los problemas filosóficos.
@@ -23,7 +24,7 @@ Por ejemplo, debemos adoptar la perspectiva de que cada vez más vivimos en una 
 
 Esta perspectiva, además, nos fuerza a repensar nuestra relación con la memoria. A diferencia del registro de información en soportes físicos, como podría ser un papel impreso o una roca tallada, la memoria digital puede ser tan volátil como la cultura oral. Pero en esta “paradoja de la prehistoria digital” muchas veces vivimos convencidos de lo contrario y no caemos en la cuenta de que la tecnología digital rara vez preserva al pasado para el consumo en el futuro — como lo haría un libro de papel — sino que nos hace vivir en un permanente presente.
 
-Cuando se trata de la memoria solemos preocuparnos por su almacenamiento y la eficiencia en su administración, pero dejamos de lado “la importancia de la curación respecto de lo que es significativo y, en consecuencia, de la sedimentación estable del pasado como una serie ordenada de cambios”. 
+Cuando se trata de la memoria solemos preocuparnos por su almacenamiento y la eficiencia en su administración, pero dejamos de lado “la importancia de la curación respecto de lo que es significativo y, en consecuencia, de la sedimentación estable del pasado como una serie ordenada de cambios”.
 
 Este constante presente, carente de sedimentación, nos hace perder la maravillosa capacidad de poner las cosas en perspectiva. “Perdimos esta habilidad en apenas una generación”, se lamenta Floridi.
 
@@ -39,15 +40,15 @@ Quizá aquí sea donde la aventurada perspectiva metafísica de que estamos hech
 La propuesta de Floridi no es necesariamente innovadora pero sí es útil al momento de pensar el marco ético que debería adoptarse frente a las posibilidades de la tecnología digital en torno a nuestra identidad. De este modo, cuando discutimos sobre privacidad no sólo estamos contemplando lo que pasa con nuestra información en el mundo, sino la forma frágil e imperfecta en que esta nos constituye.
 
 ---
-##### Floridi tiene algunas publicaciones muy interesantes para complementar la lectura de este artículo 
+##### Floridi tiene algunas publicaciones muy interesantes para complementar la lectura de este artículo
 
-- ##### Floridi, L. (1999). Philosophy and computing: an introduction. 
+- ##### Floridi, L. (1999). Philosophy and computing: an introduction.
 	- ##### Este es un texto amigable y muy interesante sobre el lugar que la computación tiene en la filosofía actual. Discute temas como la revolución de Internet, las bases de datos y el sueño enciclopédico de la Ilustración, y la inteligencia artificial.
 - ##### Floridi, L. (2010). Information: a very short introduction.
 	- ##### Este es otro texto introductorio y amigable, pero en este caso el tema central pasa a ser ya la información, y no tanto la computación. Por esa razón, el autor trabaja este concepto en relación a la computación y también en la biología y en la sociología, y a su vez analiza sus impactos éticos y políticos.
-- ##### Floridi, L. (2011). The philosophy of information. 
+- ##### Floridi, L. (2011). The philosophy of information.
 	- ##### Este es un libro filosóficamente técnico cuyo objetivo es el establecimiento del campo de la filosofía de la información. Se establecen sus problemas principales, los métodos que debería seguir, y las posibles definiciones del concepto de información con sus ventajas y desventajas.
-- ##### Floridi, L. (2013). The ethics of information. 
+- ##### Floridi, L. (2013). The ethics of information.
 	- ##### Esta publicación continúa la línea de su predecesora y se propone sistematizar el conjunto de problemas suscitados por las tecnologías de la información y la comunicación. De ese modo, se muestra que el aparato conceptual desarrollado en The philosophy of information es capaz tanto de sistematizar las problemáticas suscitadas por estas tecnologías, como también ofrecer perspectivas novedosas en cuanto a su resolución.
 - ##### Floridi, L. (2014). The 4th revolution: how the infosphere is reshaping human reality.
 	- ##### Aquí se establece una continuidad con Information: a very short introduction, en tanto que ofrece un análisis del concepto de información en relación a un área determinada. En este caso, el objeto de estudio principal es el impacto de la información en la sociedad, y en la vida particular de cada persona. El hecho de que la información ya pasa a ser una categoría fundamental para contestar a la pregunta “¿Qué somos?” es una interesante consecuencia de este texto.

@@ -35,10 +35,22 @@ layout: compress
                 {% if page.editors %}
                 <br />Editado por: {{ page.editors }}</i></h5>
                 {% endif %}
+                <hr />
+
+                <br />
+                <br />
+                <br />
+
+                {% if page.comments and site.disqus_shortname %}
+                <section id="disqus_thread" class="animated"></section>
+                <!-- /#disqus_thread -->
+                {% include disqus_comments.html %}
+                {% endif %}
 
                 <div class="entry-meta">
                 {% include meta.html %}
                 </div>
+                {% include mailchimp.html %}
             </div>
         </div>
     </header>
