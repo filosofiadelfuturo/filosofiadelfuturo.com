@@ -141,16 +141,25 @@ body {
 }
 
 .thin-back {
-	float: right;
+	//float: right;
+	margin-left: 0;
+	margin-right: auto;
+
 }
 
 .thin-logo {
-	float: right;
+	// float: right;
+
+	margin-left: auto;
+	margin-right: auto;
 	display: inline-block;
 }
 
 .thin-links {
-	margin: 0 auto;
+	// margin: 0 auto;
+
+	margin-left: auto;
+	margin-right: 0;
 	display: inherit;
 }
 

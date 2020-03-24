@@ -13,6 +13,7 @@ layout: compress
     {% include nav.html %}
     <!-- Header -->
     <header class="header" role="banner">
+        {% include nav-bar.html %}
         <div class="wrapper animated fadeIn">
             <div class="content">
                 <div class="post-title">
@@ -26,12 +27,14 @@ layout: compress
                     {% for script in site.scripts %}
                         <li class="wow fadeInLeft author-item" data-wow-duration="1.5s">
 
-                            <a href="{{ site.url }}/assets/scripts/{{ script.iframe }}">
+                            <a href="{{ site.url }}{{ script.url }}">
                                 <h1>{{ script.name }}</h1>
-                            </a>
-                            <a href="{{ site.url }}/assets/scripts/{{ script.iframe }}">
                                 <p>{{ script.description }}</p>
                             </a>
+                            <!-- <a href="{{ site.url }}/assets/scripts/{{ script.iframe }}">
+                                <h1>{{ script.name }}</h1>
+                                <p>{{ script.description }}</p>
+                            </a> -->
 
                             <a href="{{ site.url }}/assets/scripts/{{ script.iframe }}" class="btn zoombtn">Play</a>
                         </li>
