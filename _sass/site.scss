@@ -130,6 +130,8 @@ body {
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	display: flex;
 
+	text-align: center;
+
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
@@ -137,6 +139,21 @@ body {
 	    box-shadow: none;
 	}
 }
+
+.thin-back {
+	float: right;
+}
+
+.thin-logo {
+	float: right;
+	display: inline-block;
+}
+
+.thin-links {
+	margin: 0 auto;
+	display: inherit;
+}
+
 #disqus_thread {
 	width: 75%;
 	max-width: 850px;
