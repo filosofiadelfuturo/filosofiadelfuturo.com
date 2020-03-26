@@ -1,0 +1,15 @@
+{% include mailchimp.html %}
+<hr />
+
+<br />
+<br />
+<br />
+{% if site.disqus_shortname %}
+    <section id="disqus_thread" class="animated"></section>
+    <!-- /#disqus_thread -->
+    {% include disqus_comments.html %}
+{% endif %}
+
+<div class="entry-meta">
+{% include meta.html %}
+</div>

@@ -19,7 +19,7 @@ layout: compress
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     {% if page.image %}
                     <h3 class="title">
-                        <img class="author-image" src="../assets/img/posts/{{ page.image }}" >
+                        <img class="" src="../assets/img/posts/{{ page.image }}" >
                     </h3>
                     {% endif %}
 
@@ -35,6 +35,9 @@ layout: compress
                         <i class="fa fa-home"></i>
                     </a-->
                 </div>
+
+                {% include tags-post.html %}
+
                 {{ content }}
 
                 <hr />
@@ -46,22 +49,7 @@ layout: compress
                 {% endif %}
                 <hr />
 
-                {% include mailchimp.html %}
-                <hr />
-
-                <br />
-                <br />
-                <br />
-
-                {% if page.comments and site.disqus_shortname %}
-                    <section id="disqus_thread" class="animated"></section>
-                    <!-- /#disqus_thread -->
-                    {% include disqus_comments.html %}
-                {% endif %}
-
-                <div class="entry-meta">
-                {% include meta.html %}
-                </div>
+                {% include footer.html %}
             </div>
         </div>
     </header>
