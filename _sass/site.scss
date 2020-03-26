@@ -36,6 +36,7 @@ body {
 	box-sizing: border-box;
 }
 .header {
+	display: block;
 	height: 100%;
 	position: relative;
 	width: 100%;
@@ -122,6 +123,27 @@ body {
 .thin-wrapper {
 	width: 75%;
 	max-width: 1000px;
+	margin: 1rem auto;
+	background: rgba(255, 255, 255, 0.4);
+	color: $color_tuatara;
+	padding: 1em 2em;
+	border-radius: 3px;
+	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	display: flex;
+
+	text-align: center;
+
+	@include transition(.5s);
+	@media #{$small} {
+		width: 90%;
+		padding: 2em 0;
+	    box-shadow: none;
+	}
+}
+
+.thin-home-wrapper {
+	width: 50%;
+	max-width: 550px;
 	margin: 1rem auto;
 	background: rgba(255, 255, 255, 0.4);
 	color: $color_tuatara;

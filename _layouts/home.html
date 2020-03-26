@@ -16,7 +16,19 @@ layout: compress
 <body>
     {% include nav.html %}
     <!-- Header -->
-    <header class="header flex" role="banner">
+    <header class="header" role="banner">
+
+        <div class="thin-home-wrapper animated fadeIn">
+        {% for link in site.data.navigation %}
+			{% if link.title != null %}
+				<a class="btn zoombtn thin-back" href="{{ domain }}{{ link.url }}{{link[0]}} {{link[1]}}"
+					{% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer" {% endif %}>
+					<h2>{{ link.title }}</h2>
+				</a>
+			{% endif %}
+		{% endfor %}
+        </div>
+
         <div class="container animated fadeIn">
             <div class="row">
                 <!--a href="{{ site.url }}">

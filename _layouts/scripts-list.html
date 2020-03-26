@@ -18,14 +18,11 @@ layout: compress
             <div class="content">
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
-                    <a class="btn zoombtn" href="{{site.url}}">
-                        <i class="fa fa-home"></i>
-                    </a>
                 </div>
                 <div class="post-list">
                 <ul class="author-list">
                     {% for script in site.scripts %}
-                        <li class="wow fadeInLeft author-item" data-wow-duration="1.5s">
+                        <li class="wow author-item" data-wow-duration="1.5s">
 
                             <a href="{{ site.url }}{{ script.url }}">
                                 <h1>{{ script.name }}</h1>
