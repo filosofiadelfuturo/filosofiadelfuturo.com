@@ -26,6 +26,11 @@ layout: compress
                         <li class="wow post-list" data-wow-duration="1.5s">
 
                             <a href="{{ site.url }}{{ post.url }}">
+                                {% if post.image %}
+                                <h3 class="title">
+                                    <img class="" src="../assets/img/posts/{{ post.image }}" >
+                                </h3>
+                                {% endif %}
                                 <h1>{{ post.title }}</h1>
                                 <p><i>{{ post.date | date_to_string }}</i>
                                     <br />{{ post.excerpt }}
