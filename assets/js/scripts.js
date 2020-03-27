@@ -78,8 +78,22 @@ $(document).ready(function() {
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
+    if (!document.getElementById("myBar"))
+        return;
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+function ToggleTheme(){
+    window.localStorage["dark"] = !(window.localStorage["dark"] == "true");
+
+    var element = document.getElementsByClassName("wrapper")[0];
+    element.classList.toggle("dark");
+}
+
+function Switch() {
+    document.getElementById("switch").click();
+    ToggleTheme();
 }
