@@ -6,7 +6,7 @@ authors: "Juan Fernández Zaragoza"
 excerpt: "Los movimientos sociales, las noticias falsas y los virus no son tan distintos"
 tags: [fake news, información, red]
 comments: true
-image: "pandemia-ideas.png"
+image: "pandemia_ideas.jpg"
 ---
 
 ¿Qué tienen en común la primavera árabe, una noticia falsa en internet y el virus que nos obliga a guardarnos en casa estas próximas semanas? Cuando existen fenómenos que desde algún punto de vista son similares, los modelos formulados para entender la evolución de cualquiera de ellos sirve para entender al resto. Por otra parte, entender un fenómeno nos permite obrar e intervenir sobre el mismo, o en otras palabras, hacer ingeniería. Un modelo habilita métodos, y cuando múltiples fenómenos son similares, métodos similares pueden ser aplicados para intervenir en todos ellos.
