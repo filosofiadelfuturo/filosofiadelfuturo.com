@@ -81,6 +81,14 @@
     .btn {
         @include font-rem(14);
     }
+
+	img {
+		max-width: 400px;
+
+		@media #{$small} {
+			max-width: 100%;
+		}
+	}
 }
 
 // hr break
