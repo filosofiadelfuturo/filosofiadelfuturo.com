@@ -7,6 +7,7 @@ editors: "Valentín Muro y Joaquín Bardauil"
 excerpt: "Una exhortación a la Filosofía del Futuro"
 tags: [mente, futuro]
 comments: true
+image: "por_que_filo_futuro.jpg"
 ---
 Así como en su momento lo hizo la máquina de vapor, hoy la computadora es primer motor y expresión característica de la revolución productiva que define su época. Como en todas las (poquísimas) revoluciones tecnológicas que produjimos, ni la efervescencia del desarrollo, ni el surgimiento de conocimientos y técnicas de vanguardia, ni la explosión de nuevas ideas y diseños de artefactos son tendencias localizadas. Al contrario: son transversales a todas las disciplinas y áreas de desenvolvimiento humano. Esta transversalidad se pone de manifiesto también en la filosofía: desde la filosofía de la mente, que se nutre de los desarrollos últimos en materia de ciencias cognitivas, o desde la filosofía de las ciencias, que comienza a incluir problemas propios de disciplinas como las neurociencias, la computación, la biología sintética, entre otras, hasta disciplinas tan antiguas como la ética o la metafísica, que se vuelven fundamentales para conceptualizar y discutir usos y descubrimientos en materia de inteligencia artificial, bioingeniería o información, cada disciplina filosófica cuenta con problemas y preguntas que surgen del seno de la revolución productiva actual. Desde ninguna sola de estas áreas filosóficas puede agotarse el campo de problemas que significa el pensar esta revolución tecnológica, científica y productiva desde una perspectiva filosófica.
 

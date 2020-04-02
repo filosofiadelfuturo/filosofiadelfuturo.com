@@ -6,6 +6,7 @@ authors: "Valentín Muro"
 excerpt: "Las personas no somos solo átomos, sino también información. Es por esto que al discutir acerca de  tecnología debemos tener en cuenta también cómo esta altera lo que somos."
 tags: [mente, futuro, información]
 comments: true
+image: "somos_informacion.png"
 ---
 Las personas no somos solo átomos, sino también información.
 Escuché esto por primera vez sentado en una diminuta sala de estudio en la Sociedad Argentina de Análisis Filosófico. Frente a nosotros [Luciano Floridi, filósofo de la información](https://www.lanacion.com.ar/2066304-luciano-floridi-como-la-filosofia-puede-salvar-a-la-tecnologia-y-al-mundo), nos comentaba sus preocupaciones respecto del futuro. Una de ellas era, precisamente, que en la academia suele haber mayor preocupación por los “problemas de filósofos” y no tanto por los problemas filosóficos.

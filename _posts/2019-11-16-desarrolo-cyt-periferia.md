@@ -7,6 +7,7 @@ editors: "Valentín Muro"
 excerpt: "Las condiciones de la investigación en América Latina"
 tags: [ciencia, tecnología]
 comments: true
+image: "ciencia_tecnologia_periferia.jpg"
 ---
 En el año 1687 Isaac Newton publica *Principios matemáticos de la filosofía natural* estableciendo lo que muchos denominan las bases que dan inicio a la ciencia moderna. En su contexto, este trabajo significó la confirmación de que todo el universo se comporta según principios mecánicos que se pueden describir matemáticamente y que están al alcance de ser entendidos por los seres humanos. Esto descartó la necesidad de recurrir a la hipótesis de Dios como explicación. Trescientos cincuenta años y dos revoluciones industriales más tarde, mientras transitamos la mayor revolución tecnológica de la historia, hoy la ciencia y la tecnología no sólo producen cambios profundos en nuestras sociedades sino que también son brújula simbólica para entender nuestra relación con el entorno y nuestro lugar en el mundo.
 

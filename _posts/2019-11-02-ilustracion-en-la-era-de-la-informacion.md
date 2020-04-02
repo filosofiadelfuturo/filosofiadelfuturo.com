@@ -6,6 +6,7 @@ authors: "Eliana Franceschini"
 excerpt: "Sapere aude"
 tags: [mente]
 comments: true
+image: "ilustracion_era_informacion.png"
 ---
 El filósofo Immanuel Kant escribió en el año 1784 un ensayo titulado “Respuesta a la pregunta: ¿Qué es la Ilustración?”. Este texto formó parte de una serie de respuestas que publicó el periódico alemán Berlinische Monatschrift (Boletín mensual de Berlín) a la siguiente pregunta formulada por el clérigo Johan Friedrich Zöllner:  “¿Qué es la Ilustración? Esta pregunta tal vez sea tan importante como la pregunta ¿Qué es la verdad?, tiene que ser respondida antes de que se comience a ilustrar y hasta el momento no se ha encontrado respuesta en ninguna parte”.
 

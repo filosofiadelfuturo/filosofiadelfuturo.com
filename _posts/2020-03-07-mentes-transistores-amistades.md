@@ -6,6 +6,7 @@ authors: "Rocco Di Tella"
 excerpt: "El pensamiento también vive fuera de la cabeza"
 tags: [mente extendida]
 comments: true
+image: "mentes_transistores_amistades.png"
 ---
  Hace unos días me robaron mi mochila con la computadora adentro. Qué cagada.
 

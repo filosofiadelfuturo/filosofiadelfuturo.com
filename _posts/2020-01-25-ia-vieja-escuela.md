@@ -6,6 +6,7 @@ authors: "Santiago López Gagliano"
 excerpt: "Los primeros pasos de la inteligencia artificial simbólica"
 tags: [ia]
 comments: true
+image: "ia_vieja_escuela.png"
 ---
 Nuestra obsesión por construir una máquina que se mueva, piense, reaccione y se exprese como nosotros no es para nada nueva. Antecedentes de esta peculiar inquietud podemos rastrearlos en los autómatas de Pierre Jaquet-Droz en el siglo XVIII. Pero recién en el siglo XX comenzamos a poseer las herramientas tecnológicas, técnicas, ingenieriles y computacionales como para que la ilusión de concretar esta empresa parezca más probable o, como mínimo, menos improbable. Fueron innumerables los intentos para empezar a construir los bloques indispensables de este ambicioso proyecto, con diseños que exhibieron diversas estructuras, tamaños y comportamientos. Pero centrémonos en dos casos paradigmáticos: los robots [Freddy](https://en.wikipedia.org/wiki/Freddy_II) y [Shakey](https://en.wikipedia.org/wiki/Shakey_the_robot) del Departamento de Inteligencia Artificial de la Universidad de Edimburgo y del Instituto de Investigación de Stanford respectivamente.  
 

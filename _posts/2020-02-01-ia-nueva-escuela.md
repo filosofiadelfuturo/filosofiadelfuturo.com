@@ -6,6 +6,7 @@ authors: "Santiago López Gagliano"
 excerpt: "Nueva inteligencia artificial, robótica y corporalidad"
 tags: [ia]
 comments: true
+image: "ia_nueva_escuela.png"
 ---
 [En la nota anterior](https://futurephilosophy.github.io/ia-vieja-escuela/) empezamos a contarte cuándo, dónde, y un poco acerca de cómo empezaron a construirse las primeras arquitecturas que le daban cuerpo al viejo sueño de construir una máquina que manifieste una inteligencia como la nuestra: la inteligencia artificial simbólica -o GOFAI-, que comenzó a mediados de los 50, se extendió a lo largo de los 60 y en los 70 empezó a manifestar sus limitaciones. También vimos la paradoja de Moravec que nos enseña mucho no sólo acerca de cuáles son las complicaciones a la hora de producir artificialmente una inteligencia como la nuestra, sino que también nos da pautas acerca de cómo autopercibimos nuestras habilidades, a qué tipos de capacidades solemos atribuirle complejidad e inteligencia, y cuales damos por sentadas.
 

@@ -6,6 +6,7 @@ authors: "Joaquín Bardauil"
 excerpt: "Desmitificando algunos de los más grandes prejuicios sobre la realidad virtual."
 tags: [tecnología]
 comments: true
+image: "mito_realidad_virtual.png"
 ---
 Muchxs de nosotrxs escuchamos alguna vez la idea de que, con el desarrollo y la difusión de la realidad virtual, existe la posibilidad de que nos veamos cada vez más inmersos en esta tecnología, y que pase a formar una parte cada vez más integral de nuestras vidas. La idea ya es moneda corriente en la ciencia ficción, siendo un claro ejemplo el tan citado libro de William Gibson, Neuromancer, en donde Case, el protagonista de la novela, desdeña su vida corpórea fuera de la realidad virtual, y en cambio preferiría pasar su tiempo íntegramente allí.
 

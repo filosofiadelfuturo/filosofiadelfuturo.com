@@ -6,6 +6,7 @@ authors: "Tristana Wolff y Santiago López Gagliano"
 excerpt: "Una reflexión acerca de la industria musical contemporánea"
 tags: [tecnología]
 comments: true
+image: "clave_digital.png"
 ---
 “En años recientes, varias compañías han presentado aplicaciones de software y páginas web que ofrecen música en stream a los oyentes a través de internet. Algunos han proclamado esto como la «salvación» del negocio musical” Afirma el músico David Byrne en su libro *Cómo funciona la música*.
 

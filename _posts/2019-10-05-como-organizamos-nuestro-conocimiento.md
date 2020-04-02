@@ -7,6 +7,7 @@ editors: "Juan Fernández Zaragoza"
 excerpt: "La historia de Internet y su devenir actual"
 tags: [mente, futuro]
 comments: true
+image: "como_organizamos_nuestro_conocimiento.jpg"
 ---
 ¿Cómo organizamos nuestro conocimiento? ¿Cuáles son los procesos a través de los cuales nos movemos entre distintas ideas? ¿Cómo podemos aplicar efectivamente estos procesos a la cantidad de contenidos producidos a través de la historia? Estas y otras preguntas similares fueron problemas relevantes desde los primeros manuscritos de Sumeria hasta la actual era de Internet.
 

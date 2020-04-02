@@ -6,6 +6,7 @@ authors: "Juan Fernández Zaragoza"
 excerpt: "Balance de la década y de nuestro año"
 tags: [tecnología]
 comments: true
+image: "decada_del_siglo.jpg"
 ---
 Termina la década y empieza una nueva. Es cierto que hay algo de ficticio en celebrar las vueltas al sol. Más aún, parafraseando a Borges, también hay algo de ficticio en poner tanta expectativa cuando son múltiplos de diez (él decía que era más que nada una celebración del sistema decimal). Sin embargo, por más ficticio que pueda considerarse, es también signo de algo muy real. Hoy por hoy, siendo que la velocidad de las transformaciones que habitamos es creciente, diez años son más tiempo que en cualquier otro momento.
 
