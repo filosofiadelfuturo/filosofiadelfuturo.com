@@ -31,9 +31,10 @@ layout: compress
                                     <img class="" src="../assets/img/posts/{{ post.image }}" >
                                 </h3>
                                 {% endif %}
-                                <h1>{{ post.title }}</h1>
-                                <p><i>{{ post.date | date_to_string }}</i>
-                                    <br />{{ post.excerpt }}
+                                <p>
+                                    <i>{{ post.date | date_to_string }}</i>
+                                    <br />
+                                    {{ post.authors }}
                                 </p>
                             </a>
 
