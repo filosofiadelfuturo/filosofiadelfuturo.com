@@ -116,7 +116,7 @@ body {
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
-		padding: 2em 0;
+		padding: 0px;
 	    box-shadow: none;
 	}
 }
@@ -296,5 +296,5 @@ header .entry-meta {
 
 .dark {
 	color: white !important;
-	background-color: #grey !important; 
+	background-color: #grey !important;
 }

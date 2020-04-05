@@ -20,11 +20,11 @@ layout: compress
         <div class="wrapper animated fadeIn">
             <div class="content">
                 <div class="post-title {% if page.feature %} feature {% endif %}">
-                    {% if page.image %}
                     <h3 class="title">
-                        <img class="" src="../assets/img/posts/{{ page.image }}" >
+                        <a class="zoombtn" href="{{ site.url }}">
+                            <img class="author-image" src="../assets/img/title.png">
+                        </a>
                     </h3>
-                    {% endif %}
 
                     <h3>{{ page.date | date_to_string }}</h3>
                     <h1>{{ page.title }}</h1>
