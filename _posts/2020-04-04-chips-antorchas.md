@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Chips y Antorchas: El enemigo invisible y cómo verlo"
+date: 2020-04-4
+authors: "Juan Fernández Zaragoza"
+excerpt: "El rol de los datos en los tiempos de la pandemia del coronavirus"
+tags: [datos, redes, coronavirus]
+comments: true
+image: "chips_antorchas.jpg"
+---
+El virus arrasa, la cuarentena también. Parece haber un dilema muy difícil de enfrentar. Cuando del otro lado el enemigo es invisible, las opciones que nos quedan son muy pocas. Si no sabemos quiénes están infectados, la única forma segura de detener el avance de la pandemia es asumiendo que cualquiera podría estarlo. Se sigue, entonces, que debemos o bien reducir nuestro contacto con todo el mundo y quedarnos en casa (con los costos económicos y de calidad de vida que eso implica), o bien decidir que asumir ese costo es una estrategia inviable, que la solución nunca debería ser peor que el problema, recomendar barbijo y algún grado de distanciamiento y a otra cosa. Parece que a los países que eligieron la segunda opción les está saliendo el tiro por la culata. Entre los que elegimos la primera, sin embargo, rondan las incertidumbres respecto del futuro. ¿Hasta cuándo puede sostenerse la cuarentena total? ¿Cuánto más va a durar la pandemia? ¿Cómo seguir desde acá? ¿Qué hacer después?
+ 
+
+Lo interesante de nuestros tiempos (y de cualquier cambio rotundo entre dos épocas) es que muchos métodos de tiempos anteriores pueden sostenerse hasta que alguna crisis prueba su obsolescencia. Frente a un virus contagioso aún asintomático y una imposibilidad práctica de distribuir tests diagnósticos masivamente, las salidas todo o nada del dilema taza-taza o laissez faire agotan las opciones desde tiempos inmemoriales. El asunto es que hoy sabemos que no es que el virus sea invisible: estamos a oscuras y nunca prendimos la linterna.
+ 
+
+¿Dónde nos encontramos ahora? No queremos la masacre que significa la pandemia ni podemos sostener la cuarentena indefinidamente. Por ahora, podemos hacer pocos tests y eso nos pone en desventaja. Sin embargo, por alguna razón, la mayoría de las personas que habitamos este país caminamos con un rastreador en el bolsillo, nuestro celular, que documenta cada uno de nuestros movimientos. Esto genera una infinidad de datos que se registran cada segundo, se transmiten directamente a servidores privados y, como cierta vez tildamos una cajita que figuraba al lado de un “acepto”, alguna frase en letra chica determina que esos datos son de propiedad ajena. Los movimientos de la sociedad argentina, con quién se cruza cada quién, el lugar en que vivimos y el lugar en que compramos, nuestros patrones, nuestras regularidades y nuestro historial, la densidad de gente en cada lugar y en cada momento, todo ese mapa, completo, existe y no nos pertenece.
+ 
+
+Ese mapa es la linterna que permite escapar al dilema que enfrentábamos en siglos anteriores. Toda esa información, sumada a la que pueden darnos los pocos tests que hoy en día podemos llevar a cabo, puede salvarnos tanto del contagio masivo, del colapso sanitario y de las miles de muertes, como del constante “yendo de la cama al living”, de la bancarrota general y del colapso económico. Es información que generó el conjunto de nuestra sociedad y que nos es inaccesible.
+ 
+
+Cuando se tiene el mapa de los movimientos de la gente, el virus ya no es invisible. A partir de los casos confirmados de COVID19 y de sus movimientos, se puede inferir la probabilidad que tiene cada quién de haberse contagiado. Ese mapa permite usar los pocos tests que podemos llevar a cabo de un modo mucho más eficiente, de manera que maximicen la información que cada test nos brinda sobre el sistema. Permite también establecer la cuarentena de un modo selectivo y flexible para que, aún evitando el avance de la epidemia, no implique un costo económico casi tan terrible como ella. Nos permite saber con alto grado de fidelidad en dónde puede estar el virus y obrar al respecto en modo ágil y efectivo. ¿Cuántos miles de vidas se cobraría la pandemia si no hacemos nada? ¿Cuánto se disparan la pobreza, la desigualdad y el malestar social si la cuarentena total continúa? Si bien las salidas del dilema son ambas desastrosas, existe una tercera vía que rápidamente nos permitiría hacer las cosas del mejor modo posible. Está toda la red, ya preparada, de relevamiento de información, de almacenamiento y de procesamiento. Podríamos salvarnos con apenas el poder de acceder, desde el estado, a esa información. Pero bueno, un botoncito de “I agree” dicta que su derecho al monopolio del uso de nuestros datos es inviolable, así que tenemos que elegir entre morirnos de coronavirus o de hambre.
+ 
+
+A veces, cuando en tiempos de sequía algún aristócrata acaparaba los granos, la mayoría campesina se olvidaba de sus viejos juramentos de lealtad. Si habían labrado, sembrado y cosechado, ¿también por eso habrían debido desnutrirse? Por suerte para Google, las relaciones de propiedad y sus efectos son mucho más opacas en la infósfera. ¿Cuál es el enemigo invisible?
