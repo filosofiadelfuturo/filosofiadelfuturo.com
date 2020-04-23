@@ -23,7 +23,11 @@
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:image:secure_url" content="{{ site.url }}/{{ site.logo }}">
-    <meta property="og:image" itemprop="image" content="{{ site.url }}/{{ site.logo }}">
+    {% if page.image %}
+      <meta property="og:image" itemprop="image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
+    {% else %}
+      <meta property="og:image" itemprop="image" content="{{ site.url }}/{{ site.logo }}">
+    {% endif %}
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:locale" content="{{ site.locale }}">
     <meta property="og:description" content="{{ page.description | markdownify | strip_html | strip_newlines | escape_once }}">
