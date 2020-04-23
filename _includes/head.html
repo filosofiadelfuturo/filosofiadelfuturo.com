@@ -23,12 +23,14 @@
         <meta name="twitter:title" content="{{ page.title }}">
         <meta name="twitter:description" content="{{ page.description | markdownify | strip_html | strip_newlines | escape_once }}">
         <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:site_name" content="{{ page.title }}">
         <meta property="og:image" itemprop="image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
         <meta property="og:image:secure_url" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
         <meta property="og:description" content="{{ page.description | markdownify | strip_html | strip_newlines | escape_once }}">
     {% else %}
         <meta name="twitter:image" content="{{ site.url }}/{{ site.logo }}">
         <meta name="twitter:title" content="{{ site.title }}">
+        <meta property="og:site_name" content="{{ site.title }}">
         <meta name="twitter:description" content="{{ page.description | markdownify | strip_html | strip_newlines | escape_once }}">
         <meta property="og:title" content="{{ site.title }}">
         <meta property="og:image" itemprop="image" content="{{ site.url }}/{{ site.logo }}">
@@ -37,13 +39,14 @@
     {% endif %}
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-    <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:locale" content="{{ site.locale }}">
     <!-- Webmaster Tools verfication -->
     {% if site.google.verify %}
         <meta name="google-site-verification" content="{{ site.google.verify }}">
     {% endif %}
-    {% if site.bing-verify %}    <meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
+    {% if site.bing-verify %}
+        <meta name="msvalidate.01" content="{{ site.bing-verify }}">
+    {% endif %}
     {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
     <link rel="canonical" href="{{ canonical }}">
     <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
