@@ -19,13 +19,13 @@
     {% endif %}
     <!-- Open Graph -->
     {% if page.title %}
-        <meta name="twitter:image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
+        <meta name="twitter:image" content="{{ site.url }}/assets/img/posts/{{ page.image }}/thumb">
         <meta name="twitter:title" content="{{ page.title }}">
         <!--meta name="twitter:description" content="{{ page.excerpt }}"-->
         <meta property="og:title" content="{{ page.title }}">
         <meta property="og:site_name" content="{{ page.title }}">
-        <meta property="og:image" itemprop="image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
-        <meta property="og:image:secure_url" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
+        <meta property="og:image" itemprop="image" content="{{ site.url }}/assets/img/posts/{{ page.image }}/thumb">
+        <meta property="og:image:secure_url" content="{{ site.url }}/assets/img/posts/{{ page.image }}/thumb">
         <!--meta property="og:description" content="{{ page.excerpt }}"-->
     {% else %}
         <meta name="twitter:image" content="{{ site.url }}/{{ site.logo }}">
