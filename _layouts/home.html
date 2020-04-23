@@ -58,6 +58,12 @@ layout: compress
             </div>
         </div>
     </header>
+		
+	<link itemprop="thumbnailUrl" href="{{ site.url }}/{{ site.logo }}"> 
+	<span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject"> 
+	  <link itemprop="url" href="{{ site.url }}/{{ site.logo }}"> 
+	</span>
+	
     {% include scripts.html %}
 </body>
 
