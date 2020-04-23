@@ -21,21 +21,21 @@
     {% if page.title %}
         <meta name="twitter:image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
         <meta name="twitter:title" content="{{ page.title }}">
-        <meta name="twitter:description" content="{{ page.description | markdownify | strip_html | strip_newlines | escape_once }}">
+        <meta name="twitter:description" content="{{ page.description }}">
         <meta property="og:title" content="{{ page.title }}">
         <meta property="og:site_name" content="{{ page.title }}">
         <meta property="og:image" itemprop="image" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
         <meta property="og:image:secure_url" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
-        <meta property="og:description" content="{{ page.description | markdownify | strip_html | strip_newlines | escape_once }}">
+        <meta property="og:description" content="{{ page.description }}">
     {% else %}
         <meta name="twitter:image" content="{{ site.url }}/{{ site.logo }}">
         <meta name="twitter:title" content="{{ site.title }}">
         <meta property="og:site_name" content="{{ site.title }}">
-        <meta name="twitter:description" content="{{ page.description | markdownify | strip_html | strip_newlines | escape_once }}">
+        <meta name="twitter:description" content="{{ page.description }}">
         <meta property="og:title" content="{{ site.title }}">
         <meta property="og:image" itemprop="image" content="{{ site.url }}/{{ site.logo }}">
         <meta property="og:image:secure_url" content="{{ site.url }}/{{ site.logo }}">
-        <meta property="og:description" content="{{ site.description | markdownify | strip_html | strip_newlines | escape_once }}">
+        <meta property="og:description" content="{{ site.description }}">
     {% endif %}
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
