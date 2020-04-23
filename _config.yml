@@ -4,7 +4,7 @@ long_bio:           '¿Cuál es el rol de la filosofía en el siglo de mayor des
 description:        "Colectivo interdisciplinario para el desarrollo y la divulgación de la Filosofía del Futuro"
 reading_time:       true
 words_per_minute:   300
-logo:               'assets/img/logo.png'
+logo:               'assets/img/title.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             es_US
