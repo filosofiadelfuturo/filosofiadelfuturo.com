@@ -222,12 +222,29 @@ function setNivel(){ // usa variable global nivel.
 	paint();
 }
 
+var rPentomino = [ 31, 32, 32, 31, 32, 32, 32, 33, 33, 31 ];
+var blinker = [ 33, 34, 34, 34, 35, 34 ];
+
+function defLevel(lvl){
+	iniciar();
+	var i = 0;
+	while (i < lvl.length){
+		actual[lvl[i]][lvl[i+1]] = 1;
+		i = i+2;
+	}
+	paint();
+}
+
 
 </script>
 
 </br>
 
 <p id="nivel" style="color:white"></p>
+
+<p style="color:white">
+	Un ejemplo de methuselah es el <a href="javascript:;" onclick="defLevel(rPentomino)">R-Pentomino</a>. Un ejemplo de oscilador es un <a href="javascript:;" onclick="defLevel(blinker)">"blinker"</a>, o lo que diríamos en español un pestañeante.
+</p>
 
 </body>
 </html>
