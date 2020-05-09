@@ -224,6 +224,15 @@ function setNivel(){ // usa variable global nivel.
 
 var rPentomino = [ 31, 32, 32, 31, 32, 32, 32, 33, 33, 31 ];
 var blinker = [ 33, 34, 34, 34, 35, 34 ];
+var beehive = [27,31,28,30,28,32,29,30,29,32,30,31];
+var tableToTable = [27,28,27,31,28,28,28,29,28,30,28,31,30,28,30,29,30,30,30,31,31,28,31,31];
+var triplePseudoStill = [22,34,22,36,22,38,22,39,23,32,23,33,23,34,23,36,23,37,23,39,24,31,25,32,25,34,25,35,25,37,25,38,26,31,26,32,26,34,26,35,26,37,27,38,28,30,28,32,28,33,28,35,28,36,28,37,29,30,29,31,29,33,29,35];
+var quadPseudoStill = [26,34,27,33,27,35,28,33,28,35,29,29,29,30,29,32,29,33,29,35,29,36,30,29,31,30,31,32,31,33,31,35,31,36,32,29,32,30,32,32,32,33,32,35,33,36,34,28,34,30,34,31,34,33,34,34,34,35,35,28,35,29,35,31,35,33,36,32];
+var pulsar = [25,27,25,28,25,29,25,33,25,34,25,35,27,25,27,30,27,32,27,37,28,25,28,30,28,32,28,37,29,25,29,30,29,32,29,37,30,27,30,28,30,29,30,33,30,34,30,35,32,27,32,28,32,29,32,33,32,34,32,35,33,25,33,30,33,32,33,37,34,25,34,30,34,32,34,37,35,25,35,30,35,32,35,37,37,27,37,28,37,29,37,33,37,34,37,35];
+var glider = [33,33,34,31,34,33,35,32,35,33];
+var lightweight = [32,33,32,34,32,35,33,32,33,35,34,35,35,35,36,32,36,34];
+var acorn = [29,33,30,31,30,33,32,32,33,33,34,33,35,33];
+var piHepto = [32,30,32,31,32,32,33,30,34,30,34,31,34,32];
 
 function defLevel(lvl){
 	iniciar();
@@ -242,8 +251,42 @@ function defLevel(lvl){
 
 <p id="nivel" style="color:white"></p>
 
+<br>
+<h2 style="color:white">
+	¿Cómo funciona el juego de la vida?
+</h2>
+
 <p style="color:white">
-	Un ejemplo de methuselah es el <a href="javascript:;" onclick="defLevel(rPentomino)">R-Pentomino</a>. Un ejemplo de oscilador es un <a href="javascript:;" onclick="defLevel(blinker)">"blinker"</a>, o lo que diríamos en español un pestañeante.
+	El recuardo blanco que ves arriba es el visor del juego. Tiene definida por debajo una matriz de cuadraditos que representan células. Cada una de ellas puede estar en dos estados: o bien viva o bien muerta. La aparición de cada una de estas células sigue un comportamiento definido. En cada turno, si una célula tiene exactamente tres células vecinas que están vivas, entones nace. Una célula que ya está viva, si en un paso tiene al menos dos células vecinas vivas, entonces en el paso siguiente seguirá viva. En cualquier caso contrario, una célula morirá.
+</p>
+
+<p style="color:white">
+	Lo interesante de este juego es que, mientras que el sistema sólo tiene definido de manera muy simple el comportamiento de cada célula, sin embargo permite que emerjan fenómenos complejos y que pueden adquirir un significad determindo en un mayor nivel de abstracción. Por ejemplo, determinados conjuntos de células pueden formar una computadora programable como la que estás usando para ver esta página.
+</p>
+
+<br>
+<h2 style="color:white">
+	Algunos patrones en el juego de la vida.
+</h2>
+
+<p style="color:white">
+	En el juego de la vida existen varios <a href="https://www.conwaylife.com/wiki/Pattern">patrones</a>, que se organizan a su vez en varios subgrupos. Los subgrupos más difundidos son los osciladores, las vidas estáticas, las naves espaciales y los matusalenes.
+</p>
+
+<p style="color:white">
+	Las vidas estáticas son patrones que no cambian de una generación a otra, sino que se mantienen estables. Entre las vidas estáticas se encuentran las estrictas, que son aquellas formadas por un único grupo de células, o por más de un grupo de células pero que se necestian mutuamente para sobrevivir. El <a href="javascript:;" onclick="defLevel(beehive)">panal</a> es una vida estática del primer tipo, mientras que el <a href="javascript:;" onclick="defLevel(tableToTable)">tabla sobre tabla</a> es del segundo tipo. Además, existe otro tipo de vidas estáticas (más bonitas): las vidas pseudo-estáticas. Son patrones formados por más de un grupo de células, de manera que pueden ser subdivididas. Un ejemplo es la <a href="javascript:;" onclick="defLevel(triplePseudoStill)">vida pseudo-estática triple</a> o la <a href="javascript:;" onclick="defLevel(quadPseudoStill)">cuádruple</a> (no gozaron de nombres muy creativos).
+</p>
+
+<p style="color:white">
+	Los <a href="https://www.conwaylife.com/wiki/Oscillator">osciladores</a> son patrones que son predecesores de sí mismos. Es decir, después de una serie de pasos, el patrón vuelve a su estadío inicial, siendo la cantidad de pasos que le toma lo que se denomina su <a href="https://www.conwaylife.com/wiki/Period">ciclo</a>. Existen muchos osciladores muy recurrentes, como es el caso del <a href="javascript:;" onclick="defLevel(blinker)">"blinker"</a>. Otros son menos comunes pero son más bonitos que éste, como por ejemplo el <a href="javascript:;" onclick="defLevel(pulsar)">pulsar</a>, descubierto por Conway en 1970.
+</p>
+
+<p style="color:white">
+	Las naves espaciales son bastante similares a los osciladores, en tanto que luego de una serie de pasos vuelve a su estado inicial. La diferencia es que al final de su período, estará en una posición diferente. Algunas de las naves espaciales más comunes son el <a href="javascript:;" onclick="defLevel(glider)">deslizador</a> (o glider) y la <a href="javascript:;" onclick="defLevel(lightweight)">nave de peso ligero</a>.
+</p>
+
+<p style="color:white">
+	Los matusalenes (o methuselah) son patrones que se toman una gran cantidad de generaciones para estabilizarse. Es decir que estarán generando nuevos patrones durante muchos pasos del juego. Muchos methuselahs son particularmente bellos porque sus condiciones de incio son muy simples, pero pueden dar a comportamientos muy complejos y muy bellos de ver. Un ejemplo famoso es el <a href="javascript:;" onclick="defLevel(rPentomino)">R-Pentomino</a>, y otros son el <a href="javascript:;" onclick="defLevel(acorn)">acorn</a> o el <a href="javascript:;" onclick="defLevel(piHepto)">Pi-heptomino</a> (prestale atención a este último )
 </p>
 
 </body>
