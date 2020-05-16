@@ -1,65 +1,77 @@
----
-layout: compress
----
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
-<head>
-    {% include head.html %}
-</head>
-<body>
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body class="black-text">
+    {% include addons/scroll_indicator.html %}
     {% include nav.html %}
+    {% include sidenav.html %}
 
-    {% include scroll-indicator.html %}
+    <!-- Post Title -->
+    <div class="post-title">
+        <!-- TODO: Banner -->
+        <h5>{{ page.date | date_to_string }}</h5>
+        <h1>{{ page.title }}</h1>
+        <p class="reading-time">
+            <i class="material-icons">watch_later</i>
+            {% include addons/read_time.html %}
+        </p>
 
-    <!-- Header -->
-    <header class="header" role="banner">
-        {% include nav-bar.html %}
-        <div class="wrapper animated fadeIn">
-            <div class="content">
-                <div class="post-title {% if page.feature %} feature {% endif %}">
-                    <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
-                            <img class="author-image" src="../assets/img/title.png">
-                        </a>
-                    </h3>
+        {% include addons/tags.html showall=false arrow=true %}
+    </div>
 
-                    <h3>{{ page.date | date_to_string }}</h3>
-                    <h1>{{ page.title }}</h1>
-                    {% if site.reading_time %}
-                    <p class="reading-time">
-                        <i class="fa fa-clock-o"></i>
-                        {% include read-time.html %}
-                    </p><!-- /.entry-reading-time -->
-                    {% endif %}
-                    <!--a class="btn zoombtn" href="{{site.url}}/home/">
-                        <i class="fa fa-home"></i>
-                    </a-->
-                </div>
-
-                {% include tags-post.html %}
-
-                {{ content }}
-
-                <hr />
-                <h5 style="font-weight: normal;"><i>Escrito por: {{ page.authors }}
-                {% if page.editors %}
-                <br />Editado por: {{ page.editors }}</i></h5>
-                {% else %}
-                </i></h5>
-                {% endif %}
-                <hr />
-
-                {% include footer.html %}
-            </div>
+    <!-- Post Body -->
+    <div class="container">
+        <div class="justified content cap-first">
+            {{ content }}
         </div>
-    </header>
-    {% include scripts.html %}
-    {% if site.mathjax == true %}
-    <!-- MathJax -->
-    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    {% endif %}
+
+        <!-- Credits -->
+        <br>
+        <h5 style="font-weight: normal;">
+            <i>Escrito por: {{ page.authors }}
+                {% if page.editors %}
+                <br />
+                Editado por: {{ page.editors }}
+            </i>
+        </h5>
+        {% else %}
+        </i>
+        </h5>
+        {% endif %}
+        <hr />
+
+        <!-- Share -->
+        {% include addons/share_buttons.html %}
+
+        <!-- Mailchimp -->
+        {% include addons/mailchimp.html %}
+
+        <!-- Next Article -->
+
+
+        <!-- Further Reading -->
+        <div class="row">
+            {% assign count = 0 %}
+            {% for tag in page.tags %}
+            {% for post in site.posts %}
+            {% if post.tags contains tag and count < 3 %}
+            <div class="col s12 m6 l4">
+                {% assign count = count | plus: 1 %}
+                {% include cards/post_single.html post=post %}
+            </div>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </div>
+
+        <!-- Comments -->
+        {% include addons/disqus_comments.html %}
+
+    </div>
+
+    {% include footer.html %}
 </body>
+
 </html>

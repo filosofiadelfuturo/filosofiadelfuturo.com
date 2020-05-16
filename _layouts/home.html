@@ -1,70 +1,19 @@
----
-layout: compress
----
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<!doctype html>
+<html>
 
-<head>
-    {% include head.html %}
-</head>
+{% include head.html %}
 
-<body>
+<body class="black-text">
     {% include nav.html %}
-    <!-- Header -->
-    <header class="header" role="banner">
-
-        <div class="thin-home-wrapper animated fadeIn">
-        {% for link in site.data.navigation %}
-			{% if link.title != null %}
-				<a class="btn zoombtn thin-back" href="{{ domain }}{{ link.url }}{{link[0]}} {{link[1]}}"
-					{% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer" {% endif %}>
-					<h2>{{ link.title }}</h2>
-				</a>
-			{% endif %}
-		{% endfor %}
-        </div>
-
-        <div class="container animated fadeIn">
-            <div class="row">
-                <!--a href="{{ site.url }}">
-                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
-                    </a-->
-                <h3 class="title">
-                    <a class="zoombtn" href="{{ site.url }}">
-                        <img class="author-image" src="./assets/img/title.png">
-                    </a>
-                </h3>
-                <h3 class="title long-bio">
-                    <p style="font-size:1.25rem;font-weight:300;text-align: justify;">{{ site.long_bio }}</p>
-                </h3>
-                {% include social-links.html %}
-                <hr class="hr-line">
-
-                <!--h3 class="title">
-                        <p style="font-size:1rem;font-weight:300">Subscribe to our Newsletter</p>
-                        <form action="https://formspree.io/future.philosophyy@gmail.com" method="POST">
-                            <input class="btn" type="email" name="_replyto">
-                            <input class="btn zoombtn" type="submit" value="Send">
-                        </form>
-                   </h3-->
-
-                {% include mailchimp.html %}
-
-            </div>
-        </div>
-    </header>
-		
-	<link itemprop="thumbnailUrl" href="{{ site.url }}/{{ site.logo }}"> 
-	<span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject"> 
-	  <link itemprop="url" href="{{ site.url }}/{{ site.logo }}"> 
-	</span>
-	
-    {% include scripts.html %}
+    {% include sidenav.html %}
+    <div class="container">
+        {% include home_banner.html %}
+        <hr>
+        {% include featured_newsletters.html %}
+        <hr>
+        {% include featured_scripts.html %}
+    </div>
+    {% include footer.html %}
 </body>
 
 </html>

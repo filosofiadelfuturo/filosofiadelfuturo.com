@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body class="black-text">
+    {% include nav.html %}
+    {% include sidenav.html %}
+
+    <!-- Body -->
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+
+        <ul class="collapsible expandable">
+            {% for recommend in site.recommends %}
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons recommend-icons fas fa-{{ recommend.icon }}"></i>
+                    <h5>
+                        {{ recommend.title }}
+                    </h5>
+                </div>
+                <div class="collapsible-body content">
+                    <a href="google.com"><span class="fas fa-ellipsis-v right"></span></a>
+                    <span>{{ recommend.content }}</span>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <!-- Share -->
+        {% include addons/share_buttons.html %}
+
+        <!-- Mailchimp -->
+        {% include addons/mailchimp.html %}
+
+        <!-- Comments -->
+        {% include addons/disqus_comments.html %}
+
+    </div>
+
+    {% include footer.html %}
+</body>
+
+</html>

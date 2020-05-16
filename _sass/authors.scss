@@ -1,0 +1,11 @@
+.authors {
+    .card {
+        @media #{$small} {
+            display: block !important;
+    
+            .card-image {
+                max-width: 100% !important;
+            }
+        }
+    }
+}

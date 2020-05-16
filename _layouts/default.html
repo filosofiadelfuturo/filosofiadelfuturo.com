@@ -1,0 +1,30 @@
+<!-- Edit only to update Default - Backup -->
+
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body class="black-text">
+    {% include nav.html %}
+    {% include sidenav.html %}
+
+    <!-- Body -->
+    <div class="container">
+        {{ content }}
+
+        <!-- Share -->
+        {% include addons/share_buttons.html %}
+
+        <!-- Mailchimp -->
+        {% include addons/mailchimp.html %}
+
+        <!-- Comments -->
+        {% include addons/disqus_comments.html %}
+
+    </div>
+
+    {% include footer.html %}
+</body>
+
+</html>

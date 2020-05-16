@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap" rel="stylesheet">
+    <script src="assets/js/main.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper white"><a class="brand-logo black-text" href="#">Logo</a>
+        <ul class="right hide-on-med-and-down" id="nav-mobile">
+          <li><a class="black-text" href="sass.html">Sass</a></li>
+          <li><a class="black-text" href="sass.html">Sass</a></li>
+          <li><a class="black-text" href="sass.html">Sass</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="slide-out">
+      <li>
+        <div class="user-view">
+          <h4>It's me</h4>
+          <h6>{{ site.author }}</h6>
+          <p class="description-short">{{ site.description_short }}</p>
+        </div>
+      </li>
+      <li>     <a class="clickable" href="#education" target="blank"><span>my_education</span></a></li>
+      <li><a class="clickable" href="#experience" target="blank"><span>my_experience</span></a></li>
+      <li><a class="clickable" href="#projects" target="blank"><span>my_projects</span></a></li>
+      <li> 
+        <div class="divider"></div>
+      </li>
+      <li><a class="subheader"><span>my_social_media:</span></a><a class="clickable" href="{{ site.github_link }}" target="blank"><span>github; </span></a><a class="clickable" href="{{ site.twitter_link }}" target="blank"><span>twitter; </span></a><a class="clickable" href="{{ site.instagram_link }}" target="blank"><span>instagram; </span></a></li>
+    </ul>
+  </body>
+</html>

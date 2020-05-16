@@ -1,0 +1,27 @@
+<!-- Single post -->
+<!-- includes.post=post -> a whole post object object -->
+
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+        <a href="{{ site.url }}{{ include.post.url }}">
+            <img src="{{ site.url }}/assets/img/posts/{{ include.post.image }}">
+        </a>
+    </div>
+    <div class="card-content">
+        <span class="grey-text text-darken-4"> <i> {{ include.post.authors }} </i>
+            <i class="material-icons right activator">more_vert</i>
+        </span>
+        <p><a href="{{ site.url }}{{ include.post.url }}">Publicación completa</a></p>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"> {{ include.post.title }}
+            <i class="material-icons right">close</i>
+        </span>
+        <p>
+            {{ include.post.content | truncate: 200 }}
+        </p>
+        <a href="{{ site.url }}{{ include.post.url }}">
+            Publicación completa
+        </a>
+    </div>
+</div>

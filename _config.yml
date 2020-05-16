@@ -1,4 +1,23 @@
-# Site
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title:              Filosofía del Futuro
 long_bio:           '¿Cuál es el rol de la filosofía en el siglo de mayor desarrollo técnico y tecnológico de la historia? Esta pregunta se despliega en otras dos: ¿Qué preguntas y herramientas propias de la filosofía nos sirven para pensar, discutir, orientar y criticar tanto el diseño de estas nuevas tecnologías como los rápidos avances que transversalmente se dan en las ciencias? y ¿Qué conocimientos y discursos surgidos de las ciencias y las técnicas debemos estudiar, como filósofos, para poder llevar a cabo esta tarea?<br /><br />Filosofía del Futuro es un colectivo interdisciplinario que trabaja a partir de estas preguntas. En esta interdisciplina se da el nexo entre las humanidades y las áreas de desarrollo técnico-científicas que permite tanto elaborar una filosofía más rica, que incorpore los conocimientos técnicos antes mencionados, como también facilitar el acercamiento filosófico a los problemas de investigación y diseño propios del conjunto de disciplinas enmarcadas en el campo de la ciencia y de la técnica.<br /><br />En resumen, la propuesta es la siguiente: llevar la pregunta filosófica a la vanguardia de la técnica.'
 description:        "Colectivo interdisciplinario para el desarrollo y la divulgación de la Filosofía del Futuro"
@@ -6,9 +25,17 @@ reading_time:       true
 words_per_minute:   300
 logo:               'assets/img/title.png'
 background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+
+permalink:          /:title/
 locale:             es_US
 url:                https://filosofiadelfuturo.com
+
+disqus_shortname:   futurephilosophy
+email:              filosofiayfuturo@gmail.com
+twitter_link:   https://twitter.com/boid.ba
+github_link:    https://github.com/futurephilosophy
+instagram_link: https://instagram.com/boid.ba
+
 collections:
   authors:
     output: true
@@ -16,68 +43,21 @@ collections:
     output: true
   scripts:
     output: true
+  recommends:
+    output: true
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
-
-# Comments
-disqus_shortname:   futurephilosophy
-
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-email:              filosofiayfuturo@gmail.com
-# twitter:            username
-# facebook:           username
-github-url:         futurephilosophy
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-instagram:          boid.ba
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-
-# Gems
 plugins:
-  - jekyll-mentions
   - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
 
-jekyll-mentions:
-    base_url: https://github.com
+keep_files:
+  - .git
+  - .gitignore
+  - CNAME
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - push.bat
+  - TODO

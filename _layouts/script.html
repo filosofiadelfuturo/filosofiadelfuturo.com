@@ -1,41 +1,34 @@
----
-layout: compress
----
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
-<head>
-    {% include head.html %}
-</head>
-<body>
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body class="black-text">
     {% include nav.html %}
-    <!-- Header -->
-    <header class="header" role="banner">
-        {% include nav-bar.html %}
-        <div class="wrapper animated fadeIn">
-            <div class="content">
-                <div class="post-title {% if page.feature %} feature {% endif %}">
-                    <h1>{{ page.title }}</h1>
-                    <!--a class="btn zoombtn" href="{{site.url}}/home/">
-                        <i class="fa fa-chevron-left"></i>
-                    </a-->
-                </div>
+    {% include sidenav.html %}
 
-                <div class="entry-meta">
-                    <iframe src="../../assets/scripts/{{ page.iframe }}" height="850px" width="100%"></iframe>
-                </div>
-                {{ content }}
+    <!-- Body -->
+    <div class="justified container content">
+        {{ content }}
+    </div>
 
-                {% include footer.html %}
-            </div>
-        </div>
-    </header>
-    {% include scripts.html %}
-    {% if site.mathjax == true %}
-    <!-- MathJax -->
-    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    {% endif %}
+    <div class="iframe-container">
+        <iframe src="{{ site.url }}/assets/scripts/{{ page.iframe }}" frameborder="0"></iframe>
+    </div>
+
+    <div class="container">
+        <!-- Share -->
+        {% include addons/share_buttons.html %}
+
+        <!-- Mailchimp -->
+        {% include addons/mailchimp.html %}
+
+        <!-- Comments -->
+        {% include addons/disqus_comments.html %}
+
+    </div>
+
+    {% include footer.html %}
 </body>
+
 </html>

@@ -1,0 +1,33 @@
+<div class="banner-container">
+    <!-- <img class="responsive-img" src="assets/img/banner.png"> -->
+    <div class="banner-img">
+        <img class="responsive-img" src="assets/img/title.png">
+    </div>
+
+    <div class="row">
+        <div class="col s12 l6">
+            <h3>{{ site.title }}</h3>
+            <p class="justified">{{ site.long_bio }}</p>
+            <!-- TODO: link: porqué filo del futuro? -->
+        </div>
+        <div class="col s12 l6">
+            {% include addons/mailchimp.html %}
+
+            <div class="card white black-text about-card">
+                <div class="card-content">
+                    <span class="card-title">¿Por qué filosofía del futuro?</span>
+                    <p>
+                        Así como en su momento lo hizo la máquina de vapor, hoy la computadora es
+                        primer motor y expresión característica de la revolución productiva que
+                        define su época.
+                    </p>
+                </div>
+                <div class="card-action">
+                    <a class="blue-text" href="{{ site.url }}/porque-filosofia-y-futuro/">
+                        Ver Introducción completa
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

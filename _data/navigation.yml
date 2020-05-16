@@ -1,10 +1,12 @@
 # Site navigation links
 
- # - title: Autores
- #   url: /authors/
- # - title: Publicaciones
- #   url: /publications/
  - title: Newsletter
-   url: /archive/
+   url: /newsletter/
  - title: Scripts
    url: /scripts/
+ - title: Publicaciones
+   url: /publicaciones/
+ - title: Nosotros
+   url: /nosotros/
+ - title: Recomendaciones
+   url: /recomendaciones/

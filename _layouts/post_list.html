@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body class="black-text">
+    {% include nav.html %}
+    {% include sidenav.html %}
+
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+
+        <!-- Page description / mailchimp -->
+        <div class="row">
+            <div class="col s12 m6">
+                {{ content }}
+            </div>
+            <div class="col s12 m6">
+                {% include addons/mailchimp.html %}
+            </div>
+        </div>
+
+        <!-- Post List -->
+        <div class="row">
+            {% for post in site.posts %}
+            <div class="col s12 m6 l4">
+                {% include cards/post_single.html post=post %}
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+
+    {% include footer.html %}
+</body>
+
+</html>

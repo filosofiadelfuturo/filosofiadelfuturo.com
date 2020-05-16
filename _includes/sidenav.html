@@ -1,0 +1,17 @@
+<!-- Left Sidenav -->
+<ul id="slide-out" class="sidenav">
+    <li>
+        <div class="user-view">
+            <h4> {{ site.title }} </h4>
+            <p class="description-short"> {{ site.description_short }} </p>
+        </div>
+    </li>
+    {% for link in site.data.navigation %}
+    <li>
+        <a href="{{ site.url }}{{ link.url }}" class="black-text"> {{ link.title }} </a>
+    </li>
+    {% endfor %}
+    <li>
+        <div class="divider"></div>
+    </li>
+</ul>

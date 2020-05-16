@@ -1,6 +1,12 @@
-//colors
-$bodycolor           : #a8bcff;
-$black           	 : #000;
+//media
+$small               : "only screen and (max-width: 30em)";
+$medium              : "only screen and (min-width: 30.1em) and (max-width: 60em)";
+$large               : "only screen and (min-width: 60.1em) and (max-width: 90em)";
+$extralarge          : "only screen and (min-width: 90.1em)";
+$notsmall            : "only screen and (min-width: 90em)";
+
+// Colors
+$black               : #000;
 $white               : #fff;
 $color_gray          : #e8e8e8;
 $red                 : #FF4136;
@@ -19,23 +25,3 @@ $color_alabaster     : #fcfcfc;
 $color_celeste       : #ccc;
 $color_pink_swan     : #bbb;
 $comp-color 	     : complement(#222);
-
-//button colors
-$success			 : #5cb85c;
-$warning			 : #dd8338;
-$danger				 : #C64537;
-$info		         : #308cbc;  
-
-//fonts
-$font1               : Crimson Text, serif;
-$font2               : Inconsolata;
-$alt-font            : serif;
-$doc-font-size       : 15;
-$doc-line-height     : 15;
-
-//media
-$small               : "only screen and (max-width: 30em)";
-$medium              : "only screen and (min-width: 30.1em) and (max-width: 60em)";
-$large               : "only screen and (min-width: 60.1em) and (max-width: 90em)";
-$extralarge          : "only screen and (min-width: 90.1em)";
-$notsmall            : "only screen and (min-width: 90em)";

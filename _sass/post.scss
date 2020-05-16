@@ -1,0 +1,75 @@
+.post-title {
+
+    h1 {
+        margin: 0;
+    }
+    h5 {
+        margin: 2.8rem 0 1.68rem 0;
+    }
+    text-align: center;
+}
+
+.entry-meta {
+	text-transform: uppercase;
+	color: lighten($color_tuatara,60);
+	padding-left: 0;
+	a {
+		color: lighten($color_tuatara,60);
+	}
+	li {
+	    list-style-type: none;
+	    display: inline;
+	}
+	.tag {
+	    display: inline-block;
+        border: 1px solid;
+        border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
+        @include rounded(3px);
+        text-decoration: none;
+        background-color: $white;
+        color: $color_tuatara;
+        @include transition(.75s);
+        margin: 2px 5px;
+		span {
+			float: left;
+			padding: 2px 6px;
+		}
+		.count {
+			background-color: darken($white,15);
+			@include border-radius(3px,3px,0,0);
+		}
+		&:hover {
+			background-color: darken($white,15);
+			box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
+		}
+	}
+}
+
+.cap-first {
+    p:first-of-type:first-letter {
+        float: left;
+        width: 0.7em;
+        font-size: 350%;
+        line-height: 80%;
+        margin: 0  15px 0 0;
+    }
+}
+
+.content {
+    ul > li {
+        margin-left: 30px;
+        list-style-type: disc !important;
+    }
+}
+
+.tag-icon {
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 8px;
+}
+
+.recommend-icons {
+    margin: 15px;
+}
