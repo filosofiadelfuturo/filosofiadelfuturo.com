@@ -1,5 +1,10 @@
 <!-- 3 Column script component -->
 <div class="card white">
+    <div class="card-image waves-effect waves-block waves-light">
+        <a href="{{ site.url }}{{ include.script.url }}">
+            <img src="{{ site.url }}/assets/img/scripts/{{ include.script.image }}">
+        </a>
+    </div>
     <div class="card-content black-text">
         <a href="{{ site.url }}{{ include.script.url }}" class="black-text">
             <span class="card-title">{{ include.script.title }}</span>

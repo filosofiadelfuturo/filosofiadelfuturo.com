@@ -7,7 +7,7 @@
     {% include nav.html %}
     {% include sidenav.html %}
 
-    <div class="container">
+    <div class="authors-container">
         <h1>{{ page.title }}</h1>
 
         <div class="row authors">
@@ -22,11 +22,6 @@
                         <div class="card-content">
                             <span class="card-title">{{ author.name }}</span>
                             <p>{{ author.bio }}</p>
-                        </div>
-                        <div class="card-action center">
-                            {% for tag in author.personal_tags %}
-                            <a class="blue-text" href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a>
-                            {% endfor %}
                         </div>
                         <div class="card-action center">
                             {% for social in author.social %}
