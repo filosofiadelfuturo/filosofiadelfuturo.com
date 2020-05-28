@@ -24,7 +24,7 @@
                             <p>{{ author.bio }}</p>
                         </div>
                         <div class="card-action center">
-                            {% for tag in author.tags %}
+                            {% for tag in author.personal_tags %}
                             <a class="blue-text" href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a>
                             {% endfor %}
                         </div>

@@ -1,0 +1,51 @@
+<!-- Edit only to update Default - Backup -->
+
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body class="black-text">
+    {% include nav.html %}
+    {% include sidenav.html %}
+
+    <!-- Body -->
+    <div class="container">
+        <!-- Contact data -->
+        <div class="contact-container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h3>Actualizate</h3>
+                    <p>Si querés estar al día con el contenido que publicamos, tenemos una
+                        Newsletter que te puede interesar.</p>
+                    {% include addons/mailchimp.html %}
+                </div>
+                <div class="col l6 s12">
+                    <h3>... y contactanos</h3>
+                    <p>Te invitamos a que nos sigas en nuestras redes sociales,</p>
+                    <div class="footer-icons">
+                        {% include addons/social-icons.html %}
+                        <br>
+                        <p>También leemos los mails que nos mandan, sea bienvenido el debate!</p>
+                        <a href="mailto:{{ site.email }}" class="grey-text"><b>{{ site.email }}
+                            </b></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer blue-grey darken-3">
+        <div class="footer-copyright blue-grey darken-3">
+            <div class="container">
+                © 2020 Filosofía del Futuro
+                <a class="grey-text text-lighten-4 right ianmihura" href="https://ianmihura.me"
+                    target="blank">Sitio web: Ian Mihura</a>
+            </div>
+        </div>
+    </footer>
+    <script src="{{ site.url }}/assets/js/salvatore.min.js"></script>
+</body>
+
+</html>

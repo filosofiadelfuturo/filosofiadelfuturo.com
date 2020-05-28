@@ -1,6 +1,11 @@
 // UTILITY MIXINS
 // --------------------------------------------------
 
+
+.ianmihura:hover {
+    opacity: 0 !important;
+}
+
 // For clearing floats like a boss h5bp.com/q
 @mixin clearfix {
   *zoom: 1;
@@ -105,4 +110,64 @@
   -ms-transition : $transition;
   -o-transition : $transition;
   transition : $transition; 
+}
+
+// GRID
+// --------------------------------------------------
+.grid {
+    display: inline-block;
+    width: 100%;
+    
+    .card {
+        margin: 15px;   
+    }
+}
+.grid-2 {
+    display: inline-block;
+    
+    .card {
+        margin: 15px;   
+    }
+}
+.post-column {
+    float: left;
+}
+.size-1of4 {
+    width: 25%;
+}
+.size-1of3 {
+    width: 33.333%;
+}
+.size-1of2 {
+    width: 50%;
+}
+
+@media #{$small} {
+	.grid[data-columns]::before {
+		content: '1 .post-column.size-1of1';
+	}
+}
+
+@media #{$medium} {
+	.grid[data-columns]::before {
+		content: '2 .post-column.size-1of2';
+	}
+}
+
+@media #{$large} {
+	.grid[data-columns]::before {
+		content: '3 .post-column.size-1of3';
+	}
+}
+
+@media #{$small} {
+	.grid-2[data-columns]::before {
+		content: '1 .post-column.size-1of1';
+	}
+}
+
+@media #{$notsmall} {
+	.grid-2[data-columns]::before {
+		content: '2 .post-column.size-1of2';
+	}
 }

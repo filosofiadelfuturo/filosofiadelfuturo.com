@@ -17,14 +17,12 @@ Si la vieja escuela consistía en la representación explícita del conocimiento
 De esta breve historia de la inteligencia artificial que te estuvimos contando, es quizás ésta la más relevante para comprender muchos de los interesantes avances que vemos semana a semana, a los que tan difícil resulta seguirles el ritmo y que cada vez influencian más en casi todos los aspectos de nuestras vidas.
 
 ---
-##### La nota que acabás de leer fue escrita por Santiago López Gagliano, continuando con nuestra edición especial de verano sobre la historia de la inteligencia artificial. A continuación, te dejamos algunas referencias para ampliar la lectura de la nota:
+> La nota que acabás de leer fue escrita por Santiago López Gagliano, continuando con nuestra edición especial de verano sobre la historia de la inteligencia artificial. A continuación, te dejamos algunas referencias para ampliar la lectura de la nota:
 
+> Haugeland, J (1998) [Mind Design II: Philosophy, Psychology, Artificial Intelligence](https://mitpress.mit.edu/books/mind-design-ii). MIT Press.
+>
+> Una colección de algunos de los papers más importantes de la historia de la inteligencia artificial, con un especial hincapié en el conexionismo.
 
-##### Haugeland, J (1998) [Mind Design II: Philosophy, Psychology, Artificial Intelligence](https://mitpress.mit.edu/books/mind-design-ii). MIT Press.
-
-##### Una colección de algunos de los papers más importantes de la historia de la inteligencia artificial, con un especial hincapié en el conexionismo.
-
-
-##### Rumelhart, D.E., J.L. McClelland (1986) [Parallel Distributed Processing: Explorations in the Microstructure of Cognition](https://dl.acm.org/doi/book/10.5555/104279). Volume 1: Foundations. MIT Press.
-
-##### Obra capital para comprender al conexionismo en todos sus aspectos, tanto desde la perspectiva de la inteligencia artificial, como en el resto de las aplicaciones que ha tenido en las ciencias cognitivas en general.
+> Rumelhart, D.E., J.L. McClelland (1986) [Parallel Distributed Processing: Explorations in the Microstructure of Cognition](https://dl.acm.org/doi/book/10.5555/104279). Volume 1: Foundations. MIT Press.
+>
+> Obra capital para comprender al conexionismo en todos sus aspectos, tanto desde la perspectiva de la inteligencia artificial, como en el resto de las aplicaciones que ha tenido en las ciencias cognitivas en general.

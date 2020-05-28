@@ -7,14 +7,35 @@
     {% include nav.html %}
     {% include sidenav.html %}
 
+    {% if page.header %}
+    <div class="post-title container">
+        <h5>{{ page.date | date_to_string }}</h5>
+        <h1>{{ page.title }}</h1>
+        <p class="reading-time">
+            <i class="material-icons">watch_later</i>
+            {% include addons/read_time.html %}
+        </p>
+        <br>
+        {% if page.tags %}
+        {% include addons/tags.html showall=false arrow=true %}
+        {% endif %}
+    </div>
+    {% endif %}
+
     <!-- Body -->
     <div class="justified container content">
         {{ content }}
     </div>
 
+    {% if page.iframe %}
+    <!-- iframe -->
+    <!-- Shows only if iframe field is present -->
+    <!-- Alternative: copy this into .md - example in _scripts/lmc -->
     <div class="iframe-container">
         <iframe src="{{ site.url }}/assets/scripts/{{ page.iframe }}" frameborder="0"></iframe>
     </div>
+    <!-- end iframe -->
+    {% endif %}
 
     <div class="container">
         <!-- Share -->

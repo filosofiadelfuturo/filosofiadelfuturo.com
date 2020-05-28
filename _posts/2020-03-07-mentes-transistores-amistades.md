@@ -57,8 +57,8 @@ Por suerte, no perdí mucho más que algunos PDFs. La mayoría de mis procesos m
 
 ---
 
-##### A continuación, dejamos algunos links para continuar la lectura:
-
-##### [Extendiendo nuestra mente](https://futurephilosophy.github.io/expandiendo-nuestra-mente/), Filosofía del Futuro
-
-##### [The Mind-Expanding Ideas of Andy Clark](https://www.newyorker.com/magazine/2018/04/02/the-mind-expanding-ideas-of-andy-clark), New Yorker
+> A continuación, dejamos algunos links para continuar la lectura:
+>
+> [Extendiendo nuestra mente](https://futurephilosophy.github.io/expandiendo-nuestra-mente/), Filosofía del Futuro
+>
+> [The Mind-Expanding Ideas of Andy Clark](https://www.newyorker.com/magazine/2018/04/02/the-mind-expanding-ideas-of-andy-clark), New Yorker

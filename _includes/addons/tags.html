@@ -1,16 +1,12 @@
-{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-{% assign tags_list = site_tags | split:',' | sort %}
-
-{% for item in (0..site.tags.size) %}{% unless forloop.last %}
-{% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-{% if include.showall or page.tags contains tags_list[item] %}
-<div class="chip">
-    <a href="{{ site.url }}/tags#{{ this_word }}" class="black-text">
-        {{ this_word }} | {{ site.tags[this_word].size }}
-        {% if include.arrow %}
-        <i class="tag-icon material-icons">arrow_forward</i>
-        {% endif %}
-    </a>
+<div class="post-tags">
+    {% for tag in page.tags %}
+    <div class="chip">
+        <a href="{{ site.url }}/tags#{{ tag }}" class="black-text">
+            {{ tag }} | {{ site.tags[tag].size }}
+            {% if include.arrow %}
+            <i class="tag-icon material-icons">arrow_forward</i>
+            {% endif %}
+        </a>
+    </div>
+    {% endfor %}
 </div>
-{% endif %}
-{% endunless %}{% endfor %}

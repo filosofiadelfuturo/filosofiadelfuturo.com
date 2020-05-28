@@ -9,8 +9,11 @@
     {% include sidenav.html %}
 
     <!-- Post Title -->
-    <div class="post-title">
-        <!-- TODO: Banner -->
+    <div class="post-title container">
+        <div class="banner-img">
+            <img class="responsive-img" src="{{ site.url }}/assets/img/title.png">
+        </div>
+
         <h5>{{ page.date | date_to_string }}</h5>
         <h1>{{ page.title }}</h1>
         <p class="reading-time">
@@ -25,17 +28,17 @@
     <div class="container">
         <div class="justified content cap-first">
             {{ content }}
+            <!-- Credits -->
+            <br>
+            <h5>
+                <i>Escrito por: {{ page.authors }}
+                    {% if page.editors %}
+                    <br />
+                    Editado por: {{ page.editors }}
+                </i>
+            </h5>
         </div>
 
-        <!-- Credits -->
-        <br>
-        <h5 style="font-weight: normal;">
-            <i>Escrito por: {{ page.authors }}
-                {% if page.editors %}
-                <br />
-                Editado por: {{ page.editors }}
-            </i>
-        </h5>
         {% else %}
         </i>
         </h5>
@@ -48,9 +51,6 @@
         <!-- Mailchimp -->
         {% include addons/mailchimp.html %}
 
-        <!-- Next Article -->
-
-
         <!-- Further Reading -->
         <div class="row">
             {% assign count = 0 %}
@@ -59,7 +59,7 @@
             {% if post.tags contains tag and count < 3 %}
             <div class="col s12 m6 l4">
                 {% assign count = count | plus: 1 %}
-                {% include cards/post_single.html post=post %}
+                {% include cards/post.html post=post %}
             </div>
             {% endif %}
             {% endfor %}

@@ -1,6 +1,6 @@
 ---
 title: "Redes"
-tags: [mente, futuro]
+recommend_tags: [mente, futuro]
 description: "This is a longer text that might describe the most important aspect of the field"
 icon: network-wired
 ---

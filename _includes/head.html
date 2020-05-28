@@ -1,5 +1,11 @@
 <head>
-    <title>{{ page.title }}</title>
+    {% if page.url == "/" %}
+    <title>{{ site.title }}</title>
+    {% elsif page.title %}
+    <title>{{ site.title }} | {{ page.title }}</title>
+    {% else %}
+    <title>{{ site.title }}</title>
+    {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">

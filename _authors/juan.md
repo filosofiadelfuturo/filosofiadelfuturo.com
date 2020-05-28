@@ -1,8 +1,8 @@
 ---
 layout: default
-name: "Jaime Rodriguez"
+name: Juan Zaragosa
 bio: "Estudiante de Filosofía en la UBA. Con 25 años, pertenece a un thinktank privado, que investigan la respuesta a todos los misterios del universo."
-tags: [mente, futuro, información]
+personal_tags: [mente, futuro, información]
 social:
     github: https://github.com/jaime05
     twitter: https://twitter.com/thejaime

@@ -1,25 +1,41 @@
-<footer class="page-footer blue-grey darken-3">
-    <div class="container">
+<footer class="page-footer blue-grey darken-2">
+    <div class="footer-container">
         <div class="row">
             <div class="col l6 s12">
+                <h3>Actualizate</h3>
+                <p>Si querés estar al día con el contenido que publicamos, tenemos una Newsletter
+                    que te puede interesar.</p>
                 {% include addons/mailchimp.html %}
-                <h4 class="white-text">Footer Content</h4>
-                <p class="grey-text text-lighten-4">
-                    You can use rows and columns here to organize
-                    your footer content.
-                </p>
             </div>
-            <div class="col l4 offset-l2 s12">
-                <h4 class="white-text">Nuestras redes sociales</h4>
-                {% include social.html %}
+            <div class="col l5 s12">
+                <h3 class="blue-grey-text text-darken-2">-</h3>
+                <p>Te invitamos a que nos sigas en nuestras redes sociales,</p>
+                <div class="footer-icons">
+                    {% include addons/social-icons.html %}
+                    <br>
+                    <p>También leemos los mails que nos mandan, sea bienvenido el debate!</p>
+                    <a href="mailto:{{ site.email }}" class="white-text"><b>{{ site.email }}
+                        </b></a>
+                </div>
+            </div>
+            <div class="col l1 s12">
+                <h3 class="blue-grey-text text-darken-2">-</h3>
+                <p>Más info</p>
+                <ul class="footer-icons">
+                    <li><a href="{{ site.url }}/legal" class="white-text"><b>Legal
+                            </b></a></li>
+                    <li><a href="{{ site.url }}/contact" class="white-text"><b>Contacto
+                            </b></a></li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright blue-grey darken-3">
         <div class="container">
             © 2020 Filosofía del Futuro
-            <a class="grey-text text-lighten-4 right" href="https://ianmihura.me"
+            <a class="grey-text text-lighten-4 right ianmihura" href="https://ianmihura.me"
                 target="blank">Sitio web: Ian Mihura</a>
         </div>
     </div>
 </footer>
+<script src="{{ site.url }}/assets/js/salvatore.min.js"></script>

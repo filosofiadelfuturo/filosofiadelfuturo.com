@@ -23,22 +23,18 @@ Este problema fue observado con pericia por otro importante personaje en la hist
 La implementación de estos mecanismos en sistemas artificiales nos ofrece la lección de que el esfuerzo para emular las capacidades que manifiestan agentes biológicos es directamente proporcional al tiempo que dichas capacidades tomaron para evolucionar. Por ende, será esperable que las capacidades que parecen ser sencillas y que no demandan mucho esfuerzo, sean las más difíciles de emular, y viceversa. La paradoja de Moravec marcó un antes y un después en la historia de la Inteligencia Artificial, influenciando a toda una generación posterior de científicxs, ingenierxs, y diseñadorxs del campo y sigue teniendo su relevancia al día de la fecha.
 
 ---
-##### Esta nota inaugura una edición especial de verano sobre la historia de la inteligencia artificial y sus desarrollos contemporáneos. A diferencia de nuestras ediciones anteriores, vamos a estar mandándote un mail todos los sábados contándote esta historia. Quedate atentx para saber qué pasó con la inteligencia artificial luego de Dartmouth. Para ampliar la lectura, te dejamos algunos datos más y textos para consultar.
+> Esta nota inaugura una edición especial de verano sobre la historia de la inteligencia artificial y sus desarrollos contemporáneos. A diferencia de nuestras ediciones anteriores, vamos a estar mandándote un mail todos los sábados contándote esta historia. Quedate atentx para saber qué pasó con la inteligencia artificial luego de Dartmouth. Para ampliar la lectura, te dejamos algunos datos más y textos para consultar.
 
+> La **conferencia de Dartmouth** que se menciona en esta nota fue un encuentro realizado en el año 1956 en la universidad Dartmouth College. En ella, varios científicos e investigadores de áreas como las matemáticas, las ciencias de la computación y la ingeniería electrónica, entre otras, sentaron las bases de esta disciplina, que inspirándose en la obra de Turing, aspectos de la teoría de autómatas, la teoría de la información y la cibernética, comenzó a vislumbrar la posibilidad de construir máquinas que piensen. Además de las personalidades nombradas en esta nota, en dicha conferencia participaron Claude Shannon, W.S. McCulloch, W. Ross Ashby, Julian Bigelow y Ray Solomonoff, entre otros.
 
-##### La **conferencia de Dartmouth** que se menciona en esta nota fue un encuentro realizado en el año 1956 en la universidad Dartmouth College. En ella, varios científicos e investigadores de áreas como las matemáticas, las ciencias de la computación y la ingeniería electrónica, entre otras, sentaron las bases de esta disciplina, que inspirándose en la obra de Turing, aspectos de la teoría de autómatas, la teoría de la información y la cibernética, comenzó a vislumbrar la posibilidad de construir máquinas que piensen. Además de las personalidades nombradas en esta nota, en dicha conferencia participaron Claude Shannon, W.S. McCulloch, W. Ross Ashby, Julian Bigelow y Ray Solomonoff, entre otros.
+> Norvig, P. y Russell, S. (1994) [Inteligencia Artificial](https://www.pearsoneducacion.net/espa%C3%B1a/TiendaOnline/inteligencia-artificial-un-enfoque-moderno-2ed): Un Enfoque Moderno. Prentice Hall
+>
+> Este es posiblemente el manual más completo que exista en materia de IA. Tiene una muy buena introducción acerca de la historia de esta disciplina y mucha información técnica de utilidad tanto para quienes tienen mucha experiencia, como para quienes recién están arrancando a aventurarse en el mundo de la programación.
 
+> Moravec, H. (1988). [Mind Children](https://www.hup.harvard.edu/catalog.php?isbn=9780674576186). Harvard University Press
+>
+> En esta obra, Hans Moravec especula con la idea de que entre la década del 2030 y el 2040 podremos ser capaces de construir robots que alcancen niveles de complejidad mucho más sofisticados que los que vemos al día de la fecha. Más allá de estar de acuerdo con sus predicciones o no, ofrece puntos de partida muy interesantes para comprender aspectos importantes acerca de la paradoja de Moravec, ley de Moore, la robótica y la vida artificial.
 
-##### Norvig, P. y Russell, S. (1994) [Inteligencia Artificial](https://www.pearsoneducacion.net/espa%C3%B1a/TiendaOnline/inteligencia-artificial-un-enfoque-moderno-2ed): Un Enfoque Moderno. Prentice Hall
-
-##### Este es posiblemente el manual más completo que exista en materia de IA. Tiene una muy buena introducción acerca de la historia de esta disciplina y mucha información técnica de utilidad tanto para quienes tienen mucha experiencia, como para quienes recién están arrancando a aventurarse en el mundo de la programación.
-
-
-##### Moravec, H. (1988). [Mind Children](https://www.hup.harvard.edu/catalog.php?isbn=9780674576186). Harvard University Press
-
-##### En esta obra, Hans Moravec especula con la idea de que entre la década del 2030 y el 2040 podremos ser capaces de construir robots que alcancen niveles de complejidad mucho más sofisticados que los que vemos al día de la fecha. Más allá de estar de acuerdo con sus predicciones o no, ofrece puntos de partida muy interesantes para comprender aspectos importantes acerca de la paradoja de Moravec, ley de Moore, la robótica y la vida artificial.
-
-
-##### Haugeland, J. (1986) [Artificial Intelligence](https://www.hup.harvard.edu/catalog.php?isbn=9780674576186): The Very Idea. MIT Press
-
-##### John Haugeland fue un pensador que encarnó de manera muy audaz la figura del filósofo comprometido en materia tecnológica. En este libro desarrolla muchos de los problemas principales de la IA, tocando temas de filosofía de la mente, ciencias cognitivas y fenomenología. La idea de identificar y definir la primera etapa de la IA como “GOFAI” fue de él y se encuentra en esta pieza filosófica.
+> Haugeland, J. (1986) [Artificial Intelligence](https://www.hup.harvard.edu/catalog.php?isbn=9780674576186): The Very Idea. MIT Press
+>
+> John Haugeland fue un pensador que encarnó de manera muy audaz la figura del filósofo comprometido en materia tecnológica. En este libro desarrolla muchos de los problemas principales de la IA, tocando temas de filosofía de la mente, ciencias cognitivas y fenomenología. La idea de identificar y definir la primera etapa de la IA como “GOFAI” fue de él y se encuentra en esta pieza filosófica.

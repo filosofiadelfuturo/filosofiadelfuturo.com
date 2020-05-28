@@ -28,30 +28,33 @@ Esta tendencia a la externalización también nos pone de frente a ciertos probl
 En otras palabras, ¿a quién le pertenece nuestra mente?
 
 ---
-#### Críticas
+> #### Críticas
 
-##### Si no lo estoy viendo, no lo estoy creyendo.
-##### Crítica: Puede decirse que la creencia de Otto no está en su libreta: esta sólo existe cuando lee su libreta y está presente en su consciencia, o lo mismo, cuando alguien ve un mapa en su celular para saber una dirección que tiene guardada, la creencia no está en el celular (o internet), sino que aparece cuando prestamos atención a aquella información provista y se borra cuando esta desaparece del campo de su consciencia.
+> Si no lo estoy viendo, no lo estoy creyendo.
+>
+> Crítica: Puede decirse que la creencia de Otto no está en su libreta: esta sólo existe cuando lee su libreta y está presente en su consciencia, o lo mismo, cuando alguien ve un mapa en su celular para saber una dirección que tiene guardada, la creencia no está en el celular (o internet), sino que aparece cuando prestamos atención a aquella información provista y se borra cuando esta desaparece del campo de su consciencia.
+>
+> Respuesta: Si esto es así; ¿no deberíamos decir también que Inga sólo cree que el Malba queda en Av. Figueroa Alcorta cuando está pensando y es consciente de ello? O cuando Inga está mirando una película ¿acaso deja de saber la dirección del museo o creer que es una ciudadana argentina? Esto suena antiintuitivo. El problema radica en el prejuicio de que una creencia, un recuerdo, sólo existe cuando se está teniendo conciencia de ella.
 
-##### Respuesta: Si esto es así; ¿no deberíamos decir también que Inga sólo cree que el Malba queda en Av. Figueroa Alcorta cuando está pensando y es consciente de ello? O cuando Inga está mirando una película ¿acaso deja de saber la dirección del museo o creer que es una ciudadana argentina? Esto suena antiintuitivo. El problema radica en el prejuicio de que una creencia, un recuerdo, sólo existe cuando se está teniendo conciencia de ella.
+> Una creencia que tenemos guardada en nuestra memoria biológica, aunque no la tengamos presente y un dato que tenemos guardado en nuestro celular o en nuestra computadora, aunque no lo estemos consultando, son virtualmente accesibles.
 
-##### Una creencia que tenemos guardada en nuestra memoria biológica, aunque no la tengamos presente y un dato que tenemos guardado en nuestro celular o en nuestra computadora, aunque no lo estemos consultando, son virtualmente accesibles.
-
-##### ¿Internet es mi mente?
-##### Crítica: En el marco de la mente extendida, los límites en los que solemos entender a la cognición se ven franqueados, de modo que todo internet formaría parte de nuestra mente lo cual resulta antiintuitivo.
-
-##### Respuesta: Para que haya mente extendida, el sistema externo tiene que tener un rol funcional en la cognición. Estar acoplado con un sistema no es la única condición para que haya mente extendida. Por lo tanto, no todo internet pertenecería a nuestra mente sino sólo la información en internet que sí es relevante para nuestro accionar  debe ser considerados parte del pensamiento, de la misma manera en que una red neuronal lo es.
+> ¿Internet es mi mente?
+>
+> Crítica: En el marco de la mente extendida, los límites en los que solemos entender a la cognición se ven franqueados, de modo que todo internet formaría parte de nuestra mente lo cual resulta antiintuitivo.
+>
+> Respuesta: Para que haya mente extendida, el sistema externo tiene que tener un rol funcional en la cognición. Estar acoplado con un sistema no es la única condición para que haya mente extendida. Por lo tanto, no todo internet pertenecería a nuestra mente sino sólo la información en internet que sí es relevante para nuestro accionar  debe ser considerados parte del pensamiento, de la misma manera en que una red neuronal lo es.
 
 ---
-#### Algunos textos
-##### “[Natural Born Cyborgs](https://www.edge.org/conversation/natural-born-cyborgs)” (2000) de Andy Clark
+> #### Algunos textos
 
-##### En este libro, Andy Clark sostiene la tesis que somos cyborgs naturales de nacimiento. Para el autor no somos cyborgs en el sentido de combinar carne y cables y alambres, o tener chips en el cerebro por nombrar ejemplos típicos de la literatura cyberpunk, sino en  el sentido de que hay una simbiosis humano-tecnológica. Somos cyborgs debido a que incorporamos el entorno tecnológico para modificar y ampliar las capacidades con las que venimos equipados. Gracias a este acople, tenemos nuevas maneras de pensar que eventualmente nos ayudarán a diseñar mejores maneras de mente extendida.
+> “[Natural Born Cyborgs](https://www.edge.org/conversation/natural-born-cyborgs)” (2000) de Andy Clark
+>
+> En este libro, Andy Clark sostiene la tesis que somos cyborgs naturales de nacimiento. Para el autor no somos cyborgs en el sentido de combinar carne y cables y alambres, o tener chips en el cerebro por nombrar ejemplos típicos de la literatura cyberpunk, sino en  el sentido de que hay una simbiosis humano-tecnológica. Somos cyborgs debido a que incorporamos el entorno tecnológico para modificar y ampliar las capacidades con las que venimos equipados. Gracias a este acople, tenemos nuevas maneras de pensar que eventualmente nos ayudarán a diseñar mejores maneras de mente extendida.
 
-##### “[The Extended Mind](http://consc.net/papers/extended.html)” (1998) de Andy Clark y David Chalmers
+> “[The Extended Mind](http://consc.net/papers/extended.html)” (1998) de Andy Clark y David Chalmers
+>
+> Este clásico es el primero en proponer que la mente es extendida. Acá podrán leer la versión original del argumento de Otto e Inga y una exposición más detallada y más argumentada sobre el tema.
 
-##### Este clásico es el primero en proponer que la mente es extendida. Acá podrán leer la versión original del argumento de Otto e Inga y una exposición más detallada y más argumentada sobre el tema.
-
-##### “[On distinguishing epistemic from Pragmatic actions](https://onlinelibrary.wiley.com/doi/abs/10.1207/s15516709cog1804_1)” (1994). David Kirsh y Paul Maglio.
-
-##### Es un paper bastante técnico de David Kirsh y Paul Maglio argumentan en contra del esquema clásicos de cognición según el cual las acciones van siempre al final, después del procesamiento de información. Ellos muestran que en varias situaciones que suelen tener los jugadores de Tetris, muchas de las acciones realizadas son, más que para acercarse al objetivo (encajar la pieza), para simplificar los cálculos de encaje. Por ejemplo, un jugador de Tetris, tiene dos maneras de operar. La estrategia 1 sería observar el bloque mientras este cae, e imaginar cómo este encajaría con el resto de piezas, luego girar el bloque tantas veces como decía el cálculo realizado. La estrategia 2, que es más habitual, es la de ir girando la pieza en la pantalla hasta que logremos visualizar una posición en la cual podamos generar encaje con el resto del conjunto de figuras. Según los estudios de Kirsh y Maglio las personas que suelen usar la primera estrategia, tardan más de tres veces más que los que optan la estrategia 2.
+> “[On distinguishing epistemic from Pragmatic actions](https://onlinelibrary.wiley.com/doi/abs/10.1207/s15516709cog1804_1)” (1994). David Kirsh y Paul Maglio.
+>
+> Es un paper bastante técnico de David Kirsh y Paul Maglio argumentan en contra del esquema clásicos de cognición según el cual las acciones van siempre al final, después del procesamiento de información. Ellos muestran que en varias situaciones que suelen tener los jugadores de Tetris, muchas de las acciones realizadas son, más que para acercarse al objetivo (encajar la pieza), para simplificar los cálculos de encaje. Por ejemplo, un jugador de Tetris, tiene dos maneras de operar. La estrategia 1 sería observar el bloque mientras este cae, e imaginar cómo este encajaría con el resto de piezas, luego girar el bloque tantas veces como decía el cálculo realizado. La estrategia 2, que es más habitual, es la de ir girando la pieza en la pantalla hasta que logremos visualizar una posición en la cual podamos generar encaje con el resto del conjunto de figuras. Según los estudios de Kirsh y Maglio las personas que suelen usar la primera estrategia, tardan más de tres veces más que los que optan la estrategia 2.

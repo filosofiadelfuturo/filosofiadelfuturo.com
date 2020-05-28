@@ -3,3 +3,15 @@
 #disqus_thread {
     margin: 100px 0;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px !important;
+    width: 90%
+}
+
+@media #{$large} {
+    .container {
+        width: 70% !important;
+    }
+}

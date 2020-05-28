@@ -1,31 +1,25 @@
-<div class="row">
-    {% for publicacion in site.publications limit: include.limit %}
-    <div class="col m12">
-        <div class="card white">
-            <div class="card-content black-text">
-                <span class="card-title">
-                    {{ publicacion.title }}
-                    <i class="material-icons right activator">more_vert</i>
-                </span>
-                {% if publicacion.author %}
-                <i>Autor/es: {{ publicacion.author }}</i>
-                {% endif %}
-                <p>{{ publicacion.description }}</p>
-            </div>
-            <div class="card-action">
-                <a class="blue-text" target="blank"
-                    href="{{ site.url }}/assets/pdf/{{ publicacion.pdf }}">Ver la
-                    publicación</a>
-            </div>
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Abstract<i
-                        class="material-icons right">close</i></span>
-                <p>{{ publicacion.content }}</p>
-                <a class="blue-text" target="blank"
-                    href="{{ site.url }}/assets/pdf/{{ publicacion.pdf }}">Ver la
-                    publicación</a>
-            </div>
-        </div>
+<div class="card white">
+    <div class="card-content black-text">
+        <span class="card-title">
+            {{ include.publicacion.title }}
+            <i class="material-icons right activator">more_vert</i>
+        </span>
+        {% if include.publicacion.author %}
+        <i>Autor/es: {{ include.publicacion.author }}</i>
+        {% endif %}
+        <p>{{ include.publicacion.description }}</p>
     </div>
-    {% endfor %}
+    <div class="card-action">
+        <a class="blue-text" target="blank"
+            href="{{ site.url }}/assets/pdf/{{ include.publicacion.pdf }}">Ver la
+            publicación</a>
+    </div>
+    <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Abstract<i
+                class="material-icons right">close</i></span>
+        <p>{{ include.publicacion.content }}</p>
+        <a class="blue-text" target="blank"
+            href="{{ site.url }}/assets/pdf/{{ include.publicacion.pdf }}">Ver la
+            publicación</a>
+    </div>
 </div>

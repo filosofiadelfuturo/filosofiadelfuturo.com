@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-window.onscroll = () => {
-    let scroll = document.getElementById("scroll-indicator");
-    if (!scroll) return;
+window.addEventListener("load", (event) => {
+    _tagScrollCorrect();
+});
 
-    let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    let scrolled = (winScroll / height) * 100;
-    scroll.style.width = scrolled + "%";
+let _tagScrollCorrect = function () {
+    let aurl = window.location.href.split("/");
+    if (aurl[aurl.length - 1][0] == "#")
+        window.scrollBy(0, -100);
 };

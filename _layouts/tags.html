@@ -6,24 +6,49 @@
 <body class="black-text">
     {% include nav.html %}
     {% include sidenav.html %}
+
+    <!-- Body -->
     <div class="container">
-        <h1>Etiquetas</h1>
+        <h1>{{ page.title }}</h1>
 
-        {% include addons/tags.html showall=true arrow=false %}
+        <div class="post-tags">
+            {% for tag in site.tags %}
+            <div class="chip">
+                <a href="{{ site.url }}/tags#{{ tag[0] }}" class="black-text">
+                    {{ tag[0] }} | {{ tag[1].size }}
+                    {% if include.arrow %}
+                    <i class="tag-icon material-icons">arrow_forward</i>
+                    {% endif %}
+                </a>
+            </div>
+            {% endfor %}
+        </div>
 
-        {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-        {% capture this_word %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-        <article>
-            <h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
-            <ul>
-                {% for post in site.tags[this_word] %}{% if post.title != null %}
-                <li class="entry-title"><a href="{{ site.url }}{{ post.url }}"
-                        title="{{ post.title }}">{{ post.title }}</a></li>
-                {% endif %}{% endfor %}
-            </ul>
-        </article>
-        {% endunless %}{% endfor %}
+        <div class="content">
+            {% for tag in site.tags %}
+            <br>
+            <hr>
+            <h4 id="{{ tag[0] }}">
+                #{{ tag[0] }}
+            </h4>
+            <br>
+            <div class="grid" data-columns>
+                {% for post in tag[1] %}
+                {% if post.layout == 'script' %}
+                {% include cards/script.html script=post %}
+                {% elsif post.layout == 'post' %}
+                {% include cards/post.html post=post %}
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- Share -->
+        {% include addons/share_buttons.html %}
+
     </div>
+
     {% include footer.html %}
 </body>
 

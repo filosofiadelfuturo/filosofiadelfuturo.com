@@ -34,18 +34,18 @@ Es difícil imaginar un modo en que dichas limitaciones pudieran ser superadas g
 En pocas palabras, la conclusión principal que podemos extraer de esta discusión es que la realidad virtual, como modelo de las tecnologías de la comunicación y la información, trae adjuntas una serie de críticas que, sin embargo, pueden ser respectivamente contestadas. Pero esto no implica que, llegado el momento en que esta tecnología estuviese adecuadamente desarrollada, deberíamos entregarnos plenamente a su utilización. Por el contrario, existen aspectos intrínsecos a nuestro modo de existir que siempre tendremos que atender y recordar. Como le diría el tío Ben al hombre araña: “un gran poder conlleva una gran responsabilidad”.
 
 ---
-##### Algunos links para complementar la lectura
+> Algunos links para complementar la lectura
 
-##### **Gibson, W. (1984). [Neuromancer](https://www.penguinrandomhouse.com/books/293994/neuromancer-by-william-gibson/). Nueva York, Ace Books.**
-
-##### Esta novela fue la iniciadora del movimiento conocido como ciberpunk. En ella, se presenta un futuro distópico en el que Case, un joven hacker, tendrá que realizar una serie de trabajos para prevenir que una bolsa con químicos instalada en su cerebro explote, provocándole la disolución de aquellas proteínas que codifican su talento como programador. Además de ser una historia atrapante y excelentemente escrita, incluye una de las primeras presentaciones de una realidad virtual como la que se discutió en este texto, y está plagada de momentos en que los personajes se debaten problemas filosóficos relacionados a los avances tecnológicos, que dejan abiertos para que el lector medite.
-
-
-##### **Rushkoff, D. (2010). [Program or Be Programmed](https://rushkoff.com/books/program-or-be-programmed/).**
-
-##### Douglas Rushkoff nos ofrece una serie de sugerencias para la era digital. El objetivo general de su libro apunta a tener una mirada más crítica frente a las tecnologías de la comunicación y la información, a partir de la cual nos concienticemos acerca de las dinámicas que se nos busca imponer para luego tomar la decisión sobre si queremos seguirlas o no.
+> **Gibson, W. (1984). [Neuromancer](https://www.penguinrandomhouse.com/books/293994/neuromancer-by-william-gibson/). Nueva York, Ace Books.**
+>
+> Esta novela fue la iniciadora del movimiento conocido como ciberpunk. En ella, se presenta un futuro distópico en el que Case, un joven hacker, tendrá que realizar una serie de trabajos para prevenir que una bolsa con químicos instalada en su cerebro explote, provocándole la disolución de aquellas proteínas que codifican su talento como programador. Además de ser una historia atrapante y excelentemente escrita, incluye una de las primeras presentaciones de una realidad virtual como la que se discutió en este texto, y está plagada de momentos en que los personajes se debaten problemas filosóficos relacionados a los avances tecnológicos, que dejan abiertos para que el lector medite.
 
 
-##### El **transhumanismo** es un movimiento filosófico con múltiples vertientes. [Acá](https://whatistranshumanism.org/) podés leer un poco más de qué se trata. Un filósofo destacado dentro de este movimiento es [Nick Bostrom](https://nickbostrom.com/), director del [Instituto para el Futuro de la Humanidad](https://www.fhi.ox.ac.uk/), y autor de varios libros sobre la Inteligencia Artificial y el transhumanismo.
+> **Rushkoff, D. (2010). [Program or Be Programmed](https://rushkoff.com/books/program-or-be-programmed/).**
+>
+> Douglas Rushkoff nos ofrece una serie de sugerencias para la era digital. El objetivo general de su libro apunta a tener una mirada más crítica frente a las tecnologías de la comunicación y la información, a partir de la cual nos concienticemos acerca de las dinámicas que se nos busca imponer para luego tomar la decisión sobre si queremos seguirlas o no.
 
-##### Por último, la filosofía de **Martin Heidegger** es difícil de presentar en este espacio. Una de sus obras principales es [Ser y Tiempo](http://www.afoiceeomartelo.com.br/posfsa/Autores/Heidegger,%20Martin/Heidegger%20-%20Ser%20y%20tiempo.pdf) (1927), en la cual propone el concepto de “ser para la muerte” como aquel en que se encarna su postura acerca de la temporalidad y la existencia. Si leés en inglés, acá vas a encontrar una introducción muy completa y detallada de sus ideas.
+
+> El **transhumanismo** es un movimiento filosófico con múltiples vertientes. [Acá](https://whatistranshumanism.org/) podés leer un poco más de qué se trata. Un filósofo destacado dentro de este movimiento es [Nick Bostrom](https://nickbostrom.com/), director del [Instituto para el Futuro de la Humanidad](https://www.fhi.ox.ac.uk/), y autor de varios libros sobre la Inteligencia Artificial y el transhumanismo.
+>
+> Por último, la filosofía de **Martin Heidegger** es difícil de presentar en este espacio. Una de sus obras principales es [Ser y Tiempo](http://www.afoiceeomartelo.com.br/posfsa/Autores/Heidegger,%20Martin/Heidegger%20-%20Ser%20y%20tiempo.pdf) (1927), en la cual propone el concepto de “ser para la muerte” como aquel en que se encarna su postura acerca de la temporalidad y la existencia. Si leés en inglés, acá vas a encontrar una introducción muy completa y detallada de sus ideas.

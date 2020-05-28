@@ -1,0 +1,5 @@
+<div class="grid" data-columns>
+    {% for script in site.scripts limit:include.limit %}
+    {% include cards/script.html script=script %}
+    {% endfor %}
+</div>

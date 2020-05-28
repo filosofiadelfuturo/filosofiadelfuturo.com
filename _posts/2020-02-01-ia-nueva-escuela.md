@@ -26,24 +26,20 @@ Otro robot construido a partir de estas premisas fue [COG](https://es.m.wikipedi
 Son muchos los ámbitos de aplicación que la nueva IA tiene y ha tenido. Algunos de ellos son la agricultura, la automatización laboral, los servicios de salud, el desarrollo militar, y tareas domésticas, entre otros. Sin lugar a dudas, veremos muchas más aplicaciones en los próximos años y en niveles que muy posiblemente nos sorprenderían hoy por hoy. Y aunque la cultura pop (con Hollywood a la cabeza) en muchos casos nos ha educado para tenerle cierta fobia a este campo de desarrollo tecnológico, quizás ya sería hora de que le perdamos el miedo a los robots, comprendiendo cuales son los principios de sus diseños, sus posibilidades, sus limitaciones y cuál podría ser nuestra incidencia en garantizar que estos escenarios distópicos no se produzcan. Ciertamente, una mirada frívola, acrítica y tecnofóbica no darán como resultado una respuesta efectiva a este problema.
 
 ---
-##### En esta nota continuamos con nuestra edición especial de verano, dedicada a la historia de la inteligencia artificial, esta vez con las nuevas tendencias que le siguieron a su paradigma inicial en la conferencia de Dartmouth. Te dejamos algunos links para ampliar la lectura:
+> En esta nota continuamos con nuestra edición especial de verano, dedicada a la historia de la inteligencia artificial, esta vez con las nuevas tendencias que le siguieron a su paradigma inicial en la conferencia de Dartmouth. Te dejamos algunos links para ampliar la lectura:
 
+> Pfeifer, R. & Bongard, J (2007). [How the Body Shapes the Way We Think A New View of Intelligence](https://mitpress.mit.edu/books/how-body-shapes-way-we-think).  MIT Press
+>
+> Este libro es una referencia ineludible para comprender aspectos de biorobótics y sus implicaciones filosóficas. También ofrece una taxonomía bastante completa de los tipos de robots que en un futuro no muy lejano podrían acompañarnos en nuestro día a día.
 
-##### Pfeifer, R. & Bongard, J (2007). [How the Body Shapes the Way We Think A New View of Intelligence](https://mitpress.mit.edu/books/how-body-shapes-way-we-think).  MIT Press
+> Brooks, R (1999). [Cambrian Intelligence: The Early History of the New AI](https://mitpress.mit.edu/books/cambrian-intelligence). MIT Press.
+>
+> Todas las ideas principales acerca de la nueva IA están desarrolladas en este compendio de papers escritos por Rodney Brooks. En el podemos observar los primeros pasos de este enfoque, y su ulterior evolución.
 
-##### Este libro es una referencia ineludible para comprender aspectos de biorobótics y sus implicaciones filosóficas. También ofrece una taxonomía bastante completa de los tipos de robots que en un futuro no muy lejano podrían acompañarnos en nuestro día a día.
+> Clark, A (2007). [Supersizing the Mind](https://global.oup.com/academic/product/supersizing-the-mind-9780195333213?cc=us&lang=en&). MIT Press.
+>
+> Esta obra filosófica integra aspectos de ciencias cognitivas, filosofía de la mente, neurociencias e inteligencia artificial en una perspectiva integral acerca de la cognición humana en particular, y animal en general. Algunos casos de la robótica del paradigma de la nueva IA le sirven al autor para ilustrar ejemplos y elaborar argumentos en favor de sus tesis.
 
-
-##### Brooks, R (1999). [Cambrian Intelligence: The Early History of the New AI](https://mitpress.mit.edu/books/cambrian-intelligence). MIT Press.
-
-##### Todas las ideas principales acerca de la nueva IA están desarrolladas en este compendio de papers escritos por Rodney Brooks. En el podemos observar los primeros pasos de este enfoque, y su ulterior evolución.
-
-
-##### Clark, A (2007). [Supersizing the Mind](https://global.oup.com/academic/product/supersizing-the-mind-9780195333213?cc=us&lang=en&). MIT Press.
-
-##### Esta obra filosófica integra aspectos de ciencias cognitivas, filosofía de la mente, neurociencias e inteligencia artificial en una perspectiva integral acerca de la cognición humana en particular, y animal en general. Algunos casos de la robótica del paradigma de la nueva IA le sirven al autor para ilustrar ejemplos y elaborar argumentos en favor de sus tesis.
-
-
-##### Webb, B (2001). [Biorobotics: Methods and Applications](https://www.aaai.org/Press/Books/webb.php). AAAI Pres.
-
-##### Otra minuciosa exploración en el mundo de la biorobótica por parte de Barbara Webb, una de las maestras en el área. En esta obra demuestra cómo la robótica puede funcionar para construir modelos científicos que expliquen el comportamiento de animales biológicos.
+> Webb, B (2001). [Biorobotics: Methods and Applications](https://www.aaai.org/Press/Books/webb.php). AAAI Pres.
+>
+> Otra minuciosa exploración en el mundo de la biorobótica por parte de Barbara Webb, una de las maestras en el área. En esta obra demuestra cómo la robótica puede funcionar para construir modelos científicos que expliquen el comportamiento de animales biológicos.

@@ -1,0 +1,5 @@
+<div class="grid" data-columns>
+    {% for post in site.posts limit:include.limit %}
+    {% include cards/post.html post=post %}
+    {% endfor %}
+</div>

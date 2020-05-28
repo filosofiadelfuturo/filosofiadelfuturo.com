@@ -9,9 +9,27 @@
     <div class="container">
         {% include home_banner.html %}
         <hr>
-        {% include featured_newsletters.html %}
+        <div class="feature-title">
+            <h3>Notas más recientes</h3>
+            <a class="blue-text" href="{{ site.url }}{{ site.data.navigation[0].url }}">
+                Ver todas
+            </a>
+        </div>
+        <br>
+        <br>
+        {% include grids/post.html limit=3 %}
         <hr>
-        {% include featured_scripts.html %}
+
+        <div class="feature-title">
+            <h3>Scripts más recientes</h3>
+            <a class="blue-text" href="{{ site.url }}{{ site.data.navigation[1].url }}">
+                Ver todas
+            </a>
+        </div>
+        <br>
+        <br>
+        {% include grids/script.html limit=3 %}
+
     </div>
     {% include footer.html %}
 </body>

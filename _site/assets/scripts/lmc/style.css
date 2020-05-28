@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body, span, h1, h2, h3, h4, h5, h6, p, a, blockquote, button, textarea {
+    font-family: 'Source Code Pro', monospace !important;
+    font-size: 14px;
+}
+
+textarea {
+    background: url(http://i.imgur.com/2cOaJ.png);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    padding-top: 10px;
+    border-color: #ccc;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.hidden {
+    display: none !important;
+}

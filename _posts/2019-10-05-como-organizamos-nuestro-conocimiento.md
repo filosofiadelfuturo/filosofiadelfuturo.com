@@ -22,14 +22,14 @@ Pero, ¿qué sucedió con todo esto en el último tiempo? Cuando Tim Berners Lee
 No hay duda de que en el aspecto técnico las propuestas no sólo fueron realizadas, sino que también fueron superadas. La WWW forma una compleja red de hipervínculos que puede ser accedida desde múltiples plataformas, ya sean motores de búsqueda, wikis o redes sociales. Aunque actualmente Nelson sea un duro crítico de la interfaz de esta red (sigue vivo y aún desarrolla nuevas versiones de sus ideas), no se puede negar el enorme trabajo que se hace desde el área de User Experience (UX), dedicado a garantizar un acoplamiento ágil y efectivo entre usuarix e interfaz. De todos modos, no hay que dejar de notar que detrás de esta enorme infraestructura, los intereses que se manejan no son los mismos que aquellos que motivaron a las ideas originales. La omnipresencia de publicidad en la mayoría de los sitios web, los rankings que establecen los motores de búsqueda, o los sistemas de recomendación, funcionan según criterios que rápidamente llevan a lxs usuarixs a sectores reducidos de la red, en donde la posibilidad de profundización y de movimiento horizontal entre la información es muy limitada. Hay mucho de lo que vemos y de dónde nos encontramos en Internet que no es, del todo, decisión nuestra. La red hipertextual proyectada por aquellos pioneros era un medio para llevar a cabo un plan de organización de la información que facilitara y promoviera nuestro aprendizaje e intercambio de conocimientos. Es muy discutible que el fin de Internet hoy sea, en general, el mismo. Pero esto no quiere decir que no haya posibilidad de hacer uso de esta herramienta tal como fue imaginada. Esto quiere decir que hacer uso de ese Internet hoy es un acto de rebeldía, un ejercicio de apropiación de esa herramienta para usarla con el fin para el que fue creada. La pregunta que cabe hacerse es: ¿Cómo organizás tu conocimiento?
 
 ---
-#### Los textos que se utilizaron en esta nota son:
+> #### Los textos que se utilizaron en esta nota son:
 
-##### Bush, V. (1945) “[As we may think](http://web.mit.edu/STS.035/www/PDFs/think.pdf)”,  The Atlantic Monthly, July 1945. ([traducción](http://iibi.unam.mx/voutssasmt/documentos/Vannevar_Bush_Como%20podriamos%20_Pensar_JV.pdf))
+> Bush, V. (1945) “[As we may think](http://web.mit.edu/STS.035/www/PDFs/think.pdf)”,  The Atlantic Monthly, July 1945. ([traducción](http://iibi.unam.mx/voutssasmt/documentos/Vannevar_Bush_Como%20podriamos%20_Pensar_JV.pdf))
 
-##### Engelbart, D. (1962) “[Augmenting human intellect: A conceptual framework](http://dougengelbart.org/content/view/138)”, Summary Report Contract AF 49 638 1024 SRI, Project 3578, Stanford Research Institute, Menlo Park, California, October 1962.
+> Engelbart, D. (1962) “[Augmenting human intellect: A conceptual framework](http://dougengelbart.org/content/view/138)”, Summary Report Contract AF 49 638 1024 SRI, Project 3578, Stanford Research Institute, Menlo Park, California, October 1962.
+>
+> Douglas Engelbart fue otro personaje destacado en esta historia. Además de haber sido el creador del mouse y un investigador de la interacción entre humanos y computadoras, fue un gran motivador de la filosofía aquí presentada
 
-##### Douglas Engelbart fue otro personaje destacado en esta historia. Además de haber sido el creador del mouse y un investigador de la interacción entre humanos y computadoras, fue un gran motivador de la filosofía aquí presentada
-
-##### Nelson, T. (1972) “As we will think”, Proceedings of Online 72 Conference, Brunel University, Uxbridge, England.
-
-##### Ted Nelson tiene una muy activa cuenta de YouTube. Si querés ampliar sobre su idea de cómo debería funcionar Internet, y en particular sobre su proyecto Xanadú, te sugerimos mirarte [este video](https://www.youtube.com/watch?v=hMKy52Intac)  (es el primero de una serie).
+> Nelson, T. (1972) “As we will think”, Proceedings of Online 72 Conference, Brunel University, Uxbridge, England.
+>
+> Ted Nelson tiene una muy activa cuenta de YouTube. Si querés ampliar sobre su idea de cómo debería funcionar Internet, y en particular sobre su proyecto Xanadú, te sugerimos mirarte [este video](https://www.youtube.com/watch?v=hMKy52Intac)  (es el primero de una serie).

@@ -3,13 +3,13 @@ body {
     font-size: 16px;
 }
 
-p {
-    font-size: 1.2rem;
+blockquote {
+    border-left: 0.5px solid #bebebe;
+    color: grey;
 }
 
-h5 {
+p {
     font-size: 1.2rem;
-    // font-style: italic;
 }
 
 hr {
@@ -77,5 +77,46 @@ hr {
         height: 8px;
         background: #4b4b4b;
         width: 0%;
+    }
+}
+
+.footer-icons {
+    a {
+        padding: 10px;
+        :hover {
+            color: black;
+        }
+        svg {
+            height: 36px;
+            width: 36px !important;
+        }
+    }
+}
+
+.footer-container {
+    @media #{$small} {
+        margin: 5px !important;
+    }
+    @media #{$notsmall} {
+        margin: 0 75px !important;
+    }
+}
+
+.contact-container {
+    margin: 100px 0 !important;
+}
+
+.sidenav-icons {
+    padding: 0 15px;
+    a {
+        margin-left: 15px;
+        :hover {
+            color: black;
+        }
+        svg {
+            margin-top: 15px;
+            height: 24px;
+            width: 24px !important;
+        }
     }
 }
