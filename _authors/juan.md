@@ -1,6 +1,6 @@
 ---
 layout: default
-name: Juan Zaragosa
+name: Juan Zaragoza
 bio: "Estudiante de Filosofía en la UBA. Con 25 años, pertenece a un thinktank privado, que investigan la respuesta a todos los misterios del universo."
 personal_tags: [mente, futuro, información]
 social:
