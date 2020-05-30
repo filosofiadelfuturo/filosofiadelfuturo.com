@@ -2,5 +2,5 @@
 .jekyll-cache
 .jekyll-metadata
 vendor
-_site
+_site/
 TODO
