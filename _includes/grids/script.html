@@ -1,5 +1,6 @@
 <div class="grid" data-columns>
-    {% for script in site.scripts limit:include.limit %}
+    {% assign sorted_scripts = site.scripts | reverse %}
+    {% for script in sorted_scripts limit:include.limit %}
     {% include cards/script.html script=script %}
     {% endfor %}
 </div>

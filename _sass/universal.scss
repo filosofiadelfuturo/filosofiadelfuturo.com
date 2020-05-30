@@ -8,6 +8,10 @@ blockquote {
     color: grey;
 }
 
+a:hover {
+    color: blue !important;
+}
+
 p {
     font-size: 1.2rem;
 }
@@ -84,7 +88,7 @@ hr {
     a {
         padding: 10px;
         :hover {
-            color: black;
+            color: blue;
         }
         svg {
             height: 36px;

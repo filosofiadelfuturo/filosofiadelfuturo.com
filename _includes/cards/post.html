@@ -11,7 +11,8 @@
         <span class="grey-text text-darken-4"> <i> {{ include.post.authors }} </i>
             <i class="material-icons right activator">more_vert</i>
         </span>
-        <p><a href="{{ site.url }}{{ include.post.url }}">Publicación completa</a></p>
+        <p><a class="blue-grey-text" href="{{ site.url }}{{ include.post.url }}">
+                Publicación completa</a></p>
     </div>
     <div class="card-reveal">
         <span class="card-title grey-text text-darken-4"> {{ include.post.title }}
@@ -20,7 +21,7 @@
         <p>
             {{ include.post.content | truncate: 200 }}
         </p>
-        <a href="{{ site.url }}{{ include.post.url }}">
+        <a class="blue-grey-text" href="{{ site.url }}{{ include.post.url }}">
             Publicación completa
         </a>
     </div>
