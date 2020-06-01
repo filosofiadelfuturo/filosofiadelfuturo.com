@@ -29,7 +29,7 @@
             Menu</button>
         <br>
         <br> -->
-        <canvas id="Mundo" width="700" height="700"
+        <canvas id="Mundo" width="1000" height="500"
             style="background-color:black; border:1px solid; border-color:white; text-align: center;">
         </canvas>
         <br>
@@ -44,8 +44,10 @@
 
     <script>
 
-
-        var size = 70;
+        var mundillo = document.getElementById("Mundo");
+        mundillo.addEventListener("click", set);
+        var sizeX = mundillo.width / 10;
+        var sizeY = mundillo.height / 10;
         var actual = [];
         var proximo = [];
         var go = false;
@@ -70,24 +72,18 @@
         iniciar();
 
         function iniciar() {
-            size = 70; //todavía falta ver cómo alterar eso.
             go = false;
             llenarCeros();
             paint();
         }
 
-
-        var mundillo = document.getElementById("Mundo");
-        mundillo.addEventListener("click", set);
-
-
         function llenarCeros() {
             actual = [];
             var i = 0;
-            while (i < size) {
+            while (i < sizeX) {
                 var ceros = [];
                 var j = 0;
-                while (j < size) {
+                while (j < sizeY) {
                     ceros.push(0);
                     j++;
                 }
@@ -97,10 +93,10 @@
 
             proximo = [];
             var h = 0;
-            while (h < size) {
+            while (h < sizeX) {
                 var ceross = [];
                 var o = 0;
-                while (o < size) {
+                while (o < sizeY) {
                     ceross.push(0);
                     o++;
                 }
@@ -114,25 +110,25 @@
             if (i > 0) {
                 acum += actual[i - 1][j];
             }
-            if (i < size - 1) {
+            if (i < sizeX - 1) {
                 acum += actual[i + 1][j];
             }
             if (j > 0) {
                 acum += actual[i][j - 1];
             }
-            if (j < size - 1) {
+            if (j < sizeY - 1) {
                 acum += actual[i][j + 1];
             }
             if (i > 0 && j > 0) {
                 acum += actual[i - 1][j - 1];
             }
-            if (i > 0 && j < (size - 1)) {
+            if (i > 0 && j < (sizeY - 1)) {
                 acum += actual[i - 1][j + 1];
             }
-            if (i < (size - 1) && j > 0) {
+            if (i < (sizeX - 1) && j > 0) {
                 acum += actual[i + 1][j - 1];
             }
-            if (i < (size - 1) && j < (size - 1)) {
+            if (i < (sizeX - 1) && j < (sizeY - 1)) {
                 acum += actual[i + 1][j + 1];
             }
             return acum;
@@ -146,9 +142,9 @@
             ctx.fillStyle = "black";
             ctx.fillRect(0, 0, 1000, 1000);
             var i = 0;
-            while (i < size) {
+            while (i < sizeX) {
                 var j = 0;
-                while (j < size) {
+                while (j < sizeY) {
                     if (actual[i][j] == 1) {
                         ctx.fillStyle = "#FFFFFF";
                     } else {
@@ -164,9 +160,9 @@
 
         function nextTurn() {
             var i = 0;
-            while (i < size) {
+            while (i < sizeX) {
                 var j = 0;
-                while (j < size) {
+                while (j < sizeY) {
                     //document.getElementById("debugger2").innerHTML += (((actual[i][j] == 1 && vecinos(i, j) == 2 )|| vecinos(i, j) == 3) ? "true" : "false" );
                     if ((actual[i][j] == 1 && vecinos(i, j) == 2) || vecinos(i, j) == 3) {
                         proximo[i][j] = 1;
@@ -184,9 +180,9 @@
 
         function copiar() {
             var i = 0;
-            while (i < size) {
+            while (i < sizeX) {
                 var j = 0;
-                while (j < size) {
+                while (j < sizeY) {
                     var o = proximo[i][j];
                     actual[i][j] = o;
                     j++;
@@ -214,9 +210,9 @@
         function printNivel() {
             nivel = [];
             var i = 0;
-            while (i < size) {
+            while (i < sizeX) {
                 var j = 0;
-                while (j < size) {
+                while (j < sizeY) {
                     if (actual[i][j] != 0) {
                         nivel.push(i);
                         nivel.push(j);
