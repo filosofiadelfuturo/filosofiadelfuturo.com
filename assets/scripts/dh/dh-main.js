@@ -1,7 +1,7 @@
 /*** Encryption / Decryption ***/
 let _otp = function (string, key) {
     var byteString = _getByteArray(string);
-    const byteKey = _getByteArray(key);
+    const byteKey = _getByteArray(key.toString());
 
     byteString = byteString.map((value, index) =>
         value ^ byteKey[index % byteKey.length]);
