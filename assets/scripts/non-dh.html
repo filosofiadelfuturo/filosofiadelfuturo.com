@@ -1,0 +1,293 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+
+    <!-- Font monospace -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+        rel="stylesheet">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+
+    <!-- Semantic -->
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+
+    <!-- Local -->
+    <script src="./dh/ui.js"></script>
+    <script src="./dh/dh-main.js"></script>
+    <script src="./dh/non-dh-server.js"></script>
+    <script src="./dh/non-dh-user.js"></script>
+
+
+    <link rel="stylesheet" href="./dh/style.css">
+</head>
+
+<body>
+    <div class="ui equal width center aligned stackable grid">
+        <div class="column">
+            <div class="ui segment">
+                <h1>Alice</h1>
+                <div class="ui form">
+                    <div class="ui small basic icon buttons">
+                        <button class="ui basic button" data-content="New Private Key (KAS)"
+                            data-position="top left" onclick="NewPrivateData('a')">
+                            <i class="plus icon"></i></button>
+                        <button class="ui black basic button"
+                            data-content="Send private key (KAS) to Server" data-position="top left"
+                            onclick="SendKey('a')">
+                            <i class="right arrow icon"></i></button>
+                    </div>
+                    <div class="field">
+                        <br>
+                        <label>Private Data</label>
+                        <span>(KAS)</span>
+                        <span id="Ka">0</span>
+                    </div>
+                    <div class="ui small basic icon buttons">
+                        <button class="ui basic button" data-content="Clear Encrypted"
+                            data-position="top left" onclick="Clear('a')">
+                            <i class="close icon"></i></button>
+                        <button class="ui blue basic button"
+                            data-content="Send Encrypted to Bob - through Server"
+                            data-position="top left" onclick="Send('a')">
+                            <i class="right arrow icon"></i></button>
+                    </div>
+                    <div class="field">
+                        <br>
+                        <label id="a-cipher-data-label">Encrypted Data</label>
+                        <span id="a-cipher-data"></span>
+                    </div>
+                    <div class="ui small basic icon buttons">
+                        <button class="ui red basic button"
+                            data-content="Encrytp - using available key (KAS)"
+                            data-position="top left" onclick="Encrypt('a')">
+                            <i class="lock icon"></i></button>
+                        <button class="ui green basic button"
+                            data-content="Decrytp - using available key (KAS)"
+                            data-position="top left" onclick="Decrypt('a')">
+                            <i class="key icon"></i></button>
+                    </div>
+                    <div class="field">
+                        <br>
+                        <label>Message</label>
+                        <textarea id="a-message" rows="2"></textarea>
+                    </div>
+                    <div class="ui segment left aligned container" id="a-message-board"></div>
+                </div>
+            </div>
+        </div>
+        <div class="eight wide column">
+            <div class="ui segment">
+                <h1>Server</h1>
+                <div class="ui form">
+                    <div class="field">
+                        <label>Raw Data</label>
+                        <span id="server-raw"></span><br>
+                    </div>
+                    <div class="field">
+                        <br>
+                        <div class="ui basic green buttons">
+                            <button class="ui labeled icon button" onclick="ServerDecrypt('Kas')"
+                                data-content="Decrytp using key KAS" data-position="top right">
+                                <i class="down arrow icon"></i>
+                                Use KAS
+                            </button>
+                            <div class="or"></div>
+                            <button class="ui right labeled icon button"
+                                onclick="ServerDecrypt('Kbs')" data-content="Decrytp using key KBS"
+                                data-position="top right"><i class=" down arrow icon"></i>
+                                Use KBS
+                            </button>
+                        </div>
+                        <div class="field">
+                            <br>
+                            <label>Decrypted Data</label>
+                            <span id="server-decrypted"></span>
+                        </div>
+                        <div class="ui basic red buttons">
+                            <button class="ui labeled icon button" onclick="ServerEncrypt('Kbs')"
+                                data-content="Encrypt using key KBS" data-position="top right">
+                                <i class="right arrow icon"></i>
+                                Use KBS
+                            </button>
+                            <div class="or"></div>
+                            <button class="ui right labeled icon button"
+                                onclick="ServerEncrypt('Kas')" data-content="Encrypt using key KAS"
+                                data-position="top right">
+                                <i class=" left arrow icon"></i>
+                                Use KAS
+                            </button>
+                        </div>
+                        <div class="field">
+                            <br>
+                            <label>Encrypted Data</label>
+                            <span id="server-encrypted"></span>
+                        </div>
+                        <div class="ui buttons">
+                            <button class="ui labeled icon button" onclick="ServerSend('a')">
+                                <i class="left arrow icon"></i>
+                                Send to A
+                            </button>
+                            <div class="or"></div>
+                            <button class="ui right labeled icon button" onclick="ServerSend('b')">
+                                <i class="right arrow icon"></i>
+                                Send to B
+                            </button>
+                        </div>
+
+                        <div class="field">
+                            <br>
+                            <label>Keys</label>
+                        </div>
+                        <table class="ui very basic center aligned table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <b>Alice (KAS)</b><br>
+                                        <span id="Kas"></span>
+                                    </td>
+                                    <td>
+                                        <b>Bob (KBS)</b><br>
+                                        <span id="Kbs"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+                    <div class="ui small basic icon buttons">
+                        <button class="ui basic button" data-content="Clear Server Logs"
+                            data-position="top left" onclick="ClearLogs('log')">
+                            <i class="close icon"></i></button>
+                        <button class="ui basic button" data-content="Open Calculator"
+                            data-position="top left" onclick="ShowCalculator()">
+                            <i class="calculator icon"></i></button>
+                    </div>
+                    <div class="field">
+                        <br>
+                        <div class="ui segment left aligned container" id="log"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="calculator-segment" class="ui segment hidden">
+                <h3>Calculator</h3>
+                <div class="ui form">
+                    <label>One Time Pad (OTP)</label>
+                    <div class="fields">
+                        <div class="eight wide field">
+                            <input id="calc-otp-payload" type="text" placeholder="Payload">
+                        </div>
+                        <div class="four wide field">
+                            <input id="calc-otp-key" type="text" placeholder="Key">
+                        </div>
+                        <button class="ui right labeled four wide field icon button"
+                            onclick="CalculatorOTP()">
+                            <i class="plus circle icon"></i>
+                            Pad
+                        </button>
+                    </div>
+                    <br>
+                    <label>Exponent Modulo</label>
+                    <div class="fields">
+                        <div class="four wide field">
+                            <input id="calc-exp-base" type="number" placeholder="Base">
+                        </div>
+                        <div class="four wide field">
+                            <input id="calc-exp-exp" type="number" placeholder="Exponent">
+                        </div>
+                        <div class="four wide field">
+                            <input id="calc-exp-mod" type="number" placeholder="Modulo">
+                        </div>
+                        <button class="ui right labeled four wide field icon button"
+                            onclick="CalculatorExponent()"><i class="plus circle icon"></i>
+                            Calc
+                        </button>
+                    </div>
+                    <br>
+                    <label>Pseudo-Random Generator</label>
+                    <div class="fields">
+                        <div class="twelve wide field">
+                            <input id="calc-rand-max" type="number" placeholder="Max">
+                        </div>
+                        <button class="ui right labeled four wide field icon button"
+                            onclick="CalculatorRandom()"><i class="random icon"></i>
+                            Rand
+                        </button>
+                    </div>
+                    <br>
+                    <div class="ui small basic icon buttons">
+                        <button class="ui basic button" data-content="Clear Calculator Logs"
+                            data-position="top left" onclick="ClearLogs('calc-log')">
+                            <i class="close icon"></i></button>
+                    </div>
+                    <div class="field">
+                        <br>
+                        <div class="ui segment left aligned container" id="calc-log"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui segment">
+                <h1>Bob</h1>
+                <div class="ui form">
+                    <div class="ui small basic icon buttons">
+                        <button class="ui black basic button"
+                            data-content="Send private key (KBS) to Server" data-position="top left"
+                            onclick="SendKey('b')">
+                            <i class="left arrow icon"></i></button>
+                        <button class="ui basic button" data-content="New Private Key (KBS)"
+                            data-position="top left" onclick="NewPrivateData('b')">
+                            <i class="plus icon"></i></button>
+                    </div>
+                    <div class="field">
+                        <br>
+                        <label>Private Data</label>
+                        <span>(KBS)</span>
+                        <span id="Kb">0</span>
+                    </div>
+                    <div class="ui small basic icon buttons">
+                        <button class="ui blue basic button"
+                            data-content="Send Encrypted to Bob - through Server"
+                            data-position="top left" onclick="Send('b')">
+                            <i class="left arrow icon"></i></button>
+                        <button class="ui basic button" data-content="Clear Encrypted"
+                            data-position="top left" onclick="Clear('b')">
+                            <i class="close icon"></i></button>
+                    </div>
+                    <div class="field">
+                        <br>
+                        <label id="b-cipher-data-label">Encrypted Data</label>
+                        <span id="b-cipher-data"></span>
+                    </div>
+                    <div class="ui small basic icon buttons">
+                        <button class="ui red basic button"
+                            data-content="Encrytp - using available key (KBS)"
+                            data-position="top left" onclick="Encrypt('b')">
+                            <i class="lock icon"></i></button>
+                        <button class="ui green basic button"
+                            data-content="Decrytp - using available key (KBS)"
+                            data-position="top left" onclick="Decrypt('b')">
+                            <i class="key icon"></i></button>
+                    </div>
+                    <div class="field">
+                        <br>
+                        <label>Message</label>
+                        <textarea id="b-message" rows="2"></textarea>
+                    </div>
+                    <div class="ui segment left aligned container" id="b-message-board"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
