@@ -1,7 +1,7 @@
 /*** Encryption / Decryption ***/
 let _otp = function (string, key) {
     var byteString = _getByteArray(string);
-    const byteKey = _getByteArray(key.toString());
+    const byteKey = _getByteArray(key);
 
     byteString = byteString.map((value, index) =>
         value ^ byteKey[index % byteKey.length]);
@@ -11,6 +11,7 @@ let _otp = function (string, key) {
 
 /*** Datatype / ByteArray ***/
 let _getByteArray = function (string) {
+	string = string.toString();
     let bytes = [];
     for (let i = 0; i < string.length; i++)
         bytes.push(string.charCodeAt(i));

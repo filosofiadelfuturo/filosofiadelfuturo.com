@@ -45,7 +45,7 @@ let ShowPrivate = function (caller) {
 /*** Encrypt ***/
 let Encrypt = function (caller) {
     const message = getById(`${caller}-message`).value.toString();
-    const key = getById(`K${caller}`).innerText;
+    const key = getById(`K${caller}`).value;
     const cipher = _otp(message, key);
 
     getById(`${caller}-cipher-data`).innerText = cipher;
