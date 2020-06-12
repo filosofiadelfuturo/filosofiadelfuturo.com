@@ -34,3 +34,15 @@
         height: 100%;
     }
 }
+
+.iframe-container-thin {
+    position: relative;
+    padding-bottom: 500px;
+    padding-top: 25px;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}

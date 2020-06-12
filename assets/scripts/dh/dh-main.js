@@ -11,7 +11,7 @@ let _otp = function (string, key) {
 
 /*** Datatype / ByteArray ***/
 let _getByteArray = function (string) {
-	string = string.toString();
+    string = string.toString();
     let bytes = [];
     for (let i = 0; i < string.length; i++)
         bytes.push(string.charCodeAt(i));
@@ -53,6 +53,24 @@ let ShowCalculator = function () {
 
 let CalcLog = function (log) {
     getById("calc-log").innerHTML += `<p>${log}</p>`;
+};
+
+let CalculatorXOR = function () {
+    let a = Decimal(getById("calc-xor-a").value);
+    let b = Decimal(getById("calc-xor-b").value);
+
+    if (Binary(a) != Number(getById("calc-xor-a").value) || Binary(b) != Number(getById("calc-xor-b").value))
+        return CalcLog("(XOR) Error: Only Binary strings allowed");
+
+    CalcLog(`(XOR) ${Binary(a ^ b)} = ${Binary(a)} xor ${Binary(b)}`);
+};
+
+let Binary = function (dec) {
+    return (Number(dec >>> 0).toString(2));
+};
+
+let Decimal = function (bin) {
+    return parseInt(bin, 2);
 };
 
 let CalculatorOTP = function () {
