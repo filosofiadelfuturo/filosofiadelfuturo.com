@@ -10,6 +10,12 @@
 //     }
 // }
 
-.grid-4[data-columns]::before {
-	content: '4 .column.size-1of4';
+
+.authors-container {
+    @media #{$small} {
+        margin: 5px !important;
+    }
+    @media #{$notsmall} {
+        margin: 0 75px !important;
+    }
 }
