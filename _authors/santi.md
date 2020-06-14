@@ -3,9 +3,5 @@ name: Santiago López
 bio: Filosofía de la mente, Filosofía de la tecnología, Neurociencias
 personal_tags: [mente, futuro, información]
 social:
-    github: https://github.com/jaime05
-    twitter: https://twitter.com/thejaime
-    web: https://jaimeman.com
-    mail: mailto:jaime.rodriguez@gmail.com
 image: "santi.png"
 ---
