@@ -1,11 +1,15 @@
-.authors {
-    .card {
-        @media #{$small} {
-            display: block !important;
+// .authors {
+//     .card {
+//         @media #{$small} {
+            // display: block !important;
     
-            .card-image {
-                max-width: 100% !important;
-            }
-        }
-    }
+//             .card-image {
+                // max-width: 100% !important;
+//             }
+//         }
+//     }
+// }
+
+.grid-4[data-columns]::before {
+	content: '4 .column.size-1of4';
 }

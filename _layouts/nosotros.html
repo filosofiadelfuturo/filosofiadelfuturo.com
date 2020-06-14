@@ -10,24 +10,23 @@
     <div class="authors-container">
         <h1>{{ page.title }}</h1>
 
-        <div class="row authors">
-            {% for author in site.authors %}
-            <div class="col s12 m6 l3">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="{{ site.url }}/assets/img/authors/{{ author.image }}"
-                            class="responsive-img">
+        <div class="authors grid-4" data-columns>
+            {% assign sorted_authors = site.authors | sort: 'name' | reverse %}
+            {% for author in sorted_authors %}
+            <div class="card">
+                <div class="card-image">
+                    <img src="{{ site.url }}/assets/img/authors/{{ author.image }}"
+                        class="responsive-img">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <span class="card-title">{{ author.name }}</span>
+                        <p>{{ author.bio }}</p>
                     </div>
-                    <div class="card-stacked">
-                        <div class="card-content">
-                            <span class="card-title">{{ author.name }}</span>
-                            <p>{{ author.bio }}</p>
-                        </div>
-                        <div class="card-action center">
-                            {% for social in author.social %}
-                            <a class="blue-grey-text" href="{{ social[1] }}">{{ social[0] }}</a>
-                            {% endfor %}
-                        </div>
+                    <div class="card-action center">
+                        {% for social in author.social %}
+                        <a class="blue-grey-text" href="{{ social[1] }}">{{ social[0] }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>

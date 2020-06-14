@@ -1,12 +1,9 @@
 ---
-layout: default
 name: Joaquín Bardauil
-bio: "Estudiante de Filosofía en la UBA. Con 25 años, pertenece a un thinktank privado, que investigan la respuesta a todos los misterios del universo."
-personal_tags: [mente, futuro, información]
+bio: Ciencia de datos, razonamiento automatizado, metafísica de la virtualidad.
 social:
-    github: https://github.com/jaime05
-    twitter: https://twitter.com/thejaime
-    web: https://jaimeman.com
+    medium: https://medium.com/@joaquin.bardauil
+    github: https://github.com/
     mail: mailto:jaime.rodriguez@gmail.com
-image: "jaime.jpg"
+image: "joaco.png"
 ---
