@@ -24,7 +24,12 @@
                     <h3>... y contactanos</h3>
                     <p>Te invitamos a que nos sigas en nuestras redes sociales,</p>
                     <div class="footer-icons">
-                        {% include addons/social-icons.html %}
+                        <a href="{{ site.twitter_link }}" class="black-text">
+                            <i class="fab fa-twitter"></i></a>
+                        <a href="{{ site.instagram_link }}" class="black-text">
+                            <i class="fab fa-instagram"></i></a>
+                        <a href="{{ site.github_link }}" class="black-text">
+                            <i class="fab fa-github"></i></a>
                         <br>
                         <p>También leemos los mails que nos mandan, sea bienvenido el debate!</p>
                         <a href="mailto:{{ site.email }}" class="grey-text"><b>{{ site.email }}

@@ -42,8 +42,10 @@ collections:
     output: true
   publications:
     output: true
+    permalink: /:title/
   scripts:
     output: true
+    permalink: /:title/
   recommends:
     output: true
 
