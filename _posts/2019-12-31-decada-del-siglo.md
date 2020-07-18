@@ -4,7 +4,7 @@ title: "La década del siglo"
 date: 2019-12-30
 authors: "Juan Fernández Zaragoza"
 excerpt: "Balance de la década y de nuestro año"
-tags: [tecnología]
+tags: [tecnología, ff]
 comments: true
 image: "decada_del_siglo.jpg"
 ---
