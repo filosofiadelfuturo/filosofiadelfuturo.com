@@ -5,7 +5,7 @@ date: 2019-9-21
 authors: "Juan Fernández Zaragoza"
 editors: "Valentín Muro y Joaquín Bardauil"
 excerpt: "Una exhortación a la Filosofía del Futuro"
-tags: [mente, futuro]
+tags: [mente, futuro, ff]
 comments: true
 image: "por_que_filo_futuro.jpg"
 ---
