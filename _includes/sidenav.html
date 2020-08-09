@@ -1,20 +1,20 @@
 <!-- Left Sidenav -->
-<ul id="slide-out" class="sidenav">
+<ul id="slide-out" class="sidenav grey darken-4">
     <li>
-        <div class="user-view">
+        <div class="white-text user-view">
             <h4> {{ site.title }} </h4>
             <p class="description-short"> {{ site.description_short }} </p>
         </div>
     </li>
     {% for link in site.data.navigation %}
     <li>
-        <a href="{{ site.url }}{{ link.url }}" class="black-text"> {{ link.title }} </a>
+        <a href="{{ site.url }}{{ link.url }}" class="white-text"> {{ link.title }} </a>
     </li>
     {% endfor %}
     <li>
         <div class="divider"></div>
     </li>
-    <li><a class="subheader">Nuestras redes sociales</a></li>
+    <li><a class="subheader grey-text lighten-2">Nuestras redes sociales</a></li>
     <li>
         <div class="sidenav-icons">
             {% include addons/social-icons.html %}

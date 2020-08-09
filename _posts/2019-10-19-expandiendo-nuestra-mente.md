@@ -5,6 +5,7 @@ date: 2019-10-19
 authors: "Santiago López Gagliano y Javier Krick"
 editors: "Valentín Muro y Joaquín Bardauil"
 excerpt: "Procesamiento más allá del cerebro"
+description: De la misma forma en la que dominar el fuego nos per mitió hacer casi toda la digestión fuera de nuestro cuerpo, la escritura, las computadoras, Google y los celulares nos permiten realizar procesos mentales fuera del cerebro. ¿Que le pasaría a nuestra mente si algo malo les sucede?
 tags: [mente]
 comments: true
 image: "mente_extendida.jpg"
