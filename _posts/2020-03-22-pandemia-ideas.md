@@ -4,7 +4,7 @@ title: "Pandemia de ideas"
 date: 2020-03-22
 authors: "Juan Fernández Zaragoza"
 excerpt: "Los movimientos sociales, las noticias falsas y los virus no son tan distintos"
-tags: [fake news, información, red]
+tags: [fake news, información, redes]
 comments: true
 image: "pandemia_ideas.jpg"
 ---
