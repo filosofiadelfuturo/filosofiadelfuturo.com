@@ -21,14 +21,13 @@ Hubo, sin embargo, un tercer ethos en el siglo XIX que es esperanzador para quie
 Desde el positivismo se lo acusó de romántico, y desde el romanticismo, de positivista. Pero hay una diferencia con el segundo respecto de la forma de su crítica, y una diferencia con el primero respecto de su motivación. Más allá de sus conclusiones, de su construcción teórica y su perspectiva macroeconómica, la crítica marxista hizo algo que el romanticismo no: dio el debate. La discusión sobre el futuro de la técnica es técnica, no porque así lo queramos sino porque la locomotora no quiere detenerse. Critiquemos y soñemos, pero aprendiendo bien cómo rediseñar.
 
 ---
-##### En este caso, no debe tomarse como una representación rigurosa de los conceptos de [romanticismo](https://es.wikipedia.org/wiki/Romanticismo)
-y [positivismo](https://es.wikipedia.org/wiki/Positivismo). Más bien se toma una lectura que ilustra por analogía dos corrientes importantes de pensamiento actual, que en parte pueden ser traducidas a los conceptos hoy llamados [tecnofobia](https://es.wikipedia.org/wiki/Tecnofobia) y [tecnofilia](https://es.wikipedia.org/wiki/Tecnofilia), respectivamente, y explica dónde nos posicionamos nosotrxs en ese debate.
+##### En este caso, no debe tomarse como una representación rigurosa de los conceptos de [romanticismo](https://es.wikipedia.org/wiki/Romanticismo) y [positivismo](https://es.wikipedia.org/wiki/Positivismo). Más bien se toma una lectura que ilustra por analogía dos corrientes importantes de pensamiento actual, que en parte pueden ser traducidas a los conceptos hoy llamados [tecnofobia](https://es.wikipedia.org/wiki/Tecnofobia) y [tecnofilia](https://es.wikipedia.org/wiki/Tecnofilia), respectivamente, y explica dónde nos posicionamos nosotrxs en ese debate.
 
 ##### Te contamos, además, que el próximo semestre vamos a estar realizando algunas lecturas como parte de este programa, que se basará principalmente en:
-- [Introduction to cybernetics](http://pespmc1.vub.ac.be/ASHBBOOK.html) de Ashby, y
-- [Designing freedom](https://books.google.com.ar/books/about/Dise%C3%B1ando_la_Libertad.html?id=aKadJwAACAAJ&source=kp_book_description&redir_esc=y), de Beer.
+- ##### [Introduction to cybernetics](http://pespmc1.vub.ac.be/ASHBBOOK.html) de Ashby, y
+- ##### [Designing freedom](https://books.google.com.ar/books/about/Dise%C3%B1ando_la_Libertad.html?id=aKadJwAACAAJ&source=kp_book_description&redir_esc=y), de Beer.
 
 ##### Estos dos primeros libros en conjunto ilustran cómo entender a las sociedades como sistemas permite utilizar métodos propios de teoría de sistemas para describir, modelar e intervenir sobre las mismas. Y a continuación:
-- [An introduction to agent Based Modelling](https://mitpress.mit.edu/books/introduction-agent-based-modeling), de Rand y Wilensky.
+- ##### [An introduction to agent Based Modelling](https://mitpress.mit.edu/books/introduction-agent-based-modeling), de Rand y Wilensky.
 
 ##### De manera de tomar las conclusiones surgidas de los desarrollos mencionados en la bibliografía anterior, y ejercitarlas en el contexto de una familia de modelos accesible y muy utilizada al día de hoy.
