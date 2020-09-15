@@ -1,5 +1,5 @@
 ---
-layout: curso_ia
+layout: cursoia
 title: Curso IA
 excerpt: "Curso IA"
 ---

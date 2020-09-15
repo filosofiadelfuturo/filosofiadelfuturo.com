@@ -48,7 +48,7 @@ collections:
     permalink: /:title/
   recommends:
     output: true
-  curso_ia:
+  cursoia:
     output: true
     permalink: /:title/
 
