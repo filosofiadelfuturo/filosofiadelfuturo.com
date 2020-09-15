@@ -48,6 +48,9 @@ collections:
     permalink: /:title/
   recommends:
     output: true
+  curso_ia:
+    output: true
+    permalink: /:title/
 
 plugins:
   - jekyll-feed

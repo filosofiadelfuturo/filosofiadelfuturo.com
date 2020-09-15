@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body class="black-text">
+    {% include addons/scroll_indicator.html %}
+    {% include nav.html %}
+    {% include sidenav.html %}
+
+    <!-- Post Title -->
+    <div class="post-title container">
+       <!--  <div class="banner-img">
+            <img class="responsive-img" src="{{ site.url }}/assets/img/title.png">
+        </div> -->
+
+        <h5>{{ page.date | date_to_string }}</h5>
+        <h1>{{ page.title }}</h1>
+        <!-- <p class="reading-time">
+            <i class="material-icons">watch_later</i>
+            {% include addons/read_time.html %}
+        </p> -->
+
+        {% include addons/tags.html showall=false arrow=true %}
+    </div>
+
+    <!-- Post Body -->
+    <div class="container">
+        <div class="justified content cap-first">
+            {{ content }}
+            <!-- Credits -->
+            <br>
+            <!-- <h5>
+                <i>Escrito por: {{ page.authors }}
+                    {% if page.editors %}
+                    <br />
+                    Editado por: {{ page.editors }}
+                </i>
+            </h5> -->
+        </div>
+
+        {% else %}
+        </i>
+        </h5>
+        {% endif %}
+        <hr />
+
+        <!-- Share -->
+        {% include addons/share_buttons.html %}
+
+        <!-- Mailchimp -->
+        {% include addons/mailchimp.html %}
+
+        <!-- Further Reading -->
+        <div class="row">
+            {% assign count = 0 %}
+            {% for tag in page.tags %}
+            {% for post in site.posts %}
+            {% if post.tags contains tag and count < 3 %}
+            <div class="col s12 m6 l4">
+                {% assign count = count | plus: 1 %}
+                {% include cards/post.html post=post %}
+            </div>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </div>
+
+        <!-- Comments -->
+        {% include addons/disqus_comments.html %}
+
+    </div>
+    </div>
+
+    {% include footer.html %}
+</body>
+
+</html>
