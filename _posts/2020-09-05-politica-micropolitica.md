@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Política por la Micropolítica"
+date: 2020-09-05
+authors: "Juan Fernández Zaragoza"
+excerpt: ""
+tags: [redes, política]
+comments: true
+---
+
+Lo personal es político. Nuestra experiencia cotidiana, nuestras actitudes, nuestros discursos (incluso los emitidos en entornos privados) y nuestras maneras de relacionarnos son fuerzas que pueden transformar actitudes, ideologías y conductas ajenas. Las acciones de la vida cotidiana son fuentes poderosas de transformación de nuestro entorno inmediato, y en consecuencia, pueden tener efectos indirectos a gran escala. Esa es la base de la micropolítica: no es necesario que sea explícita una militancia de objetivos globales claros o estrategias para la toma del poder para hacer política. La vida cotidiana consecuente también puede ser revolucionaria.
+
+Las más férreas defensas del enfoque micropolítico son críticas de las propuestas políticas a nivel sistémico. Cuando la política se personaliza, las posturas que programáticamente persiguen transformaciones estructurales parecen ser desde solemnes hasta superfluas, desde totalizantes hasta teorizantes en demasía, les falta tanto relativismo como concreción. ¿Y qué mejor siglo que el actual para la micropolítica? Cuando esa experiencia cotidiana se da cada vez más en entornos virtuales, su alcance puede ser mucho mayor. Las redes sociales digitales nos permiten afectar directamente, con nuestro comportamiento, a personas en cualquier lugar del mundo. La cantidad de interacciones que estas redes permiten, la facilidad de acceso a ellas y la capacidad de achicar las distancias para con cientos de personas son factores que acrecientan el poder de la micropolítica. Nunca antes la gente de a pie tuvo la posibilidad de alcanzar con su discurso a tanta gente como ahora. La política sistémica, con
+su impactante inabarcabilidad, pierde terreno ante la agilidad, la fuerza y la facilidad de práctica que supo cobrar la micropolítica.
+
+Pero la arena del discurso no es neutral, y la estrategia que considera el territorio es casi siempre la estrategia victoriosa. La micropolítica, en particular, es el nombre de un aspecto de un fenómeno bien estudiado: la influencia en las redes sociales. Las personas a las que podemos afectar con nuestro discurso y actitudes están determinadas, en las redes sociales digitales, por el conjunto de conexiones de nuestros perfiles personales. En caso del mundo no virtual, las personas sobre las cuales solemos tener efectos suelen a su vez corresponderse con conexiones digitales de mucha interacción, o pueden inferirse, de alguno u otro modo, pero siempre con alto poder predictivo, de nuestros perfiles en línea. Las redes sociales digitales son un mapa estupendo de todas las relaciones sobre las cuales cada ser humano puede ejercer un efecto micropolítico. Y no termina ahí.
+
+Existen modelos de transmisión de discurso e influencia de actitudes, sobre redes, que se ajustan muy fielmente a las observaciones. Estos modelos, a pesar de su simplicidad, permiten predecir cuándo una idea puede contagiarse, y cuáles son los caminos a través de los cuales tiene más probabilidades de abrirse paso un discurso a través de una población. La computación social, disciplina que estudia estos fenómenos, avanza cada día, pero los frutos de su investigación no son aplicables por cualquiera. Sin un mapeo de la topología específica de la red en cuestión y sin la capacidad de saber qué se está diciendo dónde, un modelo predictivo que toma esos presupuestos es prácticamente inútil. No tenemos hoy ni la capacidad de cómputo para hacer el mapeo necesario, ni tenemos, posteriormente, la capacidad de cómputo para ejecutar los modelos predictivos aun en caso de tener los mapas.
+
+En la batalla entre ideas, el acercamiento micropolítico del campo popular se parece a un general que no pone atención en la pendiente ni en la dirección del viento. Y los efectos políticos del estudio de las redes por los grandes capitales son cada día más visibles. El conocimiento del territorio es un factor que permite dirigir la acción de manera coordinada y directa, y la asimetría de conocimiento, en el caso de las redes digitales, es tan abismal que ni la analogía con las actitudes de dos imaginarios generales ante cierto territorio le hace verdadera justicia. Hoy nos encontramos prácticamente en un estado de ceguera. Además, la propiedad del territorio digital permite el uso de herramientas que la gente de a pie no posee. La última palabra sobre la censura y la publicidad nos es ajena. Nos encontramos, hoy, en una situación en la cual de manera muy concreta los límites de la micropolítica están dados por factores sistémicos. Con el tiempo, los límites cada vez están más cerca, y se
+acota, velozmente, su poder.
+
+Paradójicamente, garantizar la capacidad que hoy gozamos de ejercer micropolítica, de considerar políticas nuestras actividades cotidianas en espacios y relaciones, y de esperar que estas pudieran, a su tiempo, generar efectos sustantivos a nivel poblacional, requiere de nuestro involucramiento en luchas de carácter sistémico.
+
+Adquirir conocimiento sobre la red, estudiar los modelos más refinados de control de discurso, construir un mapa, intervenir en su topología, forjar una red digital alternativa, desplegar capacidad de cómputo distribuida y libre, desarrollar conocimiento sistémico y computacional desde el campo popular, y atacar las condiciones globales que limitan a la micropolítica son acciones requeridas para que su poder no pueda ser doblegado. Hoy las militancias micro y macropolíticas no se oponen en absoluto. Tienen varios desafíos en común.
+
+---
+Para ampliar sobre el tema de la micropolítica podés revisar el trabajo de Foucault, y de Deleuze y Guattari . Te dejamos algunos links donde desarrollaron particularmente estos temas
+- ##### Deleue y Guattari (1972) - [Mil Mesetas](http://www.teatroelcuervo.com.ar/assets/mil-mesetas.pdf).
+- ##### Foucault (1976) - [Historia de la sexualidad I - La voluntad de saber](https://cuentaconmigo.org.mx/articulos/foucault.pdf).
+- ##### Foucault (1978) - [Microfísica del poder](https://sigloxxieditores.com.ar/libro/microfisica-del-poder/).
