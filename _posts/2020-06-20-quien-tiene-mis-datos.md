@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "¿Quién tieen mis datos? Redes, internet, coronavirus y las políticas que nos debemos"
+title: "¿Quién tiene mis datos? Redes, internet, coronavirus y las políticas que nos debemos"
 date: 2020-06-20
 authors: "Julia Cófreces y Nicolás Siderio"
 excerpt: ""
