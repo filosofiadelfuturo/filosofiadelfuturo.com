@@ -25,6 +25,7 @@ Pero ningún fenómeno complejo emerge a partir de elementos discretos si estos 
 e modo nos vamos volviendo buenos en producir patrones constantes que interactúan localmente a lo largo de la matriz (algo así como el modo en que se origina la vida, pero implementado computacionalmente).
 
 Conway lamentó haberse vuelto famoso a raíz de este juego porque consideraba que “eclipsaba” sus otros trabajos matemáticos, que quizás él consideraría más serios. Pero este modelito matemático fue convirtiéndose con el tiempo en un verdadero dispositivo heurístico en biología, al permitirnos explorar ciertas consecuencias e implicancias acerca de lo que conocemos sobre la evolución de colonias de células, además de haber despertado intuiciones de distinto tipo, puzzles filosóficos y haber marcado un antes y un después en el modelado computacional de comportamientos naturales. Nada mal para un simple jueguito.
+
 ---
 
 ##### Si todavía no lo viste, [acá](https://filosofiadelfuturo.com/assets/scripts/lifeGame.html) podés acceder a la interfaz de nuestra implementación del juego de la vida.
