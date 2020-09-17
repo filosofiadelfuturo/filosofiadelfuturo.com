@@ -6,6 +6,7 @@ authors: "Santiago López"
 excerpt: ""
 tags: [redes, ff]
 comments: true
+image: "interdisciplina.jpg"
 ---
 
 Desde que existe la escritura, la división entre disciplinas es parte del esquema básico de producción y asimilación de los saberes. La Biblioteca de Alejandría ejemplifica esta tendencia, por una necesidad práctica de tener organizado el enorme volumen de textos que poseía. Otro momento importante se dio en la Universidad de París en el siglo XII, motivado por la necesidad de organizar la enseñanza desde cátedras diferentes. La unificación entre áreas de conocimiento ha sido también un ítem importante a lo largo de la historia de la filosofía, y muchos criterios de diferenciación han tenido un impacto profundo en la impartición de saberes. Ejemplos clásicos de esto son la división de tipos de saber según facultades del alma que introdujo Platón, las sistematizaciones de Diderot y d'Alembert acerca de las relaciones de dependencia entre ciencias en su proyecto enciclopédico, o la propuesta de Comte de distinguir entre saberes según dominios de conocimiento, entre muchos otros ejemplos.
