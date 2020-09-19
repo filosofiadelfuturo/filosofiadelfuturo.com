@@ -6,7 +6,7 @@ authors: "Santiago López"
 excerpt: ""
 tags: [política, automatización, datos]
 comments: true
-image: ""
+image: "reconocimiento_facial.png"
 ---
 
 Es una mañana del mes de abril del año 2019. En Estados Unidos, Amara Majee, estudiante de la Universidad Brown nacida en Sri Lanka, se despierta con treinta y cinco llamadas perdidas y otros tantos mensajes en su celular que le informan que fue identificada por la policía de su país natal como participante de un atentado terrorista efectuado por ISIS a raíz de un análisis de reconocimiento facial (https://www.washingtonpost.com/nation/2019/04/26/sri-lankan-police-wrongly-identify-brown-university-student-wanted-suspect-terror-attack/) . Amara entró en shock, ella no era participante de ISIS, no había tenido nada que ver con el atentado, y de hecho, se encontraba en Rhode Island en el momento en que éste sucedió. Eventualmente, su inocencia se pudo esclarecer y la policía retiró las acusaciones con un pedido de disculpas.
