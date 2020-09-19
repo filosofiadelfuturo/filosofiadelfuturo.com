@@ -6,6 +6,7 @@ authors: "Juan Fernández Zaragoza"
 excerpt: ""
 tags: [redes, política]
 comments: true
+image: "micropolitica.png"
 ---
 
 Lo personal es político. Nuestra experiencia cotidiana, nuestras actitudes, nuestros discursos (incluso los emitidos en entornos privados) y nuestras maneras de relacionarnos son fuerzas que pueden transformar actitudes, ideologías y conductas ajenas. Las acciones de la vida cotidiana son fuentes poderosas de transformación de nuestro entorno inmediato, y en consecuencia, pueden tener efectos indirectos a gran escala. Esa es la base de la micropolítica: no es necesario que sea explícita una militancia de objetivos globales claros o estrategias para la toma del poder para hacer política. La vida cotidiana consecuente también puede ser revolucionaria.
