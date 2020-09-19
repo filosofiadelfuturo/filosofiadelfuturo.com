@@ -6,6 +6,7 @@ authors: "Santiago López y Joaquín Bardauil"
 excerpt: ""
 tags: [vida artificial, conway]
 comments: true
+image: "conway_life.png"
 ---
 
 Muchas veces escuchamos decir que nuestro universo podría ser una simulación. Black Mirror, Matrix, Inception y Rick & Morty, entre otras formas de ciencia ficción, nos han ayudado a imaginar diversos modos en los que esto podría ser posible. La idea de un universo simulado también ha penetrado en la filosofía. Uno de los ejemplos más famosos es el argumento del “[cerebro en un balde](https://www.iep.utm.edu/brainvat/)” en donde no se sostiene que el mundo en que vivimos sea de hecho una simulación, sino que podría llegar a serlo. En principio, toda tu experiencia podría estar siendo producida por una computadora que transmita impulsos eléctricos a un cerebro adentro de un balde por medio de unos electrodos, y vos ni noticia al respecto. En los medios de comunicación, por su parte, también resonaron comentarios de Elon Musk diciendo que efectivamente nuestro universo es una simulación, citando [los argumentos](https://www.simulation-argument.com/simulation.pdf) que el filósofo transhumanist

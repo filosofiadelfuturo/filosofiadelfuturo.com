@@ -6,6 +6,7 @@ authors: "Santiago López y Joaquín Bardauil"
 excerpt: "¿Cuál es la relación entre programas computacionales, la vida y el caos?"
 tags: [vida artificial, conway]
 comments: true
+image: "conway_life.png"
 ---
 
 
