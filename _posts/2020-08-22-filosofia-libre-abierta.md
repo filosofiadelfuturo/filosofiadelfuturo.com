@@ -6,6 +6,7 @@ authors: "Santiago López y Juan Fernández Zaragoza"
 excerpt: ""
 tags: [ff, tecnologías libres]
 comments: true
+image: "filo_libre_abierta.png"
 ---
 
 La filosofía es una disciplina mutante. A lo largo de su historia, tomó diversas formas y paradigmas de producción. Heráclito, con enigmáticos aforismos, llamaba a la búsqueda de un orden y un sentido ocultos a simple vista. Kant, con sus rigurosas sistematizaciones, buscaba compatibilizar diversas tradiciones coexistentes y opuestas en el auge de la Ilustración. Marx, en su llamado a la integración entre praxis y teoría, se proponía construir una filosofía de proyecciones revolucionarias. El Círculo de Viena, al motivar una filosofía anexada al desarrollo científico, lo hacía en oposición a las corrientes irracionalistas que abanderaban el auge del nacionalsocialismo alemán. A veces, las personalidades o los perfiles de diversxs filósofxs opacan la importancia de las intenciones filosóficas y/o históricas a la hora de establecer las formas de producir filosofía. El corpus filosófico (y las fuentes extra-filosóficas) a tener en cuenta a la hora de desarrollar teoría, junto con la posi
