@@ -6,7 +6,7 @@ authors: "Julia Cófreces y Nicolás Siderio"
 excerpt: ""
 tags: [política, automatización, coronavirus, datos]
 comments: true
-image: ""
+image: "delitos_proxy.jpg"
 ---
 
 El avance del Covid-19 se da en un marco donde la tecnología y la información adquieren, como nunca antes, un valor sustancial en el desarrollo económico y social del capitalismo a nivel global. Hoy los datos se han convertido en el bien más codiciado. El desarrollo de internet posibilita el acceso de grandes empresas a una cantidad innumerable de información que puede ser segmentada y procesada en cuestión de segundos. En el contexto de una pandemia, la pregunta acerca de qué papel juegan los datos, quién se los apropia y con qué fines, adquiere una gran relevancia a la hora de elaborar propuestas y alternativas políticas para un posible mundo post-pandémico.

@@ -6,6 +6,7 @@ authors: "Juan Fernández Zaragoza"
 excerpt: "Sobre la importancia de que la filosofía se involucre en discusiones legales en el marco de la tecnología"
 tags: [ff, ia, política]
 comments: true
+image: "delitos_proxy.jpg"
 ---
 Históricamente, la legislación que regula la producción, la distribución y los usos de nuevas tecnologías fue surgiendo en forma posterior a su difusión generalizada. Aparecía una tecnología, se la comenzaba a utilizar, y luego, ante los riesgos y peligros observados en la práctica, y ante las oportunidades que podía verse que ofrecía, se establecían leyes para moderarla en sus diversos aspectos. Ante el riesgo del uso distractivo de teléfonos celulares al conducir se prohibió su uso en dichas circunstancias, ante la creciente importancia de internet como tecnología de comunicación se estableció su libre acceso como parte del derecho básico a la libertad de expresión. Hoy en día, cada vez más y por diversos motivos, existen presiones para que la legislación respecto de las nuevas tecnologías no se haga esperar tanto.
 
