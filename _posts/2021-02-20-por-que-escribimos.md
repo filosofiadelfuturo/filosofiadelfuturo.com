@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "¿Por qué escribimos"
+title: "¿Por qué escribimos?"
 date: 2021-02-20
 authors: "Juan Fernández Zaragoza"
 excerpt: ""
 tags: [escritura, ff]
 comments: true
-image: ""
+image: "por_que_escribimos.png"
 ---
 
 Hay cierta magia en la palabra escrita. Abrir un libro genera la tentación de fotografiar la escena y subirla a una red social, el acto de escribir con un cenicero cerca se habita casi con poesía, nos parecen interesantes las personas a quienes vemos leyendo libros interesantes y nos enorgullece conocer personas que escriben. Hay un romance en la palabra escrita. Me gustaría explicarlo como un fenómeno surgido del esnobismo intelectual o de la nostalgia de los tiempos pre-digitales, pero lo cierto es que es un romance que siento, una magia que percibo, y que, naturalmente, es característica inherente a la magia su inexplicabilidad. Para quienes escriben, la romantización de la escritura puede jugar un papel tentador. Vuelve más bellas y llevaderas las horas seguidas y solas dedicadas a esta tarea, hace más seductoras a las conversaciones sobre lo escrito y publicado, mantiene vivas a las editoriales. Pero romantizar, como por desgracia sabemos bien, es peligroso.
