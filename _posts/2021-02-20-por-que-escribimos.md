@@ -27,12 +27,12 @@ De pronto pierde sentido el síndrome de la hoja en blanco. No escribir es obsta
 
 Hay un romance en la palabra escrita, una magia que sigo sintiendo, pero sé que lo mejor para los dos será que salga pronto de ahí.
 
-#### Algunos tips para desromantizar el acto de escribir y perder el miedo a la hoja en blanco:
+##### Algunos tips para desromantizar el acto de escribir y perder el miedo a la hoja en blanco:
 
-#### 1. Imaginate que estás chateando. Apretá enter en lugar de poner puntos si es necesario.
-#### 2. Grabate hablando y transcribí (omitiendo onomatopeyas y titubeos).
-#### 3. Armar preguntas. Responderlas. Borrar las preguntas.
-#### 4. Escribir párrafos autónomos sobre ideas que se pretende explorar, después buscarles un orden, como si fueran ladrillitos.
-#### 5. En el momento en que anotás, anotá con oraciones completas. Pegar las notas en la hoja. Ya no está en blanco.
-#### 6. Si armaste la estructura del texto, probá no escribir siguiéndola en un documento separado, sino extendiendo y completándola en el mismo documento (método iterativo incremental).
+##### 1. Imaginate que estás chateando. Apretá enter en lugar de poner puntos si es necesario.
+##### 2. Grabate hablando y transcribí (omitiendo onomatopeyas y titubeos).
+##### 3. Armar preguntas. Responderlas. Borrar las preguntas.
+##### 4. Escribir párrafos autónomos sobre ideas que se pretende explorar, después buscarles un orden, como si fueran ladrillitos.
+##### 5. En el momento en que anotás, anotá con oraciones completas. Pegar las notas en la hoja. Ya no está en blanco.
+##### 6. Si armaste la estructura del texto, probá no escribir siguiéndola en un documento separado, sino extendiendo y completándola en el mismo documento (método iterativo incremental).
 ---
