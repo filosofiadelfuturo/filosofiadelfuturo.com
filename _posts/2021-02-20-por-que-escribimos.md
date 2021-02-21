@@ -27,6 +27,8 @@ De pronto pierde sentido el síndrome de la hoja en blanco. No escribir es obsta
 
 Hay un romance en la palabra escrita, una magia que sigo sintiendo, pero sé que lo mejor para los dos será que salga pronto de ahí.
 
+<hr>
+
 ##### Algunos tips para desromantizar el acto de escribir y perder el miedo a la hoja en blanco:
 
 ##### 1. Imaginate que estás chateando. Apretá enter en lugar de poner puntos si es necesario.
