@@ -14,9 +14,15 @@
             </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 {% for link in site.data.navigation %}
+                {% if link.external_url %}
+                <li>
+                    <a href="{{ link.external_url }}" class="black-text"> {{ link.title }} </a>
+                </li>
+                {% elsif link.url %}
                 <li>
                     <a href="{{ site.url }}{{ link.url }}" class="black-text"> {{ link.title }} </a>
                 </li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>
