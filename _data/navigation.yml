@@ -1,5 +1,6 @@
 # Site navigation links
-
+ - title: Manifiesto
+   external_url: https://docs.google.com/document/d/1OmG9wTJji4WIzzSfOZtOUVkNsAc6f0ar3Kew2VAo5C8/export?format=pdf&attachment=false
  - title: Newsletter
    url: /newsletter/
  - title: Scripts
@@ -14,3 +15,4 @@
    url: /porque-filosofia-y-futuro/
  - title: Curso IA
    url: /cursoia/
+
