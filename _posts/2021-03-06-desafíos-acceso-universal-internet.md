@@ -23,4 +23,4 @@ Las reflexiones anteriores dan cuenta de los desafíos a la hora de proponer pol
 
 ---
 
-La bibliografía que se consultó fue el artículo de Mariano Zukerfeld [“Todo lo que usted quiso saber sobre internet pero nunca se atrevió a googlear”](http://revistahipertextos.org/zukerfeld-mariano/hipertextos_no-2-64-103/).
+##### La bibliografía que se consultó fue el artículo de Mariano Zukerfeld [“Todo lo que usted quiso saber sobre internet pero nunca se atrevió a googlear”](http://revistahipertextos.org/zukerfeld-mariano/hipertextos_no-2-64-103/).
