@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Tecnologías de género xenofeminista"
+date: 2021-11-13
+authors: "Agustina Arrigorria"
+excerpt: ""
+tags: [xenofeminismo]
+comments: true
+image: "mentes_transistores_amistades.png"
+---
+
+“El xenofeminismo (XF) no es una oferta de revolución, sino una apuesta a largo plazo por el juego de la historia, que exige imaginación, destreza y persistencia.” Con esas palabras se le da comienzo al [manifiesto xenofeminista](https://laboriacuboniks.net/manifesto/xenofeminismo-una-politica-por-la-alienacion/); una corriente de vanguardia que propone reflexionar y operar en un mundo mediado tecnológicamente, de manera abstracta, virtual y compleja, proporcionando un acercamiento a la tecnología como propuesta política emancipatoria. Para entender exactamente de qué va el XF, hay tres puntos fundamentales: el tecnomaterialismo, el antinaturalismo y el abolicionismo de género.
+
+Su concepción tecnomaterialista propone realizar una ponderación reflexiva: la tecnología no es intrínsecamente buena o mala pero tampoco es neutral, puesto que resulta de las interacciones sociales existentes y refleja las asimetrías de poder hegemónicas. Comprender el potencial tecnológico supone redirigir los objetivos de la ciencia y de la técnica a través de la lucha colectiva.
+
+El análisis crítico de estos dispositivos técnicos revelan la valoración que tienen en la óptica xenofeminista: desde aquellos aparentemente banales como los que permiten realizar el trabajo doméstico cambiando sustancialmente las vidas de las personas (principalmente de las mujeres, confinadas históricamente a ese ámbito) hasta las innovaciones relevantes que permitan avizorar nuevas utopías futuristas como el biohackeo o las cirugías de reasignación de género. En este sentido, uno de los objetivos del XF según su manifiesto es “concebir tecnologías para combatir el acceso desigual a las herramientas reproductivas y farmacológicas, el cataclismo medioambiental, la inestabilidad económica y las peligrosas formas de trabajo mal/no remunerado”.
+
+En el libro de [Helen Hester](https://twitter.com/helenhester) [Xenofeminismo: tecnologías de género y políticas de reproducción](https://cajanegraeditora.com.ar/libros/xenofeminismo/) (2018), la autora toma como caso al [dispositivo de extracción menstrual Del-Em](https://en.wikipedia.org/wiki/Menstrual_extraction) diseñado en los años ‘70 por feministas estadounidenses de la segunda ola. Buscando restaurar la autonomía corporal de las mujeres desempoderadas a nivel sanitario y político, este instrumento se desarrolló no sólo para regular el sangrado menstrual sino también para impedir el establecimiento de embarazos tempranos a través de la succión de la pared endometrial del útero.
+
+Según Hester, este pequeño artefacto constituye una invención relevante como tecnología xenofeminista por cuatro motivos: su poder de circunvalación de las autoridades, su condición como herramienta de refuncionalización, su inmersión en los discursos sobre escalabilidad y su potencial para un uso interseccional.
+
+Su poder circunvalatorio de la autoridad se basó en la libertad que este dispositivo abrió a las mujeres frente a la censura del saber médico, el maltrato ginecológico y la ilegalidad del aborto. Prontamente, las consejerías técnico-sanitarias para el uso del Del-Em se convirtieron en redes de ayuda feminista que se involucraron en las problemáticas de las mujeres más excluidas.
+
+Otra forma de abordar esta circunvalación de autoridades sería la política de diseño libre y [código abierto](https://es.wikipedia.org/wiki/C%C3%B3digo_abierto): aunque [Lorraine Rothman](https://en.wikipedia.org/wiki/Lorraine_Rothman), creadora del Del-EM, patentó el dispositivo, su intención siempre fue que circulara de forma libre y no comercial.
+
+La capacidad como herramienta de refuncionalización se refiere a la utilización de antiguos medios para alcanzar nuevos fines, emancipatorios y con mejores resultados. El Del-Em ofrecería esta posibilidad puesto que fue inventado como dispositivo de gestión menstrual y se transformó en una herramienta abortiva casera.
+
+El concepto de [escalabilidad](https://es.wikipedia.org/wiki/Escalabilidad) proviene de un anglicismo utilizado para describir la capacidad de un sistema para crecer en magnitud. Esta característica del Del-Em puede pensarse en relación al modo en que su invención y difusión llevó a la construcción de grupos y protocolos que prontamente ampliaron sus preocupaciones feministas formando redes entre los niveles micro y macropolíticos en pos de una emancipación femenina.
+
+El potencial de uso interseccional del Del-Em debe enseñar, según Hester, los pasos para una actualización coyuntural: si una revisión histórica de la segunda ola revela un tránsito desde un feminismo blanco al feminismo popular con perspectiva antirracista, hoy debe hacerse un giro transfeminista orientado a los colectivos oprimidos e invisibilizados.
+
+El aprendizaje que puede dejarnos el Del-Em como tecnología de género xenofeminista puede ir más allá de un saber enciclopédico y erudito sobre la salud menstrual y la historia del aborto Permite reflexionar con este modelo sobre otros dispositivos de género como los métodos anticonceptivos, la copa menstrual, las técnicas de reproducción asistida o el biohackeo, proponiendo un corrimiento de los límites naturales en busca de horizontes emancipadores para el feminismo.
+
+Sobre esta noción, se abre una serie de horizontes para pensar futuridades feministas: en primer lugar, como Hester reconoce, las autoridades a las que actualmente habría que circunvalar siguen operando contra la autonomía de las mujeres cis-sexuales, pero también contra las personas trans, de modo que una tecnología xenofeminista debe comprender esta coyuntura en la invención, elaboración, distribución y uso de sus dispositivos. Además, la importancia del software libre, la liberación de patentes y el acceso público a la información sigue siendo una deuda pendiente del sistema científico con las democracias. En segundo lugar, la idea de refuncionalización debe proporcionar una clave creativa para la búsqueda de soluciones técnicas a partir de los recursos actualmente disponibles, sobre todo en los países menos desarrollados a nivel técnico; en tercer lugar, la idea de escalabilidad debe ser una herramienta ponderada por los grupos políticos que ambicionen construir poder hegemónicame
+nte, puesto que establece una clave para pensar la política a nivel molecular como construcción desde lo micro a lo macro; y en cuarto lugar, la interseccionalidad debe ser el modo de construcción a partir de cadenas de equivalencias sociopolíticas entre los grupos desfavorecidos a fin de alcanzar logros emancipatorios.
+
+La doble deuda con los colectivos oprimidos y con el mismo planeta Tierra puede encontrar una potencial respuesta en la tecnología. Aprender del potencial liberador que algunos dispositivos tuvieron en la historia pueden abrirnos paso a la creación, implementación y refuncionalización de renovadas o completamente nuevas tecnologías xenofeministas.
+
+---
+
+##### Si llegaste hasta acá y seguís con ganas de leer sobre el tema puedo recomendarte tantas cosas que no sabría por dónde empezar. Primero una curiosidad, navegando en internet conocí el [portal del Museo de la Menstruación y salud de la mujer de EE.UU](http://www.mum.org/), tiene muchas cosas interesantes sobre tecnologías de género, por ejemplo ¿sabías que la primera copita menstrual fue creada cerca de 1930? Un flash. De los dispositivos de género más mínimos (pero maravillosos) como la copa pasamos al biohackeo, y acá te acerco [esta nota de Vice entrevista con Paul Preciado](https://www.vice.com/es/article/gqep3y/la-testosterona-como-arma-politica) sobre la testosterona como arma política. Si del género salimos podríamos entrar en una cadena interminable de temas éticos, científicos y recomendaciones, y esta nota no terminaría más, así que me tomo el atrevimiento de dejarte una última recomendación: [un documental de Netflix sobre manipulación genética](https://www.netflix.com/ar/title/80208910) que muestra el potencial emancipador y destructivo que podría tener esta herramienta.
