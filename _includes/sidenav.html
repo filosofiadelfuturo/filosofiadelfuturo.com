@@ -7,13 +7,13 @@
         </div>
     </li>
     {% for link in site.data.navigation %}
-        {% if link.url %}
-            <li>
-            <a href="{{ site.url }}{{ link.url }}" class="white-text"> {{ link.title }} </a>
-            </li>
-        {% elseif link.external_url %}
+        {% if link.external_url %}
             <li>
             <a href="{{ link.external_url }}" class="white-text"> {{ link.title }} </a>
+            </li>
+        {% elseif link.url %}
+            <li>
+            <a href="{{ site.url }}{{ link.url }}" class="white-text"> {{ link.title }} </a>
             </li>
         {% endif %}
     {% endfor %}
