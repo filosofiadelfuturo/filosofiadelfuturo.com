@@ -34,4 +34,4 @@ Fuentes:
 
 2. A New Algorithmic Identity: Soft Biopolitics and the Modulation of Control, John Cheney-Lippold ( https://journals.sagepub.com/doi/10.1177/0263276411424420).
 
-3.Paul B. Preciado, La izquierda bajo la piel, introducción de Esferas de la insurrección, de Suely Rolnik.
+3. Paul B. Preciado, La izquierda bajo la piel, introducción de Esferas de la insurrección, de Suely Rolnik.
