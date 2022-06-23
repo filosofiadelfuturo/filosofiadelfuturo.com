@@ -5,7 +5,7 @@ date: 2021-07-08
 authors: "Agustina Arrigorria"
 tags: [economía, economía política, aceleracionismo]
 comments: true
-image: "centripetalAcceleration.jpeg"
+image: "centripetalAcceleration.jpg"
 ---
 
 ¿Qué fue de la teoría marxista después de la caída de la URSS y la globalización? ¿Qué vigencia tiene en las perspectivas filosófico-políticas del siglo XXI? Si tenemos que buscar entre sus derivaciones más heterodoxas, en la actualidad encontraremos a las teorías populistas y aceleracionistas. A grandes rasgos, las primeras suponen una lógica política dividida en el binomio nosotros-ellos, donde el pueblo se constituye a través de demandas formando construcciones hegemónicas, mientras que las segundas proponen la aceleración del desarrollo tecnológico con el objetivo de generar un cambio social radical. Existen diversos tipos de populismos y diversos tipos de aceleracionismos, pero ¿pueden ser compatibles estas ideas?
