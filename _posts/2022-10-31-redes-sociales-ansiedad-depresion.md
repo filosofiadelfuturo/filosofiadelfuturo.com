@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Redes sociales, ansiedad y depresión"
-date: 2022-11-31
+date: 2022-10-31
 authors: "Juan Zaragoza"
 excerpt: ""
 tags: [redes sociales, emociones, computación social]
