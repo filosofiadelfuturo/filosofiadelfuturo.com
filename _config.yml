@@ -28,7 +28,7 @@ background:         'assets/img/placeholder-big.jpg'
 
 permalink:          /:title/
 locale:             es_US
-url:                https://filosofiafuturo.com
+url:                https://filosofiadelfuturo.org
 
 disqus_shortname:   futurephilosophy
 email:              filosofiayfuturo@gmail.com
