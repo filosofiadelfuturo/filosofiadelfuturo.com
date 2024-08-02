@@ -1,0 +1,36 @@
+---
+layout: post
+title: "NotCo, inteligencia artificial y el problema de la conciencia"
+authors: "Joaquín Bardauil"
+excerpt: ""
+tags: [IA, inteligencia artificial, conciencia]
+comments: true
+image: "ia_conexionismo.jpg"
+---
+
+La pregunta por la posibilidad de diseñar máquinas inteligentes es una de las más acuciantes de los últimos años, especialmente en vista de la miríada de sistemas capaces de realizar diversas tareas consideradas humanas con un rendimiento virtualmente indistinguible del que podría alcanzar una persona. Sin embargo, esta pregunta tiene larga data, y existen numerosos debates que dan cuenta de la multiplicidad de aristas en las que se expresa.
+
+En su famoso artículo de 1950, Alan Turing presentó una serie de argumentos en contra de la posibilidad de crear máquinas pensantes. Uno de ellos fue denominado como el argumento de las múltiples incapacidades: hay muchas cosas que podríamos considerar que las máquinas nunca van a tener, como por ejemplo la capacidad de enamorarse, la de tener iniciativa, o la de disfrutar de unas frutillas con crema.
+
+Este argumento pone de manifiesto dos particularidades de la pregunta. El primero de ellos consiste en su complejidad: hay más de un aspecto al que deberíamos atender si quisiéramos determinar que una máquina es inteligente, por lo que no alcanzaría con replicar alguna capacidad humana específica. Pero, en segundo lugar, el argumento resalta uno de los problemas difíciles respecto de la inteligencia humana: el de la experiencia subjetiva. Disfrutar unas frutillas, o incluso saber qué gusto tienen, es algo que presupone tener una subjetividad. Pero, ¿es realmente imposible hacer que una IA conozca lo deliciosas que son las frutillas con crema?
+ 
+## La solución de NotCo
+
+NotCo es una empresa de tecnología alimentaria fundada en 2015 en Chile cuyo objetivo es producir alternativas a alimentos de origen animal basadas en vegetales. Uno de los aspectos más interesantes de esta empresa es que, para la realización de estos productos, no sólo cuentan con chefs que los diseñan y evalúan, sino que se sirven de herramientas de inteligencia artificial para asistir este proceso.
+
+Para este fin, desarrollaron un sistema específico capaz de automatizar esta tarea: [Giuseppe](https://notco.com/cl/sobre/giuseppe). Este modelo fue entrenado con distintas combinaciones de ingredientes, la estructura molecular de cada uno de ellos, y también con ciertas características de esas combinaciones como por ejemplo el color o el gusto. Dada esa información, la tarea que tiene el algoritmo es producir nuevas combinaciones de ingredientes de origen vegetal cuyas características se asemejen a la de alguna otra comida de origen animal que se le solicite. El punto más relevante de esta propuesta es, precisamente, que el modelo aprende a partir de características “subjetivas” de las recetas. No sólo se concentra en los aspectos que podríamos considerar empíricamente observables (como la estructura molecular), sino también a otros introducidos por personas. De esta manera, se produce un sistema de retroalimentación en donde Giuseppe propone nuevas recetas, los chefs las prueban, cargan sus evaluaciones al sistema, y este luego optimiza su aprendizaje para generar otras recetas que cumplan mejor con la tarea propuesta.
+
+De todas estas características subjetivas, algunas son más fáciles de estimar que otras, como por ejemplo en el caso del color. Ya Descartes observó como una de las conclusiones de sus Meditaciones Metafísicas que el color no es algo que esté en las cosas mismas, sino que es parte de cómo un sujeto las percibe. Con el tiempo y el conocimiento de las cualidades físicas del color, esta discusión se fue sofisticando hasta entender que el color es el resultado de la percepción de un agente de la refracción de la luz sobre un cuerpo con ciertos pigmentos que finalmente termina interpretándose como un color. Es cierto que en esta cadena, el agente cumple un rol interpretativo. Pero, sin embargo, es posible considerar el color desde un punto de vista empírico.
+
+El problema difícil aparece cuando consideramos el gusto de una comida. Obviamente, tenemos un amplio conocimiento acerca de cómo funciona el gusto en las personas desde un punto de vista físicoquímico. Pero esto es muy distinto de la experiencia subjetiva que tenemos frente a una sensación: el qué se siente comer unas frutillas con crema, o el hecho de que a algunas personas este plato pueda parecerles delicioso mientras que a otras no.
+
+Este tema genera un punto llamativo. En general, diríamos que “sobre gustos no hay nada escrito”: no siempre hay acuerdos acerca de qué comidas son ricas o cuáles no, por lo que parecería imposible hacer algo así como una ciencia de los gustos ricos. Sin embargo, Giuseppe es capaz de predecir si una de las recetas que genera será rica o no. ¿Cómo es esto posible?
+ 
+## Sistemas de retroalimentación persona-computadora
+
+Evidentemente, NotCo no resolvió el problema de la conciencia. Lograr que una computadora pueda predecir si una comida va a ser agradable para las personas no agota este problema, ya que se extiende no sólo a cuestiones sobre gustos, sino también sobre cualquier otra sensación que podríamos llegar a tener. Además, es claro que Giuseppe no conoce el sabor de las comidas porque de hecho las pruebe y se deleite con su sabor, sino que lo hace a partir de la devolución que un equipo de chefs hace frente a sus creaciones. Y ahí está lo que sí es novedoso de esta propuesta.
+
+En 1998, el ingeniero Steve Mann propuso un marco para la inteligencia artificial que denominó “inteligencia humanística”. La idea general, a grandes rasgos, consiste en enfatizar que el cerebro humano es muy bueno para el procesamiento de ciertas señales, y que las máquinas deberían aventajarse de ese procesamiento para generar mejores predicciones. De esta forma, lo que deberíamos apuntar  a generar son sistemas efectivos de interacción persona-computadora que tomen las virtudes de ambas partes de este sistema integrado.
+
+Volviendo al desarrollo de NotCo, podemos ver que lo que tiene de interesante descansa en ser un buen ejemplo de lo que podemos considerar un sistema de inteligencia humanísitica. La pregunta sobre si una máquina puede aprender qué combinaciones de ingredientes resultarán en una receta deliciosa se reformula en términos de pensar, ya no sólo en una máquina, sino en un sistema de retroalimentación entre una máquina y personas.
+Además, esto sugiere un camino para la IA y para la filosofía en general acerca de este tema. Es cierto que la pregunta por la posibilidad de diseñar máquinas inteligentes es relevante en este momento para tomar una postura respecto de los últimos desarrollos en el área. Pero quizás más importante es la pregunta sobre qué rol cumplen estos sistemas y cómo se integran a las prácticas humanas en general. Y casos como el de NotCo nos permiten ver que no se trata tanto de lograr que un robot sienta el placer de comer unas buenas frutillas, ni de buscar generar máquinas con una inteligencia general. En cambio, los resultados más interesantes surgen cuando entendemos a la IA como una herramienta, cuyos mejores resultados surgen del trabajo en colaboración con capacidades humanas. 
