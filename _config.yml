@@ -27,13 +27,13 @@ logo:               'assets/img/title.png'
 background:         'assets/img/placeholder-big.jpg'
 
 permalink:          /:title/
-locale:             es_US
-url:                https://filosofiadelfuturo.org
+locale:             es_AR
+url:                https://filosofiadelfuturo.com
 
 disqus_shortname:   futurephilosophy
 email:              filosofiayfuturo@gmail.com
 twitter_link:       https://twitter.com/filosofiaFuturo
-github_link:        https://github.com/futurephilosophy
+github_link:        https://github.com/filosofiadelfuturo
 instagram_link:     https://www.instagram.com/filosofiafuturo/
 facebook_link:      https://www.facebook.com/filosofiadelfuturo
 
